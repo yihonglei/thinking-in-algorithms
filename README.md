@@ -10,6 +10,7 @@ Java 代码基于 JDK8 实现；
 |链表 |1. 单链表<br>2. 双向链表<br>3. 循环链表<br>4. 双向循环链表<br>5. 静态链表<br>6. 实现技巧| TODO |TODO |
 |栈 |1. 顺序栈<br>2. 链式栈 |TODO |TODO|
 |队列 |1. 顺序队列<br>2. 链式队列<br>3. 循环队列<br>4. 阻塞队列<br>5. 并发队列 |TODO |TODO |
+|字符串|1. BF<br>2. RK<br>3. BM<br>4. KMP<br>5. Trie<br>6. AC自动机 |TODO |TODO |
 |哈希表 |1. 哈希思想<br>2. 哈希函数<br>3. 哈希冲突|TODO |TODO |
 |树 |1. 二叉树<br>2. 二叉查找树<br>3. 平衡二叉查找树<br>4. 递归树<br>5. B+树|TODO |TODO |
 |堆 |1. 堆存储<br>2. 堆插入和删除|TODO |TODO |
@@ -30,10 +31,14 @@ Java 代码基于 JDK8 实现；
 |二分查找变体 |1. 目标值查找4种变种问题 |TODO |TODO |
 |哈希 |1. 安全加密<br>2. 唯一标识<br>3. 数据校验<br>4. 哈希函数<br>5. 负载均衡<br>6. 数据分片<br>7. 分布式存储 |TODO |TODO |
 |字符串匹配|1. BF<br>2. RK<br>3. BM<br>4. KMP<br>5. Trie<br>6. AC自动机 |TODO |TODO |
-|深度优先搜索 |1. 理论思想 |TODO |TODO |
-|广度优先搜索 |1. 理论思想 |TODO |TODO |
+|搜索 |1. 枚举<br>2. DFS<br>3. BFS<br>4. 启发式搜索 |TODO |TODO |
+|随机化 |1. 随机数<br>2. 数值随机化 |TODO |TODO |
+|图论 |1. 遍历 DFS / BFS<br>2. Prim 算法(最小生成树)<br>3. Kruskal 算法(最小生成树)<br>4. Dijkstra 算法(单源最短路径)<br>5. Floyd 算法(多源最短路径) |TODO |TODO |
 |贪心 |1. 应用 |TODO |TODO |
-|分治 |1. 理论思想 |TODO |TODO |
+|几何 |TODO |TODO |1. 线段问题<br>|
+|数论 |TODO |TODO |TODO |
+|矩阵 |TODO |TODO |TODO |
+|枚举 |TODO |TODO |TODO |
 |回溯算法 |1. 八皇后问题<br>2. 0-1 背包问题 |TODO |TODO |
 |动态规划 |1. 理论思想 |TODO |TODO |
 |------------|------------------------|------------------------|------------------------|
