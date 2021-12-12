@@ -7,11 +7,6 @@
     <version>1.0</version>
     <packaging>pom</packaging>
 
-    <modules>
-        <module>java-algorithms</module>
-        <module>java-encrypt-decrypt</module>
-    </modules>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -36,18 +31,6 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
-
-            <!-- 加密/解密 -->
-            <!--            <dependency>-->
-            <!--                <groupId>com.cloopen</groupId>-->
-            <!--                <artifactId>CCPREST</artifactId>-->
-            <!--                <version>${CCPREST.version}</version>-->
-            <!--            </dependency>-->
-            <!--            <dependency>-->
-            <!--                <groupId>org.bouncycastle</groupId>-->
-            <!--                <artifactId>bcprov-jdk16</artifactId>-->
-            <!--                <version>${bcprov.version}</version>-->
-            <!--            </dependency>-->
         </dependencies>
     </dependencyManagement>
 
