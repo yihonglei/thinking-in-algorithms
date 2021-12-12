@@ -34,7 +34,7 @@ Java 代码基于 JDK8 实现；
 |搜索 |1. 枚举<br>2. DFS<br>3. BFS<br>4. 启发式搜索 |TODO |TODO |
 |随机化 |1. 随机数<br>2. 数值随机化 |TODO |TODO |
 |图论 |1. 遍历 DFS / BFS<br>2. Prim 算法(最小生成树)<br>3. Kruskal 算法(最小生成树)<br>4. Dijkstra 算法(单源最短路径)<br>5. Floyd 算法(多源最短路径) |TODO |TODO |
-|贪心 |1. 应用 |TODO |TODO |
+|贪心 |TODO |TODO |TODO |
 |几何 |TODO |TODO |1. 线段问题<br>|
 |数论 |TODO |TODO |TODO |
 |矩阵 |TODO |TODO |TODO |
