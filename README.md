@@ -67,6 +67,5 @@ Java 代码基于 JDK8 实现；
 | No | Title | Solution | Difficulty | Blog |
 |:------:|:------|:------:|:------:|:------:| 
 |0001|Two Sum|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0001)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121884728)|
-|0002|Add Two Numbers|Java|Medium|CSDN|
-|0003|Longest Substring Without Repeating Characters|Java|Medium|CSDN|
+|0011|Container With Most Water|Java|Medium|CSDN|
 |------|---------------------------------------------|---------|---------|--------|
