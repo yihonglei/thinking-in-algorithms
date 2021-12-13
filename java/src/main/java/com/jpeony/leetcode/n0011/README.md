@@ -1,50 +1,56 @@
-# [1. Two Sum](https://leetcode.com/problems/two-sum/)
+# [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 ## 题目
 
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to
-target.
+Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai).
+n vertical lines are drawn such that the two endpoints of the line i is at (i, ai) and (i, 0).
+Find two lines, which, together with the x-axis forms a container, such that the container contains the most water.
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
-You can return the answer in any order.
+Notice that you may not slant the container.
 
 Example 1:
 
 ```
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. 
+In this case, the max area of water (blue section) the container can contain is 49.
 ```
 
 Example 2:
 
 ```
-Input: nums = [3,2,4], target = 6
-Output: [1,2]
+Input: height = [1,1]
+Output: 1
 ```
 
 Example 3:
 
 ```
-Input: nums = [3,3], target = 6
-Output: [0,1]
+Input: height = [4,3,2,1,4]
+Output: 16
+```
+
+Example 4:
+```
+Input: height = [1,2,1]
+Output: 2
 ```
 
 ## 题目含义
 
-在数组中找 2 个元素，他们的和等于给定目标值，结果返回这 2 个元素对应的数组下标。
+在 x 轴上寻找坐标与原点之间线段 a，在 y 轴上寻找线段 b，求 a 与 b 构成矩形的最大面积值，
+即求 a * b 的最大值。
 
 ## 算法思路
 
-遍历数组，通过目标值与每个元素做差，计算目标值的“另外一半”，在 Map 中查找“另外一半”，
-
-如果找到，则返回 2 个元素的对应数组下标。如果找不到，则将“另外一半”放入 Map 中，
-
-等待下次遍历找到另外一半的时候取出来并返回。
+双指针解题技巧。左右两个指针，每次移动构成矩形，计算所构成矩形的面积是否是最大值，
+最后返回最大矩形的面积值。
 
 ## 复杂度分析
 
-时间复杂度：O(n)。整个代码循环了 n 次，n 为数组的长度，所以时间复杂度为 O(n)；
+时间复杂度：O(n)。整段代码占用时间最多的是 for 循环，循环了 n 次，n 为数组的长度，
+所以时间复杂度是 O(n)。
 
-空间复杂度：O(n)。每次遍历都往 map 存放一次元素，遍历次数 n 为数组长度，所以空间复杂度为 O(n)；
+空间复杂度：O(1)。整个算法计算过程中，只用了一个存储临时最大值的变量空间，
+所以空间复杂度是 O(1)。
