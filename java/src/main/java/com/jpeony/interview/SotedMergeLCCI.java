@@ -1,4 +1,4 @@
-package com.jpeony.leetcodecn.array;
+package com.jpeony.leetcodecn;
 
 import java.util.Arrays;
 

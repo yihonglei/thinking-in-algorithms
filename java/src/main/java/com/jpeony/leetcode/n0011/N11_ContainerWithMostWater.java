@@ -17,20 +17,20 @@ public class N11_ContainerWithMostWater {
      */
     private static int maxArea(int[] height) {
         // 左右指针
-        int left = 0, right = height.length - 1;
+        int leftPoint = 0, rightPoint = height.length - 1;
         // 最大面积
         int maxArea = 0;
-        while (left < right) {
+        while (leftPoint < rightPoint) {
             // 宽：右指针位置与左指针位置横坐标之差距离
-            int width = right - left;
+            int width = rightPoint - leftPoint;
             // 高：右指针位置与左指针位置纵坐标最小值，只有取最小值才能与另外一边连线构成矩形
             int high = 0;
-            if (height[left] <= height[right]) {
-                high = height[left];
-                left++;
+            if (height[leftPoint] <= height[rightPoint]) {
+                high = height[leftPoint];
+                leftPoint++;
             } else {
-                high = height[right];
-                right--;
+                high = height[rightPoint];
+                rightPoint--;
             }
             // 当前矩阵面积
             int curArea = width * high;
