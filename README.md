@@ -68,4 +68,5 @@ Java 代码基于 JDK8 实现；
 |:------:|:------|:------:|:------:|:------:| 
 |0001|Two Sum|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0001)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121884728)|
 |0011|Container With Most Water|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0011)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121910164)|
+|0026|Remove Duplicates from Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0026)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121921007)|
 |------|---------------------------------------------|---------|---------|--------|
