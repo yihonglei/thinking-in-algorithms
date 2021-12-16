@@ -68,7 +68,7 @@ Java 代码基于 JDK8 实现；
 |:------:|:------|:------:|:------:|:------:|
 |0001|Two Sum|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0001)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121884728)|
 |0011|Container With Most Water|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0011)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121910164)|
-|0015|3Sum|[Java]()|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121975732)|
+|0015|3Sum|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0015)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121975732)|
 |0016|3Sum Closest|[Java]()|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121975805)|
 |0018|4Sum|[Java]()|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121975832)|
 |0026|Remove Duplicates from Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0026)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121921007)|
