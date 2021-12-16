@@ -18,14 +18,12 @@ In this case, the max area of water (blue section) the container can contain is 
 ```
 
 Example 2:
-
 ```
 Input: height = [1,1]
 Output: 1
 ```
 
 Example 3:
-
 ```
 Input: height = [4,3,2,1,4]
 Output: 16
