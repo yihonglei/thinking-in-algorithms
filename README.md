@@ -73,7 +73,7 @@ Java 代码基于 JDK8 实现；
 |0018|4Sum|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0018)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121975832)|
 |0026|Remove Duplicates from Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0026)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121921007)|
 |0027|Remove Element|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0027)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121960557)|
-|0042|Trapping Rain Water|[Java]()|Hard|[CSDN](https://jpeony.blog.csdn.net/article/details/122067373)|
+|0042|Trapping Rain Water|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0042)|Hard|[CSDN](https://jpeony.blog.csdn.net/article/details/122067373)|
 |0075|Sort Colors|[Java]()|Medium|[CSDN]()|
 |0078|Subsets|[Java]()|Medium|[CSDN]()|
 |0079|Word Search|[Java]()|Medium|[CSDN]()|
