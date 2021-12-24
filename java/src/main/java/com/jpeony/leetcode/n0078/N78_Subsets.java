@@ -11,6 +11,11 @@ import java.util.List;
  */
 public class N78_Subsets {
 
+    /**
+     * 【回溯算法】
+     * 时间复杂度：O(n^2)。外层 for 循环 n 次，内嵌 for 循环 n 次， n 为数组的长度，所以时间复杂度为 O(n^2)。
+     * 空间复杂度：O(n)。渐进空间为存储子集的临时列表，n 为子集个数，所以空间复杂度为 O(n)。
+     */
     private static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         backtrack(0, nums, ans, new ArrayList<Integer>());
