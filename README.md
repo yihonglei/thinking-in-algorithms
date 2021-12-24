@@ -75,7 +75,7 @@ Java 代码基于 JDK8 实现；
 |0027|Remove Element|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0027)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121960557)|
 |0042|Trapping Rain Water|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0042)|Hard|[CSDN](https://jpeony.blog.csdn.net/article/details/122067373)|
 |0075|Sort Colors|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0075)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122083612)|
-|0078|Subsets|[Java]()|Medium|[CSDN]()|
+|0078|Subsets|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0078)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122113445)|
 |0079|Word Search|[Java]()|Medium|[CSDN]()|
 |0084|Largest Rectangle in Histogram|[Java]()|Medium|[CSDN]()|
 |0088|Merge Sorted Array|[Java]()|Easy|[CSDN]()|
@@ -83,6 +83,7 @@ Java 代码基于 JDK8 实现；
 |0126|Word Ladder II|[Java]()|Hard|[CSDN]()|
 |0216|Combination Sum III|[Java]()|Medium|[CSDN]()|
 |0287|Find the Duplicate Number|[Java]()|Easy|[CSDN]()|
+|0491|--|[Java]()|Medium|[CSDN]()|
 |0907|Sum of Subarray Minimums|[Java]()|Medium|[CSDN]()|
 |0969|Pancake Sorting|[Java]()|Medium|[CSDN]()|
 |------|---------------------------------------------|---------|---------|--------|
