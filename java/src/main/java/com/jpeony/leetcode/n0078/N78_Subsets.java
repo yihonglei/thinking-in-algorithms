@@ -13,7 +13,7 @@ public class N78_Subsets {
 
     /**
      * 【回溯算法】
-     * 时间复杂度：O(n^2)。外层 for 循环 n 次，内嵌 for 循环 n 次， n 为数组的长度，所以时间复杂度为 O(n^2)。
+     * 时间复杂度：O(n×2^n)。一共 2^n 个状态，每种状态需要 O(n) 的时间来构造子集。
      * 空间复杂度：O(n)。渐进空间为存储子集的临时列表，n 为子集个数，所以空间复杂度为 O(n)。
      */
     private static List<List<Integer>> subsets(int[] nums) {
