@@ -76,7 +76,7 @@ Java 代码基于 JDK8 实现；
 |0042|Trapping Rain Water|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0042)|Hard|[CSDN](https://jpeony.blog.csdn.net/article/details/122067373)|
 |0075|Sort Colors|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0075)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122083612)|
 |0078|Subsets|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0078)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122113445)|
-|0079|Word Search|[Java]()|Medium|[CSDN]()|
+|0079|Word Search|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0079)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122154122)|
 |0084|Largest Rectangle in Histogram|[Java]()|Medium|[CSDN]()|
 |0088|Merge Sorted Array|[Java]()|Easy|[CSDN]()|
 |0090|Subsets II|[Java]()|Medium|[CSDN]()|
