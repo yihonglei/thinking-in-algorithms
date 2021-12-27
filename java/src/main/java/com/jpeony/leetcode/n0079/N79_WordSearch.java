@@ -48,6 +48,7 @@ public class N79_WordSearch {
     }
 
     private boolean dfs(int x, int y, int begin) {
+        System.out.println("x = " + x + ", y = " + y + ", e = " + board[x][y]);
         // 当完成一轮搜索，退出进行下一轮循环
         if (begin == len - 1) {
             return board[x][y] == charArray[begin];
