@@ -77,13 +77,13 @@ Java 代码基于 JDK8 实现；
 |0075|Sort Colors|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0075)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122083612)|
 |0078|Subsets|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0078)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122113445)|
 |0079|Word Search|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0079)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122154122)|
-|0084|Largest Rectangle in Histogram|[Java]()|Medium|[CSDN]()|
-|0088|Merge Sorted Array|[Java]()|Easy|[CSDN]()|
-|0090|Subsets II|[Java]()|Medium|[CSDN]()|
-|0126|Word Ladder II|[Java]()|Hard|[CSDN]()|
-|0216|Combination Sum III|[Java]()|Medium|[CSDN]()|
-|0287|Find the Duplicate Number|[Java]()|Easy|[CSDN]()|
-|0491|--|[Java]()|Medium|[CSDN]()|
-|0907|Sum of Subarray Minimums|[Java]()|Medium|[CSDN]()|
-|0969|Pancake Sorting|[Java]()|Medium|[CSDN]()|
+|0084|Largest Rectangle in Histogram|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0084)|Hard|[CSDN](https://jpeony.blog.csdn.net/article/details/122177497)|
+|0088|Merge Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0088)|Easy|[CSDN]()|
+|0090|Subsets II|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0090)|Medium|[CSDN]()|
+|0126|Word Ladder II|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n00126)|Hard|[CSDN]()|
+|0216|Combination Sum III|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0216)|Medium|[CSDN]()|
+|0287|Find the Duplicate Number|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0287)|Easy|[CSDN]()|
+|0491|Increasing Subsequences|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0491)|Medium|[CSDN]()|
+|0907|Sum of Subarray Minimums|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0907)|Medium|[CSDN]()|
+|0969|Pancake Sorting|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0969)|Medium|[CSDN]()|
 |------|---------------------------------------------|---------|---------|--------|
