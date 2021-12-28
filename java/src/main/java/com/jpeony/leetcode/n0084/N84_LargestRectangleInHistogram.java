@@ -13,8 +13,8 @@ public class N84_LargestRectangleInHistogram {
 
     /**
      * 【单调栈】
-     * 时间复杂度：O(n)。
-     * 空间复杂度：O(n)。
+     * 时间复杂度：O(n)。循环了 n 次，n 为数组长度，所以时间复杂度为 O(n)。
+     * 空间复杂度：O(n)。渐进增长空间未 stack 栈，存储元素个数为栈中元素 n 个，所以空间复杂度为 O(n)。
      */
     private static int largestRectangleArea(int[] heights) {
         int n = heights.length;
