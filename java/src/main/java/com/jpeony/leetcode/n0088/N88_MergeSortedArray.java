@@ -29,7 +29,30 @@ public class N88_MergeSortedArray {
      * 空间复杂度：O(m + n)。新建立 m + n 长度数组，存储排序后的元素，所以空间复杂度为 O(m+n)。
      */
     private static void mergeTwo(int[] nums1, int m, int[] nums2, int n) {
+        // 临时数组
+        int[] sorted = new int[m + n];
+        // 分别指向 nums1 和 nums2 开始位置的指针
+        int p1 = 0, p2 = 0;
+        // 当前较小元素值
+        int cur = 0;
+        // 下面逻辑，在草稿纸上走下逻辑，体会指针的变动和 sorted 下标计算的含义
+        while (p1 < m || p2 < n) {
+            if (p1 == m) {
+                cur = nums2[p2++];
+            } else if (p2 == n) {
+                cur = nums1[p1++];
+            } else if (nums1[p1] < nums2[p2]) {
+                cur = nums1[p1++];
+            } else if (nums1[p1] >= nums2[p2]) {
+                cur = nums2[p2++];
+            }
+            sorted[p1 + p2 - 1] = cur;
+        }
 
+        // 重新赋值 nums1
+        for (int i = 0; i < m + n; i++) {
+            nums1[i] = sorted[i];
+        }
     }
 
     /**
@@ -44,7 +67,14 @@ public class N88_MergeSortedArray {
     public static void main(String[] args) {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
         int[] nums2 = {2, 5, 6};
-        mergeOne(nums1, 3, nums2, 3);
+        // 合并+排序
+        // mergeOne(nums1, 3, nums2, 3);
+
+        // 双指针
+        mergeTwo(nums1, 3, nums2, 3);
+
+        // 逆向双指针
+        // mergeTwo(nums1, 3, nums2, 3);
         System.out.println("mergeSortedArray = " + Arrays.toString(nums1));
     }
 }
