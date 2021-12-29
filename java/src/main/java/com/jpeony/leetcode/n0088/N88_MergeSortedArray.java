@@ -35,7 +35,7 @@ public class N88_MergeSortedArray {
         int p1 = 0, p2 = 0;
         // 当前较小元素值
         int cur = 0;
-        // 下面逻辑，在草稿纸上走下逻辑，体会指针的变动和 sorted 下标计算的含义
+        // 两个数组中寻找较小值存入临时数组
         while (p1 < m || p2 < n) {
             if (p1 == m) {
                 cur = nums2[p2++];
@@ -61,7 +61,24 @@ public class N88_MergeSortedArray {
      * 空间复杂度：O(1)。原地操作数组，不需要额外新增空间，所以空间复杂度为 O(1)。
      */
     private static void mergeThree(int[] nums1, int m, int[] nums2, int n) {
+        // 分别指向 nums1 和 nums2 末尾位置的指针
+        int p1 = m - 1, p2 = n - 1;
+        int cur = 0;
+        int tail = m + n - 1;
+        // 两个数组中寻找较大值放入 nums1 的右端，依次放置
+        while (p1 >= 0 || p2 >= 0) {
+            if (p1 == -1) {
+                cur = nums2[p2--];
+            } else if (p2 == -1) {
+                cur = nums1[p1--];
+            } else if (nums1[p1] > nums2[p2]) {
+                cur = nums1[p1--];
+            } else if (nums1[p1] <= nums2[p2]) {
+                cur = nums2[p2--];
+            }
 
+            nums1[tail--] = cur;
+        }
     }
 
     public static void main(String[] args) {
@@ -71,10 +88,10 @@ public class N88_MergeSortedArray {
         // mergeOne(nums1, 3, nums2, 3);
 
         // 双指针
-        mergeTwo(nums1, 3, nums2, 3);
+        // mergeTwo(nums1, 3, nums2, 3);
 
         // 逆向双指针
-        // mergeTwo(nums1, 3, nums2, 3);
+        mergeThree(nums1, 3, nums2, 3);
         System.out.println("mergeSortedArray = " + Arrays.toString(nums1));
     }
 }
