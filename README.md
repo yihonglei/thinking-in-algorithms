@@ -83,7 +83,7 @@ Java 代码基于 JDK8 实现；
 |0079|Word Search|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0079)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122154122)|
 |0084|Largest Rectangle in Histogram|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0084)|Hard|[CSDN](https://jpeony.blog.csdn.net/article/details/122177497)|
 |0088|Merge Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0088)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122209518)|
-|0090|Subsets II|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0090)|Medium|[CSDN]()|
+|0090|Subsets II|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0090)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122237800)|
 |0126|Word Ladder II|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n00126)|Hard|[CSDN]()|
 |0216|Combination Sum III|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0216)|Medium|[CSDN]()|
 |0287|Find the Duplicate Number|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0287)|Easy|[CSDN]()|
