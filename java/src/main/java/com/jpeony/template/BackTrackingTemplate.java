@@ -10,6 +10,7 @@ public class BackTrackingTemplate {
     // for 循环
     // 递归
     // 想象成树结构
+    // 结果收集
     // 处理节点撤销
     // 返回结果
 }
