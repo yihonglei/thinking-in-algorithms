@@ -19,6 +19,7 @@ public class N78_Subsets {
     private static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         backtracking(0, nums, ans, new ArrayList<Integer>());
+        // 返回结果
         return ans;
     }
 
@@ -29,8 +30,10 @@ public class N78_Subsets {
         // 寻找符合条件的子集合
         for (int j = i; j < nums.length; j++) {
             temp.add(nums[j]);
+            // 递归
             backtracking(j + 1, nums, ans, temp);
             System.out.println("backtrack-before = " + ans);
+            // 撤销处理节点，回溯过程
             temp.remove(temp.size() - 1);
         }
     }
