@@ -18,7 +18,7 @@ public class N78_Subsets {
      */
     private static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
-        backtracking(0, nums, ans, new ArrayList<Integer>());
+        backtracking(0, nums, ans, new ArrayList<>());
         // 返回结果
         return ans;
     }
