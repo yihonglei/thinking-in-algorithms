@@ -2,10 +2,6 @@
 
 Java 代码基于 JDK8 实现；
 
-[Leetcode 刷题记录](https://leetcode.com/jpeony/)
-
-[Leetcode 刷题博客](https://blog.csdn.net/yhl_jxy/category_9950646.html)
-
 # 数据结构
 | 数据结构 | 核心理论 | 博客文章 | 相关题目 | 
 |:------:|:------|:------|:------| 
