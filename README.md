@@ -3,10 +3,10 @@
 Java 代码基于 JDK8 实现；
 
 # 数据结构
-| 数据结构 | 核心理论 | 博客文章 | 相关题目 | 
+| 数据结构 | 核心理论 | 博客文章 | 经典题目(leetcode) | 
 |:------:|:------|:------|:------| 
 |复杂度分析 |1. 时间复杂度分析<br>2. 空间复杂度分析<br>3. 最好时间复杂度分析<br>4. 最坏时间复杂度分析<br>5. 平均时间复杂度分析<br>6. 均摊时间复杂度分析 |TODO |TODO|
-|数组 |1. 随机访问<br>2. 寻址公式<br>3. 插入删除<br>4. 数组越界 |TODO |TODO |
+|数组 |1. 随机访问<br>2. 寻址公式<br>3. 插入删除查找<br>4. 数组越界 |[CSDN](https://jpeony.blog.csdn.net/article/details/51760123) |15,27,42,78,704 |
 |链表 |1. 单链表<br>2. 双向链表<br>3. 循环链表<br>4. 双向循环链表<br>5. 静态链表<br>6. 实现技巧| TODO |TODO |
 |栈 |1. 顺序栈<br>2. 链式栈 |TODO |TODO|
 |队列 |1. 顺序队列<br>2. 链式队列<br>3. 循环队列<br>4. 阻塞队列<br>5. 并发队列 |TODO |TODO |
@@ -19,10 +19,10 @@ Java 代码基于 JDK8 实现；
 |线段树 |1. 区间统计<br>2. 应用场景 |TODO |TODO |
 |树状数组 |1. 前缀和 |TODO |TODO|
 |图 |1. 深度优先搜索<br>2. 广度优先搜索<br>3. 启发式搜索 |TODO |TODO |
-|------------|--------------------------|------------------------|------------------------|
+|------------|--------------------------------|--------|------------------------|
 
 # 算法
-| 算法 | 核心理论 | 博客文章 | 相关题目 | 
+| 算法 | 核心理论 | 博客文章 | 经典题目(leetcode) | 
 |:------:|:------|:------|:------| 
 |递归 |1. 递归含义<br>2. 递归条件<br>3. 递归改写 |TODO |TODO |
 |尾递归 |1. 递归堆栈溢出问题 |TODO |TODO |
@@ -44,13 +44,13 @@ Java 代码基于 JDK8 实现；
 |------------|------------------------|------------------------|------------------------|
 
 # 算法模板
-| 算法模板 | 核心理论 | 博客文章 | 相关题目 | 
+| 算法模板 | 核心理论 | 博客文章 | 经典题目(leetcode) | 
 |:------:|:------|:------|:------| 
 |TODO |TODO |TODO |TODO |
 |------------|------------------------|------------------------|------------------------|
 
 # 算法技巧
-| 算法技巧 | 核心理论 | 博客文章 | 相关题目 | 
+| 算法技巧 | 核心理论 | 博客文章 | 经典题目(leetcode) | 
 |:------:|:------|:------|:------| 
 |双指针 |TODO |TODO |TODO |
 |位运算 |TODO |TODO |TODO |
@@ -80,10 +80,5 @@ Java 代码基于 JDK8 实现；
 |0084|Largest Rectangle in Histogram|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0084)|Hard|[CSDN](https://jpeony.blog.csdn.net/article/details/122177497)|
 |0088|Merge Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0088)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122209518)|
 |0090|Subsets II|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0090)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122237800)|
-|0126|Word Ladder II|TODO|Hard|TODO|
-|0216|Combination Sum III|TODO|Medium|TODO|
-|0287|Find the Duplicate Number|TODO|Easy|TODO|
-|0491|Increasing Subsequences|TODO|Medium|TODO|
-|0907|Sum of Subarray Minimums|TODO|Medium|TODO|
-|0969|Pancake Sorting|TODO|Medium|TODO|
+|0704|Binary Search|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|[CSDN]()|
 |------|---------------------------------------------|---------|---------|--------|--------|
