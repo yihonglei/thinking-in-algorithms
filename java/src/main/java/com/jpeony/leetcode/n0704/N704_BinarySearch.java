@@ -31,6 +31,7 @@ public class N704_BinarySearch {
                 low = mid + 1;
             }
         }
+        // 在数组中未找到目标值，返回 -1
         return -1;
     }
 
