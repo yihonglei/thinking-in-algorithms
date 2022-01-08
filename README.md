@@ -81,5 +81,6 @@ Java 代码基于 JDK8 实现；
 |0088|Merge Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0088)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122209518)|
 |0090|Subsets II|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0090)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122237800)|
 |0704|Binary Search|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122340405)|
+|0977|Squares of a Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122381813)|
 |0000|TODO|TODO|TODO|TODO|
 |------|---------------------------------------------|---------|---------|--------|--------|
