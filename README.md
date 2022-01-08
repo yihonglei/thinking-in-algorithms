@@ -52,7 +52,7 @@ Java 代码基于 JDK8 实现；
 # 算法技巧
 | 算法技巧 | 核心理论 | 博客文章 | 经典题目(leetcode) | 
 |:------:|:------|:------|:------| 
-|双指针 |TODO |TODO |TODO |
+|双指针 |TODO |TODO |11,16,27,42,977 |
 |位运算 |TODO |TODO |TODO |
 |前缀和 |TODO |TODO |TODO |
 |滑动窗口 |TODO |TODO |TODO |
