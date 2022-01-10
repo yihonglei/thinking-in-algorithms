@@ -36,11 +36,11 @@ If you have figured out the O(n) solution, try coding another solution of which 
 
 ## 题目含义
 
-在数组 nums 中寻找元素和 >= target 的最小子数组，要求时间复杂度调优到 O(n log(n))。
+在数组 nums 中寻找元素和 >= target 的最小子数组，要求时间复杂度调优到<= O(n log(n))。
 
 ## 算法思路
 
-【双指针】
+【滑动窗口】
 
 1、判断如果数组为空，返回 0；
 
@@ -55,6 +55,10 @@ If you have figured out the O(n) solution, try coding another solution of which 
 缩短数组的长度， 一但出现 sum < target，继续重复上面的逻辑，直到整个数组都遍历完成。
 
 4、最后通过 Math.min 保留的数组长度，即为满足条件的最小数组长度。
+
+滑动窗口和双指有什么区别？
+- 滑动窗口解决的是两个断点表示的区间问题，两个指针向同一个方向移动，滑动窗口本身是一类问题；
+- 双指针是解决问题的手段，双指指向两个端点，可以同向移动，也可以双向移动；
 
 ## 复杂度分析
 

@@ -9,7 +9,7 @@ package com.jpeony.leetcode.n0209;
 public class N209_MinimumSizeSubarraySum {
 
     /**
-     * 【双指针】
+     * 【滑动窗口】
      * 时间复杂度：O(n)。整个数组的遍历次数 n。
      * 空间复杂度：O(1)。临时变量空间 ans。
      */
