@@ -7,9 +7,9 @@ Java 代码基于 JDK8 实现；
 |:------:|:------|:------|:------| 
 |复杂度分析 |1. 时间复杂度分析<br>2. 空间复杂度分析<br>3. 最好时间复杂度分析<br>4. 最坏时间复杂度分析<br>5. 平均时间复杂度分析<br>6. 均摊时间复杂度分析 |TODO |TODO|
 |数组 |1. 随机访问<br>2. 寻址公式<br>3. 插入删除查找<br>4. 数组越界 |[CSDN](https://jpeony.blog.csdn.net/article/details/51760123) |15,16,18,27,78,79,209,704,977 |
-|链表 |1. 单链表<br>2. 双向链表<br>3. 循环链表<br>4. 双向循环链表<br>5. 静态链表<br>6. 实现技巧| TODO |TODO |
-|栈 |1. 顺序栈<br>2. 链式栈 |TODO |TODO|
-|队列 |1. 顺序队列<br>2. 链式队列<br>3. 循环队列<br>4. 阻塞队列<br>5. 并发队列 |TODO |TODO |
+|链表 |1. 单链表<br>2. 双向链表<br>3. 循环链表<br>4. 双向循环链表<br>5. 静态链表<br>6. 实现技巧|[CSDN](https://jpeony.blog.csdn.net/article/details/83856317) |TODO |
+|栈 |1. 顺序栈<br>2. 链式栈 |[CSDN](https://jpeony.blog.csdn.net/article/details/53418330) |TODO|
+|队列 |1. 顺序队列<br>2. 链式队列<br>3. 循环队列<br>4. 阻塞队列<br>5. 并发队列 |[CSDN](https://jpeony.blog.csdn.net/article/details/83824928) |TODO |
 |字符串|1. BF<br>2. RK<br>3. BM<br>4. KMP<br>5. Trie<br>6. AC自动机 |TODO |TODO |
 |哈希表 |1. 哈希思想<br>2. 哈希函数<br>3. 哈希冲突|TODO |TODO |
 |树 |1. 二叉树<br>2. 二叉查找树<br>3. 平衡二叉查找树<br>4. 递归树<br>5. B+树|TODO |TODO |
@@ -24,9 +24,9 @@ Java 代码基于 JDK8 实现；
 # 算法
 | 算法 | 核心理论 | 博客文章 | 经典题目(leetcode) | 
 |:------:|:------|:------|:------| 
-|递归 |1. 递归含义<br>2. 递归条件<br>3. 递归改写 |TODO |TODO |
+|递归 |1. 递归含义<br>2. 递归条件<br>3. 递归改写 |[CSDN](https://jpeony.blog.csdn.net/article/details/54976532) |TODO |
 |尾递归 |1. 递归堆栈溢出问题 |TODO |TODO |
-|排序 |1. 排序算法分析<br>2. 冒泡排序<br>3. 插入排序<br>4. 归并排序<br>5. 快速排序<br>6. 堆排序<br>7. 桶排序<br>8. 计数排序<br>9. 基数排序<br> |TODO |TODO |
+|排序 |1. 排序算法分析<br>2. [冒泡排序](https://jpeony.blog.csdn.net/article/details/84136410) <br>3. 插入排序<br>4. 归并排序<br>5. [快速排序](https://jpeony.blog.csdn.net/article/details/84136438) <br>6. 堆排序<br>7. 桶排序<br>8. 计数排序<br>9. 基数排序<br> |TODO |TODO |
 |二分查找 |1. 二分思想<br>2. 应用场景 |TODO |TODO |
 |二分查找变体 |1. 目标值查找4种变种问题 |TODO |TODO |
 |哈希 |1. 安全加密<br>2. 唯一标识<br>3. 数据校验<br>4. 哈希函数<br>5. 负载均衡<br>6. 数据分片<br>7. 分布式存储 |TODO |TODO |
