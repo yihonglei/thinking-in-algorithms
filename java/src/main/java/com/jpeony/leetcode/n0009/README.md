@@ -1,57 +1,56 @@
-# [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+# [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 ## 题目
 
-Given a signed 32-bit integer x, return x with its digits reversed. 
-If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+Given an integer x, return true if x is palindrome integer.
 
-Assume the environment does not allow you to store 64-bit integers (signed or unsigned). 
+An integer is a palindrome when it reads the same backward as forward.
+- For example, 121 is a palindrome while 123 is not.
 
 Example 1:
 ```
-Input: x = 123
-Output: 321
+Input: x = 121
+Output: true
+Explanation: 121 reads as 121 from left to right and from right to left.
 ```
 
 Example 2:
 ```
-Input: x = -123
-Output: -321
+Input: x = -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
 ```
 
 Example 3:
 ```
-Input: x = 120
-Output: 21
+Input: x = 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 ```
 
 Constraints:
-- -231 <= x <= 231 - 1
+- -2^31 <= x <= 2^31 - 1
 
 ## 题目含义
 
-将整数进行反转，注意正负符号位不变。
+一个正整数正序读和反序读一样，是回文数返回 true，否则返回 false。
 
 ## 算法思路
 
-【迭代】
+1、【反转比较】
 
-![Leetcode-7-ReverseInteger](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/java/Leetcode-7-ReverseInteger.png)
+将 [整数反转](https://jpeony.blog.csdn.net/article/details/122524582) ，与原数比较，相同则是回文数返回 true，否则返回 false。
 
-1、例如 12345 的反转如上图，每次整数的求余等于反转整数的尾数；
+2、【双指针】
 
-2、res * 10 + 反转整数 等于 当前位反转后的反转数；
+- 负数一定不是回文数；
 
-3、通过 1，2 不断迭代，可以得到整数最终的反转数；
+- 整数个位数一定是回文数；
 
-4、注意正负号位标识，对于数的符号反转后要保持不变；
-
-5、注意反转后数组的移出，题目要求的范围 x 是 -231 <= x <= 231 - 1，可以通过 Long 接收反转后的整数，
-
-结果与 Integer 比，如果超过范围，返回 0 即可；
+- 整数转换为字符数组，左右指针遍历比较前后位置字符是否相同，不想同，则不是回文；
 
 ## 复杂度分析
 
-时间复杂度：O(k)。k 为 x 的位数，即迭代次数为 k 次，所以时间复杂度为 O(k)。
+时间复杂度：O(logn)。每次迭代都可能退出循环。
 
-空间复杂度：O(1)。只是用了临时变量空间，并没有别的渐进增长空间，所以空间复杂度为 O(1)。
+空间复杂度：O(1)。只需要临时变量，不需要其他额外的渐进增长空间，所以空间复杂度是 O(1)。
