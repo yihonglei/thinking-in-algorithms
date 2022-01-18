@@ -31,7 +31,7 @@ public class N7_ReverseInteger {
         }
         // 符号位恢复
         res = res * flag;
-        // 超过 Integer 值范围，返回 0，否则，返回反正后的整数
+        // 超过 Integer 值范围，返回 0，否则，返回反转后的整数
         return res > Integer.MAX_VALUE || res < Integer.MIN_VALUE ? 0 : (int) res;
     }
 
