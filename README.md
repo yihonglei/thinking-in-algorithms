@@ -73,6 +73,7 @@ Java 代码基于 JDK8 实现；
 |0015|3Sum|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0015)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121975732)|
 |0016|3Sum Closest|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0016)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121975805)|
 |0018|4Sum|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0018)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/121975832)|
+|0019|Remove Nth Node From End of List|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0019)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122604537)|
 |0024|Swap Nodes in Pairs|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0024)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122577423)|
 |0026|Remove Duplicates from Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0026)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121921007)|
 |0027|Remove Element|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0027)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/121960557)|
