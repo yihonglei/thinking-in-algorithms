@@ -33,7 +33,7 @@ Explanation: There is no cycle in the linked list.
 
 Constraints:
 - The number of the nodes in the list is in the range [0, 104].
-- -10^5 <= Node.val <= 10^5
+- -105 <= Node.val <= 105
 - pos is -1 or a valid index in the linked-list.
 
 ***Follow up:*** Can you solve it using O(1) (i.e. constant) memory?
@@ -80,4 +80,4 @@ x1 + x2 + x3 + x2 = 2 * (x1 + x2)
 
 时间复杂度：O(n)。n 为链表长度，迭代 n 次，所以时间复杂度为 O(n)。
 
-空间复杂度：O(1)。只有固定的临时指针变量，不会随着算法执行需要额外的渐进增长空间。
+空间复杂度：只有固定的临时指针变量，不会随着算法执行需要额外的渐进增长空间。
