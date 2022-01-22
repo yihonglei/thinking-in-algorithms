@@ -18,12 +18,12 @@ public class N142_LinkedListCycleII {
      */
     private static ListNode detectCycleHash(ListNode head) {
         ListNode pos = head;
-        Set<ListNode> hashSet = new HashSet<>();
+        Set<ListNode> visited = new HashSet<>();
         while (pos != null) {
-            if (hashSet.contains(pos)) {
+            if (visited.contains(pos)) {
                 return pos;
             }
-            hashSet.add(pos);
+            visited.add(pos);
             pos = pos.next;
         }
         return null;
