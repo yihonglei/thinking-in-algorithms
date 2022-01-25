@@ -89,6 +89,7 @@ Java 代码基于 JDK8 实现；
 |0203|Remove Linked List Elements|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0203)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122433604)|
 |0206|Reverse Linked List|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0206)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122522523)|
 |0209|Minimum Size Subarray Sum|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0209)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122412560)|
+|0242|Valid Anagram|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0242)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122680199)|
 |0704|Binary Search|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122340405)|
 |0707|Design Linked List|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0707)|Medium|[CSDN](https://jpeony.blog.csdn.net/article/details/122495907)|
 |0977|Squares of a Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|[CSDN](https://jpeony.blog.csdn.net/article/details/122381813)|
