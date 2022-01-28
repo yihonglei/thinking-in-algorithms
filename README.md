@@ -90,6 +90,7 @@ Java 代码基于 JDK8 实现；
 |0206|Reverse Linked List|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0206)|Easy|
 |0209|Minimum Size Subarray Sum|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0209)|Medium|
 |0242|Valid Anagram|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0242)|Easy|
+|0349|Intersection of Two Arrays|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0349)|Easy|
 |0704|Binary Search|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|
 |0707|Design Linked List|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0707)|Medium|
 |0977|Squares of a Sorted Array|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|
