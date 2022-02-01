@@ -1,55 +1,49 @@
 package com.jpeony.leetcode.n0202;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 
 /**
- * [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
- * [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+ * [202. 快乐数](https://leetcode-cn.com/problems/happy-number/)
+ * [202. Happy Number](https://leetcode.com/problems/happy-number/)
  *
  * @author yihonglei
  */
-public class N202_IntersectionOfTwoArrays {
+public class N202_HappyNumber {
 
     /**
-     * 【哈希表】
-     * 时间复杂度：O(m+n)。如果对 m 或者 n 是知道大小的，那么我们就可以根据加法法则确定时间复杂度为 O(m) 或者 O(n)，
-     * 但是 m 和 n 大小是无法确定的，任何一块都不能忽略，所以时间复杂度为 O(m+n)。
-     * 空间复杂度：O(m+n)。maps1 和 maps2 不能确定那个大小，同时间复杂度分析一样，任何一块都不能忽略，所以空间复杂度为 O(m+n)。
+     * 【迭代】
+     * 时间复杂度：O(logn)。时间复杂度取决于每次平方求和计算后的数值位数。
+     * 空间复杂度：O(logn)。存入哈希的元素个数。
      */
-    private static int[] intersection(int[] nums1, int[] nums2) {
-        // HashSet 底层基于 HashMap 实现 key 是存入元素，value 是 new Object()，所以天然支持去重
-        HashSet<Integer> maps1 = new HashSet<>();
-        HashSet<Integer> maps2 = new HashSet<>();
-        for (int i : nums1) {
-            maps1.add(i);
-        }
-        for (int j : nums2) {
-            maps2.add(j);
+    private static boolean isHappy(int n) {
+        if (n < 0) {
+            return false;
         }
 
-        // 去重后取交集
-        ArrayList<Integer> list = new ArrayList<>();
-        for (Integer n : maps1) {
-            if (maps2.contains(n)) {
-                list.add(n);
-            }
-        }
-        // 转换为数组
-        int[] res = new int[list.size()];
-        for (int k = 0; k < list.size(); k++) {
-            res[k] = list.get(k);
+        // 检测是否出现环形，如果出现环形，返回 false，否则一直找下去，直到找到平方和为 1 的数
+        HashSet<Integer> records = new HashSet<>();
+        while (n != 0 && !records.contains(n)) {
+            records.add(n);
+            n = getNextNumber(n);
         }
 
-        return res;
+        return n == 1;
+    }
+
+    private static int getNextNumber(int n) {
+        int sum = 0;
+        while (n != 0) {
+            int temp = n % 10;
+            sum += temp * temp;
+            n = n / 10;
+        }
+        return sum;
     }
 
     public static void main(String[] args) {
-        int[] nums1 = {1, 2, 2, 1};
-        int[] nums2 = {2, 2};
+        int n = 19;
 
-        int[] res = intersection(nums1, nums2);
-        System.out.println("res = " + Arrays.toString(res));
+        boolean isHappy = isHappy(n);
+        System.out.println("isHappy = " + isHappy);
     }
 }
