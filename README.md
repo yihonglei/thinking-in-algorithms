@@ -1,6 +1,12 @@
 # 前言
 
-Java 代码基于 JDK8 实现；
+1、Java 代码基于 JDK8 实现；
+
+2、[数据结构与算法理论和 leetcode 题目分类思维导图；](https://github.com/yihonglei/thinking-in-algorithms/tree/master/xmind)
+
+3、主要导图
+
+![数据结构](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/base/structure.png) ![算法](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/base/algorithms.png)
 
 # 一、数据结构
 
