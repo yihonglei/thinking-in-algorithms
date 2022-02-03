@@ -8,6 +8,13 @@
 
 ![数据结构](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/base/structure.png) ![算法](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/base/algorithms.png)
 
+4、书籍推荐
+- 入门系列：《算法图解》、《大话数据结构》、《编程之美》
+- 课本系列：《数据结构与算法分析 : Java 语言描述》、《数据结构与算法分析 : C 语言描述》
+- 进阶系列：《算法导论》
+- 扩展系列：《算法之美》、《算法帝国》
+- 殿堂系列：《计算机程序设计艺术》
+- 
 # 一、数据结构
 
 ## 数组
