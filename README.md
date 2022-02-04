@@ -1,19 +1,19 @@
 # 前言
 
-1、Java 代码基于 JDK8 实现；
+1、[数据结构与算法理论和 leetcode 题目分类思维导图；](https://github.com/yihonglei/thinking-in-algorithms/tree/master/xmind)
 
-2、[数据结构与算法理论和 leetcode 题目分类思维导图；](https://github.com/yihonglei/thinking-in-algorithms/tree/master/xmind)
-
-3、主要导图
+2、重点数据结构与算法
 
 ![数据结构](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/base/structure.png) ![算法](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/base/algorithms.png)
 
-4、书籍推荐
+3、算法书籍推荐
 - 入门系列：《算法图解》、《大话数据结构》、《编程之美》
 - 课本系列：《数据结构与算法分析 : Java 语言描述》、《数据结构与算法分析 : C 语言描述》
 - 进阶系列：《算法导论》
 - 扩展系列：《算法之美》、《算法帝国》
 - 殿堂系列：《计算机程序设计艺术》
+
+4、Java 代码基于 JDK8 实现；
 
 # 一、数据结构
 
