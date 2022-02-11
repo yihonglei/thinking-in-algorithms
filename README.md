@@ -37,7 +37,6 @@
 |0079|Word Search(单词搜索)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0079)|Medium|
 |0209|Minimum Size Subarray Sum(长度最小的子数组)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0209)|Medium|
 |0977|Squares of a Sorted Array(有序数组的平方)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|
-|0000|TODO|TODO|TODO|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 链表
@@ -55,7 +54,6 @@
 |0203|Remove Linked List Elements(移除链表元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0203)|Easy|
 |0206|Reverse Linked List(反转链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0206)|Easy|
 |0707|Design Linked List(设计链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0707)|Medium|
-|0000|TODO|TODO|TODO|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 栈
@@ -91,7 +89,6 @@
 |0344|Reverse String(反转字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0344)|Easy|
 |0151|Reverse Words in a String(翻转字符串里的单词)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0151)|Medium|
 |0541|Reverse String II(反转字符串 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0541)|Easy|
-|0000|TODO|TODO|TODO|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 哈希表
@@ -110,7 +107,6 @@
 |0242|Valid Anagram(有效的字母异位词)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0242)|Easy|
 |0349|Intersection of Two Arrays(两个数组的交集)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0349)|Easy|
 |0383|Ransom Note(赎金信)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0383)|Easy|
-|0000|TODO|TODO|TODO|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 树
@@ -236,7 +232,6 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0704|Binary Search(二分查找)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|
-|0000|TODO|TODO|TODO|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 哈希算法
@@ -391,7 +386,6 @@
 |0027|Remove Element(移除元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0027)|Easy|
 |0141|Linked List Cycle(环形链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0141)|Easy|
 |0142|Linked List Cycle II(环形链表 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0142)|Medium|
-|0000|TODO|TODO|TODO|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 位运算
@@ -528,5 +522,4 @@
 |0704|Binary Search(二分查找)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|
 |0707|Design Linked List(设计链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0707)|Medium|
 |0977|Squares of a Sorted Array(有序数组的平方)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|
-|0000|TODO|TODO|TODO|
 |------|----------------------------------------------------------|---------|---------|--------|
