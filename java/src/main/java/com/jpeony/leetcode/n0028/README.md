@@ -1,4 +1,4 @@
-# [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
+# [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 
 ## 题目
 
