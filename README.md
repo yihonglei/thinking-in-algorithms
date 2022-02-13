@@ -64,7 +64,7 @@
 
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
+|0020|Valid Parentheses(有效的括号)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0020)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 队列
@@ -501,6 +501,7 @@
 |0016|3Sum Closest(最接近的三数之和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0016)|Medium|
 |0018|4Sum(四数之和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0018)|Medium|
 |0019|Remove Nth Node From End of List( 删除链表的倒数第 N 个结点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0019)|Medium|
+|0020|Valid Parentheses(有效的括号)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0020)|Easy|
 |0024|Swap Nodes in Pairs(两两交换链表中的节点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0024)|Medium|
 |0026|Remove Duplicates from Sorted Array( 删除有序数组中的重复项)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0026)|Easy|
 |0027|Remove Element(移除元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0027)|Easy|
