@@ -1,55 +1,70 @@
-package com.jpeony.leetcode.n0020;
+package com.jpeony.leetcode.n0232;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
- * [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+ * [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+ * [232. 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
  *
  * @author yihonglei
  */
-public class N20_ValidParentheses {
+public class N232_ImplementQueueUsingStacks {
 
     /**
-     * 【栈】
-     * 时间复杂度：O(n)。n 为字符串字符个数。
-     * 空间复杂度：O(n)。n 为字符串字符个数。
+     * 负责入队
      */
-    private static boolean isValid(String s) {
-        // 栈声明，不要用 Stack，它是 synchronized 同步的，每次操作影响性能。
-        Deque<Character> stack = new ArrayDeque<Character>();
+    Deque<Integer> in = new ArrayDeque<Integer>();
+    /**
+     * 负责出队
+     */
+    Deque<Integer> out = new ArrayDeque<Integer>();
 
-        // 字符串转换为数组
-        char[] cArr = s.toCharArray();
+    public N232_ImplementQueueUsingStacks() {
 
-        for (char c : cArr) {
-            // 栈顶元素出栈
-            Character p = stack.peek();
-            // 第一次循环 p 是空的
-            if (p != null) {
-                // 成对的出栈
-                if ((p == '(' && c == ')') || (p == '{' && c == '}') || (p == '[' && c == ']')) {
-                    stack.pop();
-                } else {
-                    // 不符合条件的入栈
-                    stack.push(c);
-                }
-            } else {
-                // 第一个元素入栈
-                stack.push(c);
+    }
+
+    public void push(int x) {
+        in.push(x);
+    }
+
+    public int pop() {
+        if (out.isEmpty()) {
+            while (!in.isEmpty()) {
+                out.push(in.pop());
             }
         }
+        return out.pop();
+    }
 
-        // 如果都成对，必然都出栈，返回 true，否则返回 false
-        return stack.isEmpty();
+    public int peek() {
+        if (out.isEmpty()) {
+            while (!in.isEmpty()) {
+                out.push(in.pop());
+            }
+        }
+        return out.peek();
+    }
+
+    public boolean empty() {
+        if (in.isEmpty() && out.isEmpty()) {
+            return true;
+        }
+        return false;
     }
 
     public static void main(String[] args) {
-        String s = "({[)";
+        N232_ImplementQueueUsingStacks queue = new N232_ImplementQueueUsingStacks();
 
-        boolean valid = isValid(s);
+        queue.push(1);
 
-        System.out.println("isValid = " + valid);
+        int pop = queue.pop();
+        System.out.println("pop = " + pop);
+
+        int peek = queue.peek();
+        System.out.println("peek = " + peek);
+
+        boolean empty = queue.empty();
+        System.out.println("empty = " + empty);
     }
 }
