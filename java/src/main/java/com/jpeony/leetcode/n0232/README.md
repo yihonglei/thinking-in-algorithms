@@ -1,4 +1,4 @@
-# [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+# [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
 
 ## 题目
 
@@ -47,6 +47,6 @@ Constraints:
 
 ## 复杂度分析
 
-时间复杂度：O(n)。n 为字符串字符个数。
+时间复杂度：时间复杂度：O(n)。n 为字符串字符个数。
 
-空间复杂度：O(n)。n 为字符串字符个数。
+空间复杂度：空间复杂度：O(n)。n 为字符串字符个数。
