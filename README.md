@@ -15,6 +15,61 @@
 
 4、Java 代码基于 JDK8 实现；
 
+# 目录
+
+[一、数据结构](https://github.com/yihonglei/thinking-in-algorithms#%E4%B8%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
+
+- [数组](https://github.com/yihonglei/thinking-in-algorithms#%E6%95%B0%E7%BB%84)
+- [链表](https://github.com/yihonglei/thinking-in-algorithms#%E9%93%BE%E8%A1%A8)
+- [栈](https://github.com/yihonglei/thinking-in-algorithms#%E6%A0%88)
+- [队列](https://github.com/yihonglei/thinking-in-algorithms#%E9%98%9F%E5%88%97)
+- [字符串](https://github.com/yihonglei/thinking-in-algorithms#%E5%AD%97%E7%AC%A6%E4%B8%B2)
+- [哈希表](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%88%E5%B8%8C%E8%A1%A8)
+- [树](https://github.com/yihonglei/thinking-in-algorithms#%E6%A0%91)
+- [堆](https://github.com/yihonglei/thinking-in-algorithms#%E5%A0%86)
+- [跳表](https://github.com/yihonglei/thinking-in-algorithms#%E8%B7%B3%E8%A1%A8)
+- [并查集](https://github.com/yihonglei/thinking-in-algorithms#%E5%B9%B6%E6%9F%A5%E9%9B%86)
+- [线段树](https://github.com/yihonglei/thinking-in-algorithms#%E7%BA%BF%E6%AE%B5%E6%A0%91)
+- [树状数组](https://github.com/yihonglei/thinking-in-algorithms#%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84)
+- [图](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%BE)
+
+[二、算法](https://github.com/yihonglei/thinking-in-algorithms#%E4%BA%8C%E7%AE%97%E6%B3%95)
+
+- [递归](https://github.com/yihonglei/thinking-in-algorithms#%E9%80%92%E5%BD%92)
+- [尾递归](https://github.com/yihonglei/thinking-in-algorithms#%E5%B0%BE%E9%80%92%E5%BD%92)
+- [排序](https://github.com/yihonglei/thinking-in-algorithms#%E6%8E%92%E5%BA%8F)
+- [二分查找](https://github.com/yihonglei/thinking-in-algorithms#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
+- [哈希算法](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95)
+- [字符串匹配](https://github.com/yihonglei/thinking-in-algorithms#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D)
+- [搜索](https://github.com/yihonglei/thinking-in-algorithms#%E6%90%9C%E7%B4%A2)
+- [随机化](https://github.com/yihonglei/thinking-in-algorithms#%E9%9A%8F%E6%9C%BA%E5%8C%96)
+- [图论](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%BE%E8%AE%BA)
+- [贪心](https://github.com/yihonglei/thinking-in-algorithms#%E8%B4%AA%E5%BF%83)
+- [几何](https://github.com/yihonglei/thinking-in-algorithms#%E5%87%A0%E4%BD%95)
+- [数论](https://github.com/yihonglei/thinking-in-algorithms#%E6%95%B0%E8%AE%BA)
+- [矩阵](https://github.com/yihonglei/thinking-in-algorithms#%E7%9F%A9%E9%98%B5)
+- [枚举](https://github.com/yihonglei/thinking-in-algorithms#%E6%9E%9A%E4%B8%BE)
+- [回溯算法](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95)
+- [动态规划](https://github.com/yihonglei/thinking-in-algorithms#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92)
+
+[三、算法技巧](https://github.com/yihonglei/thinking-in-algorithms#%E4%B8%89%E7%AE%97%E6%B3%95%E6%8A%80%E5%B7%A7)
+
+- [双指针](https://github.com/yihonglei/thinking-in-algorithms#%E5%8F%8C%E6%8C%87%E9%92%88)
+- [位运算](https://github.com/yihonglei/thinking-in-algorithms#%E4%BD%8D%E8%BF%90%E7%AE%97)
+- [前缀和](https://github.com/yihonglei/thinking-in-algorithms#%E5%89%8D%E7%BC%80%E5%92%8C)
+- [滑动窗口](https://github.com/yihonglei/thinking-in-algorithms#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3)
+- [计数](https://github.com/yihonglei/thinking-in-algorithms#%E8%AE%A1%E6%95%B0)
+- [状态压缩](https://github.com/yihonglei/thinking-in-algorithms#%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9)
+- [哈希函数](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%88%E5%B8%8C%E5%87%BD%E6%95%B0)
+- [滚动哈希](https://github.com/yihonglei/thinking-in-algorithms#%E6%BB%9A%E5%8A%A8%E5%93%88%E5%B8%8C)
+- [扫描线](https://github.com/yihonglei/thinking-in-algorithms#%E6%89%AB%E6%8F%8F%E7%BA%BF)
+
+[四、算法模板](https://github.com/yihonglei/thinking-in-algorithms#%E4%B8%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
+
+- [回溯算法模板]()
+
+[五、Leetcode 题目大全](https://github.com/yihonglei/thinking-in-algorithms#%E4%B8%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
+
 # 一、数据结构
 
 ## 数组
