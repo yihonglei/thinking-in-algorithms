@@ -120,6 +120,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0020|Valid Parentheses(有效的括号)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0020)|Easy|
+|0150|Evaluate Reverse Polish Notation(逆波兰表达式求值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0150)|Medium|
 |0225|Implement Stack using Queues(用队列实现栈)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0225)|Easy|
 |0232|Implement Queue using Stacks(用栈实现队列)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0232)|Easy|
 |1047|Remove All Adjacent Duplicates In String(删除字符串中的所有相邻重复项)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1047)|Easy|
@@ -545,7 +546,7 @@
 
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
+|0000|回溯算法模板|[Java](https://github.com/yihonglei/thinking-in-algorithms/blob/master/java/src/main/java/com/jpeony/leetcodecn/ReplaceSpace.java)|Level|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 # 五、Leetcode 题目大全
@@ -574,6 +575,7 @@
 |0090|Subsets II(子集 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0090)|Medium|
 |0141|Linked List Cycle(环形链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0141)|Easy|
 |0142|Linked List Cycle II(环形链表 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0142)|Medium|
+|0150|Evaluate Reverse Polish Notation(逆波兰表达式求值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0150)|Medium|
 |0151|Reverse Words in a String(翻转字符串里的单词)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0151)|Medium|
 |0202|Happy Number(快乐数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0202)|Easy|
 |0203|Remove Linked List Elements(移除链表元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0203)|Easy|
