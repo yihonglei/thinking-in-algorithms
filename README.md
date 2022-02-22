@@ -123,7 +123,6 @@
 |0150|Evaluate Reverse Polish Notation(逆波兰表达式求值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0150)|Medium|
 |0225|Implement Stack using Queues(用队列实现栈)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0225)|Easy|
 |0232|Implement Queue using Stacks(用栈实现队列)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0232)|Easy|
-|0239|Sliding Window Maximum(滑动窗口最大值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0239)|Hard|
 |1047|Remove All Adjacent Duplicates In String(删除字符串中的所有相邻重复项)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1047)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
@@ -137,6 +136,8 @@
 |:------:|:------|:------:|:------:|
 |0225|Implement Stack using Queues(用队列实现栈)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0225)|Easy|
 |0232|Implement Queue using Stacks(用栈实现队列)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0232)|Easy|
+|0239|Sliding Window Maximum(滑动窗口最大值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0239)|Hard|
+|0347|Top K Frequent Elements( 前 K 个高频元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0347)|Medium|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 字符串
@@ -587,6 +588,7 @@
 |0239|Sliding Window Maximum(滑动窗口最大值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0239)|Hard|
 |0242|Valid Anagram(有效的字母异位词)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0242)|Easy|
 |0344|Reverse String(反转字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0344)|Easy|
+|0347|Top K Frequent Elements( 前 K 个高频元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0347)|Medium|
 |0349|Intersection of Two Arrays(两个数组的交集)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0349)|Easy|
 |0383|Ransom Note(赎金信)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0383)|Easy|
 |0541|Reverse String II(反转字符串 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0541)|Easy|
