@@ -25,19 +25,26 @@ public class N347_TopKFrequentElements {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
-        Set<Map.Entry<Integer, Integer>> entries = map.entrySet();
-        // 根据 map 的 value 值正序排，相当于一个小顶堆
-        PriorityQueue<Map.Entry<Integer, Integer>> queue = new PriorityQueue<>((o1, o2) -> o2.getValue() - o1.getValue());
-        for (Map.Entry<Integer, Integer> entry : entries) {
-            queue.offer(entry);
-            if (queue.size() > k) {
-                queue.poll();
+        // 遍历map，用最小堆保存频率最大的k个元素
+        PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer a, Integer b) {
+                return map.get(a) - map.get(b);
+            }
+        });
+
+        for (Integer key : map.keySet()) {
+            if (pq.size() < k) {
+                pq.add(key);
+            } else if (map.get(key) > map.get(pq.peek())) {
+                pq.remove();
+                pq.add(key);
             }
         }
 
-        // 倒序从小顶堆取值，即为逆向取值
-        for (int i = k - 1; i >= 0; i--) {
-            result[i] = queue.poll().getKey();
+        // 取出最小堆中的元素
+        for (int i = 0; i < k; i++) {
+            result[i] = pq.remove();
         }
 
         return result;
