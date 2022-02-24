@@ -180,7 +180,7 @@
 
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
+|0094|Binary Tree Inorder Traversal(二叉树的中序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0094)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 堆
@@ -575,6 +575,7 @@
 |0084|Largest Rectangle in Histogram(柱状图中最大的矩形)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0084)|Hard|
 |0088|Merge Sorted Array(合并两个有序数组)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0088)|Easy|
 |0090|Subsets II(子集 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0090)|Medium|
+|0094|Binary Tree Inorder Traversal(二叉树的中序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0094)|Easy|
 |0141|Linked List Cycle(环形链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0141)|Easy|
 |0142|Linked List Cycle II(环形链表 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0142)|Medium|
 |0150|Evaluate Reverse Polish Notation(逆波兰表达式求值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0150)|Medium|
