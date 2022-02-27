@@ -24,14 +24,18 @@ public class N102_BinaryTreeLevelOrderTraversal {
             return result;
         }
 
+        // queue 记录 k 层的节点
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        queue.offer(root);
+        queue.offer(root); // 默认订单为 k 层
         while (!queue.isEmpty()) {
+            // k 层元素序列
             List<Integer> level = new ArrayList<Integer>();
             int currentLevelSize = queue.size();
             for (int i = 1; i <= currentLevelSize; ++i) {
+                // k 层
                 TreeNode node = queue.poll();
                 level.add(node.val);
+                // 根据 k 层访问 k+1 层
                 if (node.left != null) {
                     queue.offer(node.left);
                 }
