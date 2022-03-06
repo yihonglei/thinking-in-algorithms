@@ -56,7 +56,7 @@ public class N94_BinaryTreeInorderTraversal {
         TreeNode node2 = new TreeNode(3);
 
         root.right = node1;
-        node1.left = node2;
+        root.left = node2;
 
         List<Integer> list = inorderTraversal(root);
         System.out.println("inorderTraversal = " + list.toString());

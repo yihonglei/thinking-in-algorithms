@@ -75,7 +75,7 @@ public class N102_BinaryTreeLevelOrderTraversal {
         TreeNode node2 = new TreeNode(3);
 
         root.right = node1;
-        node1.left = node2;
+        root.left = node2;
 
         List<List<Integer>> list = levelOrder(root);
         System.out.println("levelOrder = " + list.toString());

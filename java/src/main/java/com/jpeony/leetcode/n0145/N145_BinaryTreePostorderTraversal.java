@@ -57,7 +57,7 @@ public class N145_BinaryTreePostorderTraversal {
         TreeNode node2 = new TreeNode(3);
 
         root.right = node1;
-        node1.left = node2;
+        root.left = node2;
 
         List<Integer> list = postorderTraversal(root);
         System.out.println("postorderTraversal = " + list.toString());

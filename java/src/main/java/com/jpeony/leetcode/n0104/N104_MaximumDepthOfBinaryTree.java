@@ -81,7 +81,7 @@ public class N104_MaximumDepthOfBinaryTree {
         TreeNode node2 = new TreeNode(3);
 
         root.right = node1;
-        node1.left = node2;
+        root.left = node2;
 
         int maxDepthDFS = maxDepthDFS(root);
         System.out.println("maxDepthDFS = " + maxDepthDFS);
