@@ -26,8 +26,10 @@ public class N94_BinaryTreeInorderTraversal {
             return;
         }
         inorder(root.left, result);
+        System.out.println("debug1 = " + root.val);
         result.add(root.val);
         inorder(root.right, result);
+        System.out.println("debug2 = " + root.val);
     }
 
     private static class TreeNode {

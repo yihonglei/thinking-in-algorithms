@@ -18,16 +18,18 @@ public class N145_BinaryTreePostorderTraversal {
      */
     public static List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        inorder(root, result);
+        postorder(root, result);
         return result;
     }
 
-    private static void inorder(TreeNode root, List<Integer> result) {
+    private static void postorder(TreeNode root, List<Integer> result) {
         if (root == null) {
             return;
         }
-        inorder(root.left, result);
-        inorder(root.right, result);
+        postorder(root.left, result);
+        System.out.println("debug1 = " + root.val);
+        postorder(root.right, result);
+        System.out.println("debug2 = " + root.val);
         result.add(root.val);
     }
 
@@ -52,12 +54,17 @@ public class N145_BinaryTreePostorderTraversal {
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
+        TreeNode root = new TreeNode(4);
         TreeNode node1 = new TreeNode(2);
-        TreeNode node2 = new TreeNode(3);
+        TreeNode node2 = new TreeNode(6);
+        TreeNode node3 = new TreeNode(1);
+        TreeNode node4 = new TreeNode(3);
 
-        root.right = node1;
-        root.left = node2;
+        root.left = node1;
+        root.right = node2;
+
+        node1.left = node3;
+        node1.right = node4;
 
         List<Integer> list = postorderTraversal(root);
         System.out.println("postorderTraversal = " + list.toString());
