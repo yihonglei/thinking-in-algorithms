@@ -192,6 +192,7 @@
 |0404|Sum of Left Leaves(左叶子之和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0404)|Easy
 |0450|Delete Node in a BST(删除二叉搜索树中的节点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0450)|Medium
 |0513|Find Bottom Left Tree Value(找树左下角的值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0513)|Medium
+|0530|Minimum Absolute Difference in BST(二叉搜索树的最小绝对差)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0530)|Easy
 |0617|Merge Two Binary Trees(合并二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0617)|Easy|
 |0654|Maximum Binary Tree(最大二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0654)|Medium|
 |------|----------------------------------------------------------|---------|---------|--------|
@@ -615,6 +616,7 @@
 |0404|Sum of Left Leaves(左叶子之和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0404)|Easy
 |0450|Delete Node in a BST(删除二叉搜索树中的节点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0450)|Medium
 |0513|Find Bottom Left Tree Value(找树左下角的值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0513)|Medium
+|0530|Minimum Absolute Difference in BST(二叉搜索树的最小绝对差)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0530)|Easy
 |0541|Reverse String II(反转字符串 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0541)|Easy|
 |0617|Merge Two Binary Trees(合并二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0617)|Easy|
 |0654|Maximum Binary Tree(最大二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0654)|Medium|

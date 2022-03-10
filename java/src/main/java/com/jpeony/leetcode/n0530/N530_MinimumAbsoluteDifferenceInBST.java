@@ -1,48 +1,33 @@
 package com.jpeony.leetcode.n0530;
 
 /**
- * [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
- * [450. 删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
+ * [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
+ * [530. 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)
  *
  * @author yihonglei
  */
-public class N450_DeleteNodeInABST {
+public class N530_MinimumAbsoluteDifferenceInBST {
 
-    public static TreeNode deleteNode(TreeNode root, int key) {
+    static int ans = Integer.MAX_VALUE;
+    static int pre = -1;
+
+    public static int getMinimumDifference(TreeNode root) {
+        dfs(root);
+        return ans;
+    }
+
+    private static void dfs(TreeNode root) {
         if (root == null) {
-            return null;
+            return;
         }
-
-        if (key < root.val) {// 继续往左边找等值
-            root.left = deleteNode(root.left, key);
-        } else if (key > root.val) {// 继续往右边找等值
-            root.right = deleteNode(root.right, key);
-        } else {// 删除当前等值节点
-            // 如果左节点为空，直接用右节点替换当前节点
-            if (root.left == null) {
-                return root.right;
-            } else if (root.right == null) {// 如果右几点为空，直接用左节点替换当前节点
-                return root.left;
-            } else {
-                // 寻找当前节点的中序后继节点，即右子树中最左子节点
-                TreeNode prev = root;
-                TreeNode next = root.right;
-                while (next.left != null) {
-                    prev = next;
-                    next = next.left;
-                }
-                // 先删除最左子节点
-                if (prev == root) {
-                    prev.right = next.right;
-                } else {
-                    prev.left = next.right;
-                }
-                // 再删除当前节点
-                root.val = next.val;
-            }
+        dfs(root.left);
+        if (pre == -1) {
+            pre = root.val;
+        } else {
+            ans = Math.min(ans, root.val - pre);
+            pre = root.val;
         }
-
-        return root;
+        dfs(root.right);
     }
 
     private static class TreeNode {
@@ -66,16 +51,19 @@ public class N450_DeleteNodeInABST {
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(5);
-        TreeNode node1 = new TreeNode(3);
+        TreeNode root = new TreeNode(4);
+        TreeNode node1 = new TreeNode(2);
         TreeNode node2 = new TreeNode(6);
-        TreeNode node3 = new TreeNode(2);
-        TreeNode node4 = new TreeNode(4);
-        TreeNode node5 = new TreeNode(7);
+        TreeNode node3 = new TreeNode(1);
+        TreeNode node4 = new TreeNode(3);
 
-        int key = 3;
+        root.left = node1;
+        root.right = node2;
 
-        TreeNode treeNode = deleteNode(root, 3);
+        node1.left = node3;
+        node1.right = node4;
 
+        int i = getMinimumDifference(root);
+        System.out.println("getMinimumDifference = " + i);
     }
 }
