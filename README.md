@@ -184,6 +184,7 @@
 |0101|Symmetric Tree(对称二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0101)|Easy|
 |0102|Binary Tree Level Order Traversal(二叉树的层序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0102)|Medium|
 |0104|Maximum Depth of Binary Tree(二叉树的最大深度)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0104)|Easy|
+|0106|Construct Binary Tree from Inorder and Postorder Traversal(从中序与后序遍历序列构造二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0106)|Medium|
 |0111|Minimum Depth of Binary Tree(二叉树的最小深度)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0111)|Easy|
 |0112|Path Sum(路径总和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0112)|Easy|
 |0144|Binary Tree Preorder Traversal(二叉树的前序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0144)|Easy|
@@ -592,6 +593,7 @@
 |0101|Symmetric Tree(对称二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0101)|Easy|
 |0102|Binary Tree Level Order Traversal(二叉树的层序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0102)|Medium|
 |0104|Maximum Depth of Binary Tree(二叉树的最大深度)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0104)|Easy|
+|0106|Construct Binary Tree from Inorder and Postorder Traversal(从中序与后序遍历序列构造二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0106)|Medium|
 |0111|Minimum Depth of Binary Tree(二叉树的最小深度)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0111)|Easy|
 |0112|Path Sum(路径总和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0112)|Easy|
 |0141|Linked List Cycle(环形链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0141)|Easy|
