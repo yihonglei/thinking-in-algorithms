@@ -104,6 +104,7 @@
 |:------:|:------|:------:|:------:|
 |0019|Remove Nth Node From End of List(删除链表的倒数第 N 个结点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0019)|Medium|
 |0024|Swap Nodes in Pairs(两两交换链表中的节点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0024)|Medium|
+|0083|Remove Duplicates from Sorted List(删除排序链表中的重复元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0083)|Easy|
 |0141|Linked List Cycle(环形链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0141)|Easy|
 |0142|Linked List Cycle II(环形链表 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0142)|Medium|
 |0203|Remove Linked List Elements(移除链表元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0203)|Easy|
@@ -586,6 +587,7 @@
 |0075|Sort Colors(颜色分类)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0075)|Medium|
 |0078|Subsets(子集)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0078)|Medium|
 |0079|Word Search(单词搜索)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0079)|Medium|
+|0083|Remove Duplicates from Sorted List(删除排序链表中的重复元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0083)|Easy|
 |0084|Largest Rectangle in Histogram(柱状图中最大的矩形)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0084)|Hard|
 |0088|Merge Sorted Array(合并两个有序数组)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0088)|Easy|
 |0090|Subsets II(子集 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0090)|Medium|
