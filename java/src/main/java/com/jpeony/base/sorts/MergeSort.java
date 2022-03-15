@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 /**
  * 归并排序（分治思想）
- * 参考：https://www.ituring.com.cn/book/miniarticle/62897
  *
  * @author yihonglei
  */
