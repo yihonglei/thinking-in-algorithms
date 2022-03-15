@@ -1,42 +1,30 @@
-# [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+# [148. Sort List](https://leetcode.com/problems/sort-list/)
 
 ## 题目
 
-Given head, the head of a linked list, determine if the linked list has a cycle in it.
-
-There is a cycle in a linked list if there is some node in the list that can be reached again 
-by continuously following the next pointer. Internally, pos is used to denote the index of the 
-node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
-
-Return true if there is a cycle in the linked list. Otherwise, return false.
+Given the head of a linked list, return the list after sorting it in ascending order.
 
 Example 1:
 ```
-Input: head = [3,2,0,-4], pos = 1
-Output: true
-Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
+Input: head = [4,2,1,3]
+Output: [1,2,3,4]
 ```
 
 Example 2:
 ```
-Input: head = [1,2], pos = 0
-Output: true
-Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
+Input: head = [-1,5,3,4,0]
+Output: [-1,0,3,4,5]
 ```
 
 Example 3:
 ```
-Input: head = [1], pos = -1
-Output: false
-Explanation: There is no cycle in the linked list.
+Input: head = []
+Output: []
 ```
 
 Constraints:
-- The number of the nodes in the list is in the range [0, 104].
-- -10^5 <= Node.val <= 10^5
-- pos is -1 or a valid index in the linked-list.
-
-***Follow up:*** Can you solve it using O(1) (i.e. constant) memory?
+- The number of nodes in the list is in the range [0, 5 * 104].
+- -105 <= Node.val <= 105
 
 ## 题目含义
 
@@ -44,30 +32,38 @@ Constraints:
 
 ## 算法思路
 
-【哈希表】
+【自顶向下归并排序】
 
-遍历链表，从哈希表判断是否存在链表节点，存在则是环形链表，返回 true，否则存入哈希表，直到链表遍历完成，最后返回 false。
+1、找到链表的中点，以中点为分解，将链表拆分成两个子链表。寻找链表的中点可以使用快慢指针的做法，
+快指针每次移动 2 步，慢指针每次移动 1 步，当快指针到达链表末尾时，慢指针指向的链表节点即为链表的中点。
 
-时间复杂度：O(n)。n 为链表长度，迭代 n 次，所以时间复杂度为 O(n)。
+2、对两个子链表分别排序。
 
-空间复杂度：O(n)。n 为链表长度，哈希表需要额外存储 n 个节点空间，所以渐进增长空间复杂度为 O(n)。
+3、将两个排序后的子链表合并，得到完整的排序后的链表。
 
-【快慢指针】
+递归的终止条件是链表的节点个数小于或等于 1，即当链表为空或者链表只包含 1 个节点时，不需要对链表进行拆分和排序。
 
-1、fast，slow 初始指向链表头结点；
+【自底向上归并排序】
 
-2、slow 指针一次走 1 步, fast 指针一次走 2 步;
+使用自底向上的方法实现归并排序，则可以达到 O(1) 的空间复杂度。
 
-3、设链表 head 到环的一个点需要 x1 步，从环的第一个点到相遇点需要 x2 步，从环中相遇点回到环的第一个点需要 x3 步。那么环的总⻓度是 x2 + x3 步；
+1、首先求得链表的长度 length，然后将链表拆分成子链表进行合并。
+用 subLength 表示每次需要排序的子链表的长度，初始时 subLength=1。
 
-4、如果 fast 和 slow 相遇，则存在环形，返回 true，否则返回 false;
+2、每次将链表拆分成若干个长度为 subLength 的子链表（最后一个子链表的长度可以小于 subLength），按照每两个子链表一组进行合并，
+合并后即可得到若干个长度为 subLength×2 的有序子链表（最后一个子链表的长度可以小于 subLength×2）。
 
-时间复杂度：O(n)。n 为链表长度，迭代 n 次，所以时间复杂度为 O(n)。
+3、将 subLength 的值加倍，重复第 2 步，对更长的有序子链表进行合并操作，直到有序子链表的长度大于或等于 length，整个链表排序完毕。
 
-空间复杂度：O(1)。只有固定的临时指针变量，不会随着算法执行需要额外的渐进增长空间。
+如何保证每次合并之后得到的子链表都是有序的呢？可以通过数学归纳法证明。
+初始时 subLength=1，每个长度为 1 的子链表都是有序的。
+如果每个长度为 subLength 的子链表已经有序，合并两个长度为 subLength 的有序子链表，得到长度为 subLength×2 的子链表，一定也是有序的。
+当最后一个子链表的长度小于 subLength 时，该子链表也是有序的，合并两个有序子链表之后得到的子链表一定也是有序的。
+
+因此可以保证最后得到的链表是有序的。
 
 ## 复杂度分析
 
-时间复杂度：O(n)。n 为链表长度，迭代 n 次，所以时间复杂度为 O(n)。
+时间复杂度：O(n)。n 为链表长度。
 
-空间复杂度：O(1)。只有固定的临时指针变量，不会随着算法执行需要额外的渐进增长空间。
+空间复杂度：O(1)。在原链表上操作，不需要额外空间。
