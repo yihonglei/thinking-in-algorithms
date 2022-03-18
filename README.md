@@ -105,6 +105,7 @@
 |0002|Add Two Numbers(两数相加)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0002)|Medium|
 |0019|Remove Nth Node From End of List(删除链表的倒数第 N 个结点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0019)|Medium|
 |0021|Merge Two Sorted Lists(合并两个有序链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0021)|Easy|
+|0023|Merge k Sorted Lists(合并K个升序链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0023)|Hard|
 |0024|Swap Nodes in Pairs(两两交换链表中的节点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0024)|Medium|
 |0083|Remove Duplicates from Sorted List(删除排序链表中的重复元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0083)|Easy|
 |0141|Linked List Cycle(环形链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0141)|Easy|
@@ -584,6 +585,7 @@
 |0019|Remove Nth Node From End of List( 删除链表的倒数第 N 个结点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0019)|Medium|
 |0020|Valid Parentheses(有效的括号)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0020)|Easy|
 |0021|Merge Two Sorted Lists(合并两个有序链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0021)|Easy|
+|0023|Merge k Sorted Lists(合并K个升序链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0023)|Hard|
 |0024|Swap Nodes in Pairs(两两交换链表中的节点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0024)|Medium|
 |0026|Remove Duplicates from Sorted Array( 删除有序数组中的重复项)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0026)|Easy|
 |0027|Remove Element(移除元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0027)|Easy|
