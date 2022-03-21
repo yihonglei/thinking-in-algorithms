@@ -115,6 +115,7 @@
 |0206|Reverse Linked List(反转链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0206)|Easy|
 |0234|Palindrome Linked List(回文链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0234)|Easy|
 |0707|Design Linked List(设计链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0707)|Medium|
+|0876|Middle of the Linked List(链表的中间结点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0876)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 栈
@@ -636,6 +637,7 @@
 |0654|Maximum Binary Tree(最大二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0654)|Medium|
 |0704|Binary Search(二分查找)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|
 |0707|Design Linked List(设计链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0707)|Medium|
+|0876|Middle of the Linked List(链表的中间结点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0876)|Easy|
 |0977|Squares of a Sorted Array(有序数组的平方)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|
 |1047|Remove All Adjacent Duplicates In String(删除字符串中的所有相邻重复项)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1047)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
