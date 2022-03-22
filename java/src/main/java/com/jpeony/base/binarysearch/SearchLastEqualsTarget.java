@@ -16,7 +16,7 @@ public class SearchLastEqualsTarget {
             } else if (target > arr[mid]) {
                 low = mid + 1;
             } else {
-                if (mid == n - 1 || arr[mid + 1] != target) {
+                if (mid == n - 1 || arr[mid + 1] > target) {
                     return mid;
                 } else {
                     low = mid + 1;

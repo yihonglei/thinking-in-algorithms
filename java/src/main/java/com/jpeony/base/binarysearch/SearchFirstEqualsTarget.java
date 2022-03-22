@@ -16,7 +16,7 @@ public class SearchFirstEqualsTarget {
             } else if (target > arr[mid]) {
                 low = mid + 1;
             } else if (arr[mid] == target) {
-                if (mid == 0 || arr[mid - 1] != target) {
+                if (mid == 0 || arr[mid - 1] < target) {
                     return mid;
                 } else {
                     high = mid - 1;
