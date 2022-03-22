@@ -1,80 +1,77 @@
 package com.jpeony.leetcode.n0034;
 
+import java.util.Arrays;
+
 /**
- * [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
- * [9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)
+ * [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+ * [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
  *
  * @author yihonglei
  */
-public class N9_PalindromeNumber {
+public class N34_FindFirstAndLastPositionOfElementInSortedArray {
 
-    /**
-     * 【整数反转比较】
-     * 整数反转算法：https://jpeony.blog.csdn.net/article/details/122524582
-     */
-    private static boolean isPalindromeRev(int x) {
-        if (x < 0) {
-            return false;
-        }
+    public static int[] searchRange(int[] nums, int target) {
+        int first = searchFirst(nums, target);
+        int last = searchLast(nums, target);
 
-        if (x < 10) {
-            return true;
-        }
-
-        long rev = 0;
-        int cur = x;
-        while (cur != 0) {
-            int tmp = cur % 10;
-            rev = rev * 10 + tmp;
-            cur = cur / 10;
-        }
-
-        if (rev > Integer.MAX_VALUE) {
-            return false;
-        }
-
-        return x == rev;
+        return new int[]{first, last};
     }
 
     /**
-     * 【双指针】
-     * 时间复杂度：O(logn)。每次迭代都可能退出循环。
-     * 空间复杂度：O(1)。只需要临时变量，不需要其他额外的渐进增长空间，所以空间复杂度是 O(1)。
+     * 查找第一个等于目标值下标
      */
-    private static boolean isPalindromeTwoPointer(int x) {
-        if (x < 0) {
-            return false;
-        }
+    private static int searchFirst(int[] nums, int target) {
+        int low = 0;
+        int high = nums.length - 1;
 
-        if (x < 10) {
-            return true;
-        }
-        // 转换为字符数组
-        String xStr = x + "";
-        char[] c = xStr.toCharArray();
-
-        // 回文比较
-        int leftPoint = 0, rightPoint = c.length - 1;
-        while (leftPoint < rightPoint) {
-            int left = c[leftPoint];
-            int right = c[rightPoint];
-            if (left != right) {
-                return false;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] < target) {
+                low = mid + 1;
+            } else if (nums[mid] > target) {
+                high = mid - 1;
+            } else {
+                if (mid == 0 || nums[mid - 1] < target) {
+                    return mid;
+                } else {
+                    high = mid - 1;
+                }
             }
-
-            leftPoint++;
-            rightPoint--;
         }
 
-        return true;
+        return -1;
+    }
+
+    /**
+     * 查找最后一个等于目标值下标
+     */
+    private static int searchLast(int[] nums, int target) {
+        int low = 0;
+        int high = nums.length - 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (nums[mid] > target) {
+                high = mid - 1;
+            } else if (nums[mid] < target) {
+                low = mid + 1;
+            } else {
+                if (mid == nums.length - 1 || nums[mid + 1] > target) {
+                    return mid;
+                } else {
+                    low = mid + 1;
+                }
+            }
+        }
+
+        return -1;
     }
 
 
     public static void main(String[] args) {
-        int x = 123;
-        // 整数反转比较
-        // System.out.println("isPalindromeRev = " + isPalindromeRev(x));
-        // 双指针
-        System.out.println("isPalindromeTwoPointer = " + isPalindromeTwoPointer(x));
+        int[] nums = {5, 7, 7, 8, 8, 10};
+        int target = 8;
+
+        int[] ints = searchRange(nums, target);
+        System.out.println("searchRange = " + Arrays.toString(ints));
     }
 }
