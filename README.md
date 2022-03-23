@@ -316,6 +316,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0034|Find First and Last Position of Element in Sorted Array（在排序数组中查找元素的第一个和最后一个位置）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0034)|Medium|
+|0069|Sqrt(x)(x 的平方根)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0069)|Easy|
 |0704|Binary Search(二分查找)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
@@ -595,6 +596,7 @@
 |0028|Implement strStr()【实现 strStr()】|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0028)|Easy|
 |0034|Find First and Last Position of Element in Sorted Array（在排序数组中查找元素的第一个和最后一个位置）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0034)|Medium|
 |0042|Trapping Rain Water(接雨水)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0042)|Hard|
+|0069|Sqrt(x)(x 的平方根)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0069)|Easy|
 |0075|Sort Colors(颜色分类)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0075)|Medium|
 |0078|Subsets(子集)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0078)|Medium|
 |0079|Word Search(单词搜索)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0079)|Medium|
