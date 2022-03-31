@@ -156,6 +156,7 @@
 
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
+|0003|ALongest Substring Without Repeating Characters(无重复字符的最长子串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0003)|Medium|
 |0028|Implement strStr()【实现 strStr()】|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0028)|Easy|
 |0344|Reverse String(反转字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0344)|Easy|
 |0151|Reverse Words in a String(翻转字符串里的单词)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0151)|Medium|
@@ -586,6 +587,7 @@
 |:------:|:------|:------:|:------:|
 |0001|Two Sum(两数之和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0001)|Easy|
 |0002|Add Two Numbers(两数相加)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0002)|Medium|
+|0003|ALongest Substring Without Repeating Characters(无重复字符的最长子串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0003)|Medium|
 |0007|Reverse Integer(整数反转)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0007)|Medium|
 |0009|Palindrome Number(回文数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0009)|Easy|
 |0011|Container With Most Water(盛最多水的容器)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0011)|Medium|
