@@ -160,8 +160,9 @@
 |0014|Longest Common Prefix(最长公共前缀)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0014)|Easy|
 |0028|Implement strStr()【实现 strStr()】|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0028)|Easy|
 |0030|Substring with Concatenation of All Words（串联所有单词的子串）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0030)|Hard|
-|0344|Reverse String(反转字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0344)|Easy|
+|0076|Minimum Window Substring(最小覆盖子串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0076)|Hard|
 |0151|Reverse Words in a String(翻转字符串里的单词)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0151)|Medium|
+|0344|Reverse String(反转字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0344)|Easy|
 |0541|Reverse String II(反转字符串 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0541)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
@@ -610,6 +611,7 @@
 |0042|Trapping Rain Water(接雨水)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0042)|Hard|
 |0069|Sqrt(x)(x 的平方根)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0069)|Easy|
 |0075|Sort Colors(颜色分类)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0075)|Medium|
+|0076|Minimum Window Substring(最小覆盖子串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0076)|Hard|
 |0078|Subsets(子集)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0078)|Medium|
 |0079|Word Search(单词搜索)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0079)|Medium|
 |0083|Remove Duplicates from Sorted List(删除排序链表中的重复元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0083)|Easy|
