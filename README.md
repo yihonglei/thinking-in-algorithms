@@ -164,6 +164,7 @@
 |0151|Reverse Words in a String(翻转字符串里的单词)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0151)|Medium|
 |0344|Reverse String(反转字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0344)|Easy|
 |0459|Repeated Substring Pattern(重复的子字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0459)|Easy
+|0468|Validate IP Address(验证IP地址)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0468)|Medium
 |0541|Reverse String II(反转字符串 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0541)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
@@ -653,6 +654,7 @@
 |0404|Sum of Left Leaves(左叶子之和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0404)|Easy
 |0450|Delete Node in a BST(删除二叉搜索树中的节点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0450)|Medium
 |0459|Repeated Substring Pattern(重复的子字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0459)|Easy
+|0468|Validate IP Address(验证IP地址)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0468)|Medium
 |0513|Find Bottom Left Tree Value(找树左下角的值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0513)|Medium
 |0530|Minimum Absolute Difference in BST(二叉搜索树的最小绝对差)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0530)|Easy
 |0541|Reverse String II(反转字符串 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0541)|Easy|
