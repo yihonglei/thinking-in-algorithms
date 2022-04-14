@@ -162,6 +162,7 @@
 |0030|Substring with Concatenation of All Words（串联所有单词的子串）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0030)|Hard|
 |0076|Minimum Window Substring(最小覆盖子串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0076)|Hard|
 |0151|Reverse Words in a String(翻转字符串里的单词)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0151)|Medium|
+|0126|Word Ladder II(单词接龙 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0126)|Hard|
 |0344|Reverse String(反转字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0344)|Easy|
 |0459|Repeated Substring Pattern(重复的子字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0459)|Easy
 |0468|Validate IP Address(验证IP地址)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0468)|Medium
@@ -627,6 +628,7 @@
 |0106|Construct Binary Tree from Inorder and Postorder Traversal(从中序与后序遍历序列构造二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0106)|Medium|
 |0111|Minimum Depth of Binary Tree(二叉树的最小深度)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0111)|Easy|
 |0112|Path Sum(路径总和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0112)|Easy|
+|0126|Word Ladder II(单词接龙 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0126)|Hard|
 |0141|Linked List Cycle(环形链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0141)|Easy|
 |0142|Linked List Cycle II(环形链表 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0142)|Medium|
 |0144|Binary Tree Preorder Traversal(二叉树的前序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0144)|Easy|
