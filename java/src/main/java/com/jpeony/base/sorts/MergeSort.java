@@ -8,53 +8,61 @@ import java.util.Arrays;
  * @author yihonglei
  */
 public class MergeSort {
-    /**
-     * 时间复杂度：O(nlogn)
-     * 空间复杂度：O(n)
-     */
-    private static int[] mergeSort(int[] sourceArray) {
-        // 复制一份
-        int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
-        // 只有一个元素的时候，就退出递归
-        if (arr.length <= 1) {
-            return arr;
-        }
-        // 中位数（arr.length >> 1 简单等价于 arr.length/2）
-        int middle = (int) Math.floor(arr.length >> 1);
-
-        int[] left = Arrays.copyOfRange(arr, 0, middle);
-        int[] right = Arrays.copyOfRange(arr, middle, arr.length);
-
-        return merge(mergeSort(left), mergeSort(right));
+    // 归并排序算法, a是数组，n表示数组大小
+    public static void mergeSort(int[] a, int n) {
+        mergeSortInternally(a, 0, n - 1);
     }
 
-    private static int[] merge(int[] left, int[] right) {
-        int[] result = new int[left.length + right.length];
-        int l = 0, r = 0, len = 0;
-        while (len < left.length + right.length) {
-            if (left[l] <= right[r]) {
-                result[len++] = left[l++];
-                if (l == left.length) {
-                    for (int i = r; i < right.length; i++) {
-                        result[len++] = right[r++];
-                    }
-                }
+    // 递归调用函数
+    private static void mergeSortInternally(int[] a, int p, int r) {
+        // 递归终止条件
+        if (p >= r) return;
+
+        // 取p到r之间的中间位置q,防止（p+r）的和超过int类型最大值
+        int q = p + (r - p) / 2;
+        // 分治递归
+        mergeSortInternally(a, p, q);
+        mergeSortInternally(a, q + 1, r);
+
+        // 将A[p...q]和A[q+1...r]合并为A[p...r]
+        merge(a, p, q, r);
+    }
+
+    private static void merge(int[] a, int p, int q, int r) {
+        int i = p;
+        int j = q + 1;
+        int k = 0; // 初始化变量i, j, k
+        int[] tmp = new int[r - p + 1]; // 申请一个大小跟a[p...r]一样的临时数组
+        while (i <= q && j <= r) {
+            if (a[i] <= a[j]) {
+                tmp[k++] = a[i++]; // i++等于i:=i+1
             } else {
-                result[len++] = right[r++];
-                if (r == right.length) {
-                    for (int i = l; i < left.length; i++) {
-                        result[len++] = left[l++];
-                    }
-                }
+                tmp[k++] = a[j++];
             }
         }
 
-        return result;
+        // 判断哪个子数组中有剩余的数据
+        int start = i;
+        int end = q;
+        if (j <= r) {
+            start = j;
+            end = r;
+        }
+
+        // 将剩余的数据拷贝到临时数组tmp
+        while (start <= end) {
+            tmp[k++] = a[start++];
+        }
+
+        // 将tmp中的数组拷贝回a[p...r]
+        for (i = 0; i <= r - p; ++i) {
+            a[p + i] = tmp[i];
+        }
     }
 
     public static void main(String[] args) {
         int[] arr = {5, 2, 4, 1};
-        int[] arrNew = mergeSort(arr);
-        System.out.println(Arrays.toString(arrNew));
+        mergeSort(arr, arr.length);
+        System.out.println(Arrays.toString(arr));
     }
 }
