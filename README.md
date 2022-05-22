@@ -81,6 +81,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0001|Two Sum(两数之和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0001)|Easy|
+|0008|String to Integer (atoi)(字符串转换整数 (atoi))|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0008)|Medium|
 |0011|Container With Most Water(盛最多水的容器)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0011)|Medium|
 |0015|3Sum(三数之和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0015)|Medium|
 |0016|3Sum Closest(最接近的三数之和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0016)|Medium|
@@ -595,6 +596,7 @@
 |0002|Add Two Numbers(两数相加)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0002)|Medium|
 |0003|ALongest Substring Without Repeating Characters(无重复字符的最长子串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0003)|Medium|
 |0007|Reverse Integer(整数反转)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0007)|Medium|
+|0008|String to Integer (atoi)(字符串转换整数 (atoi))|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0008)|Medium|
 |0009|Palindrome Number(回文数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0009)|Easy|
 |0011|Container With Most Water(盛最多水的容器)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0011)|Medium|
 |0014|Longest Common Prefix(最长公共前缀)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0014)|Easy|
