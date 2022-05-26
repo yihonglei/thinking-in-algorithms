@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 【选择排序】
  * 跟插入排序非常类似，分为已排序区间和未排序区间，区别在于插入排序是从未排序
  * 区间取元素在已排序区间选择合适位置插入，而选择排序则是在未排序区间选择最小的元素
- * 追加到已排序区间。
+ * 放到已排序区间末尾。
  *
  * @author yihonglei
  */
@@ -31,9 +31,9 @@ public class SelectSort {
             }
             // 坐标相同，无需交换，否则，需要进行交换，将未排序区间最小值交换插入到已排序区间尾端
             if (i != minPos) {
-                int tmp = arr[minPos];
-                arr[minPos] = arr[i];
-                arr[i] = tmp;
+                int tmp = arr[i];
+                arr[i] = arr[minPos];
+                arr[minPos] = tmp;
             }
         }
     }
