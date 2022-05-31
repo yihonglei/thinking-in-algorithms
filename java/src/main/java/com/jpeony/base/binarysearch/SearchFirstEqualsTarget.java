@@ -6,17 +6,17 @@ package com.jpeony.base.binarysearch;
  * @author yihonglei
  */
 public class SearchFirstEqualsTarget {
-    private static int search(int[] arr, int n, int target) {
+    private static int search(int[] arr, int n, int value) {
         int low = 0;
         int high = n - 1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if (target < arr[mid]) {
+            if (arr[mid] > value) {
                 high = mid - 1;
-            } else if (target > arr[mid]) {
+            } else if (arr[mid] < value) {
                 low = mid + 1;
-            } else if (arr[mid] == target) {
-                if (mid == 0 || arr[mid - 1] < target) {
+            } else {
+                if (mid == 0 || arr[mid - 1] < value) {
                     return mid;
                 } else {
                     high = mid - 1;

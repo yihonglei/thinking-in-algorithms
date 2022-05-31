@@ -6,13 +6,13 @@ package com.jpeony.base.binarysearch;
  * @author yihonglei
  */
 public class SearchLastLessThanTarget {
-    private static int search(int[] arr, int n, int target) {
+    private static int search(int[] arr, int n, int value) {
         int low = 0;
         int high = n - 1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if (target <= arr[mid]) {
-                if (mid == n - 1 || arr[mid + 1] > target) {
+            if (arr[mid] <= value) {
+                if (mid == n - 1 || arr[mid + 1] > value) {
                     return mid;
                 } else {
                     low = mid + 1;
