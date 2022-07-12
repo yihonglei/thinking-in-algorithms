@@ -47,8 +47,8 @@ public class N15_3Sum {
                 if (sum == 0) {
                     ans.add(Arrays.asList(nums[i], nums[left], nums[right]));
                     // 去重：满足 3 元组相邻数字去重，比如 1 满足，1 后面的 1 必然满足，组合的三元组是重复的三元组
-                    while (left < right && nums[left] == nums[++left]) ;
-                    while (left < right && nums[right] == nums[--right]) ;
+                    while (left < right && nums[left] == nums[++left]) ; // 往后移
+                    while (left < right && nums[right] == nums[--right]) ; // 往前移
                 } else if (sum > 0) {
                     right--;
                 } else {
