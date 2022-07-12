@@ -29,31 +29,30 @@ public class N15_3Sum {
         // 遍历数组，处理所有可能出现的三元组，注意去重
         for (int i = 0; i < n; i++) {
             /*
-             * 优化：如果当前数字大于 0，因为数组是升序的，之后的数据必然是正数，
-             * 必然不可能出现 3 数之和为 0 的情况，直接退出循环，继续循环找下去浪费时间
+             * 优化：数组排序后，依赖的是负值和正值才可能求和为0
              */
             if (nums[i] > 0) {
                 break;
             }
             /*
-             * 去重：已经处理过的跳过
+             * 去重：如果当前值跟上一个值一样，组合重复
              */
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
-            int leftPoint = i + 1;
-            int rightPoint = n - 1;
-            while (leftPoint < rightPoint) {
-                int sum = nums[i] + nums[leftPoint] + nums[rightPoint];
+            int left = i + 1;
+            int right = n - 1;
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
                 if (sum == 0) {
-                    ans.add(Arrays.asList(nums[i], nums[leftPoint], nums[rightPoint]));
+                    ans.add(Arrays.asList(nums[i], nums[left], nums[right]));
                     // 去重：满足 3 元组相邻数字去重，比如 1 满足，1 后面的 1 必然满足，组合的三元组是重复的三元组
-                    while (leftPoint < rightPoint && nums[leftPoint] == nums[++leftPoint]) ;
-                    while (leftPoint < rightPoint && nums[rightPoint] == nums[--rightPoint]) ;
+                    while (left < right && nums[left] == nums[++left]) ;
+                    while (left < right && nums[right] == nums[--right]) ;
                 } else if (sum > 0) {
-                    rightPoint--;
+                    right--;
                 } else {
-                    leftPoint++;
+                    left++;
                 }
             }
         }
