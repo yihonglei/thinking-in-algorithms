@@ -19,7 +19,7 @@ public class N15_3Sum {
      */
     private static List<List<Integer>> threeSum(int[] nums) {
         // 返回结果
-        List<List<Integer>> ans = new ArrayList<>()
+        List<List<Integer>> ans = new ArrayList<>();
         if (nums == null || nums.length < 3) {
             return ans;
         }
