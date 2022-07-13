@@ -18,24 +18,24 @@ public class N15_3Sum {
      * 空间复杂度：O(n)。返回数组的存储空间。
      */
     private static List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        // 如果数组为 null 或则 小于 3 个元素，返回空数组
+        // 返回结果
+        List<List<Integer>> ans = new ArrayList<>()
         if (nums == null || nums.length < 3) {
             return ans;
         }
-        int n = nums.length;
         // 正序排序
         Arrays.sort(nums);
-        // 遍历数组，处理所有可能出现的三元组，注意去重
+        int n = nums.length;
+        // 组合判断
         for (int i = 0; i < n; i++) {
             /*
-             * 优化：数组排序后，依赖的是负值和正值才可能求和为0
+             * 优化：提前退出。数组排序后，依赖的是负值和正值才可能求和为0
              */
             if (nums[i] > 0) {
                 break;
             }
             /*
-             * 去重：如果当前值跟上一个值一样，组合重复
+             * 去重：相同的元素不重复处理
              */
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
@@ -46,7 +46,7 @@ public class N15_3Sum {
                 int sum = nums[i] + nums[left] + nums[right];
                 if (sum == 0) {
                     ans.add(Arrays.asList(nums[i], nums[left], nums[right]));
-                    // 去重：满足 3 元组相邻数字去重，比如 1 满足，1 后面的 1 必然满足，组合的三元组是重复的三元组
+                    // 去重：相同的元素不重复处理
                     while (left < right && nums[left] == nums[++left]) ; // 往后移
                     while (left < right && nums[right] == nums[--right]) ; // 往前移
                 } else if (sum > 0) {
