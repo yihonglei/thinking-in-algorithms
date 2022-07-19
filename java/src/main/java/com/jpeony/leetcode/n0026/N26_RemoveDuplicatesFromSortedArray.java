@@ -14,15 +14,15 @@ public class N26_RemoveDuplicatesFromSortedArray {
         }
 
         // 双指针
-        int leftPoint = 0, rightPoint = 1;
-        while (rightPoint < nums.length) {
-            if (nums[leftPoint] < nums[rightPoint]) {
-                nums[++leftPoint] = nums[rightPoint];
+        int left = 0, right = 1;
+        while (right < nums.length) {
+            if (nums[left] < nums[right]) {
+                nums[++left] = nums[right];
             }
-            rightPoint++;
+            right++;
         }
 
-        return leftPoint + 1;
+        return left + 1;
     }
 
     public static void main(String[] args) {
