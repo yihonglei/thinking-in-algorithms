@@ -14,14 +14,17 @@ public class N27_RemoveElement {
      * 空间复杂度：O(1)。算法额外增加的空间为存储临时变量固定空间，所以空间复杂度为 O(1)。
      */
     private static int removeElement(int[] nums, int val) {
-        int leftPoint = 0, rightPoint = 0;
-        while (rightPoint < nums.length) {
-            if (nums[rightPoint] != val) {
-                nums[leftPoint++] = nums[rightPoint];
-            }
-            rightPoint++;
+        if (nums == null || nums.length == 0) {
+            return 0;
         }
-        return leftPoint;
+        int left = 0, right = 0;
+        while (right < nums.length) {
+            if (nums[right] != val) {
+                nums[left++] = nums[right];
+            }
+            right++;
+        }
+        return left;
     }
 
     public static void main(String[] args) {
