@@ -21,15 +21,14 @@ package com.jpeony.base.binarysearch;
  */
 public class BinarySearch {
     private static int search(int[] arr, int n, int target) {
-        int low = 0;
-        int high = n - 1;
+        int low = 0, high = n - 1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if (target == arr[mid]) {
+            if (target == arr[mid]) {// 查找到目标值
                 return mid;
-            } else if (target < arr[mid]) {
+            } else if (target < arr[mid]) {// 目标值小于中间值，目标值在左区间
                 high = mid - 1;
-            } else {
+            } else {// 目标值大于中间值，目标值在又边
                 low = mid + 1;
             }
         }
