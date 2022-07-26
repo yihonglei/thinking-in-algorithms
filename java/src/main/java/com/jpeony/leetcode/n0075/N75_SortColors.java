@@ -38,7 +38,7 @@ public class N75_SortColors {
 
     public static void main(String[] args) {
 //        int[] nums = {2, 0, 2, 1, 1, 0};
-        int[] nums = {2, 0, 1};
+        int[] nums = {1, 2, 0, 1};
         System.out.println("sort before = " + Arrays.toString(nums));
         sortColors(nums);
         System.out.println("sort before = " + Arrays.toString(nums));
