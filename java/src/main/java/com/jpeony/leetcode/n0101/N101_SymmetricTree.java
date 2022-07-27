@@ -5,7 +5,7 @@ import java.util.Queue;
 
 /**
  * [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
- * [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+ * [101. 对称二叉树](https://leetcode.cn.com/problems/symmetric-tree/)
  *
  * @author yihonglei
  */

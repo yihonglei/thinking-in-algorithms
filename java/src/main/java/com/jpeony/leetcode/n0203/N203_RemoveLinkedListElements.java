@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0203;
 
 /**
  * [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
- * [203. 移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+ * [203. 移除链表元素](https://leetcode.cn.com/problems/remove-linked-list-elements/)
  *
  * @author yihonglei
  */

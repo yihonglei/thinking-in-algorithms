@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0112;
 
 /**
  * [112. Path Sum](https://leetcode.com/problems/path-sum/)
- * [112. 路径总和](https://leetcode-cn.com/problems/path-sum/)
+ * [112. 路径总和](https://leetcode.cn.com/problems/path-sum/)
  *
  * @author yihonglei
  */

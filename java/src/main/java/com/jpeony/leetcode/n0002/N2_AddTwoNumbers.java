@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0002;
 
 /**
  * [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
- * [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
+ * [2. 两数相加](https://leetcode.cn.com/problems/add-two-numbers/)
  *
  * @author yihonglei
  */

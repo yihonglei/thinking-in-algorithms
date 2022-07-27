@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0206;
 
 /**
  * [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
- * [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+ * [206. 反转链表](https://leetcode.cn.com/problems/reverse-linked-list/)
  *
  * @author yihonglei
  */

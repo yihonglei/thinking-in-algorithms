@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * [344. Reverse String](https://leetcode.com/problems/reverse-string/)
- * [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string/)
+ * [344. 反转字符串](https://leetcode.cn.com/problems/reverse-string/)
  *
  * @author yihonglei
  */

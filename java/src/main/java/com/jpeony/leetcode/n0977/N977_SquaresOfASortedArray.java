@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
- * [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
+ * [977. 有序数组的平方](https://leetcode.cn.com/problems/squares-of-a-sorted-array/)
  *
  * @author yihonglei
  */

@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * [15. 3Sum](https://leetcode.com/problems/3sum/)
- * [15. 三数之和](https://leetcode-cn.com/problems/3sum/)
+ * [15. 三数之和](https://leetcode.cn.com/problems/3sum/)
  *
  * @author yihonglei
  */

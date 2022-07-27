@@ -1,7 +1,7 @@
 package com.jpeony.interview;
 
 /**
- * [面试题 02.08. 环路检测](https://leetcode-cn.com/problems/linked-list-cycle-lcci/)
+ * [面试题 02.08. 环路检测](https://leetcode.cn.com/problems/linked-list-cycle-lcci/)
  *
  * @author yihonglei
  */

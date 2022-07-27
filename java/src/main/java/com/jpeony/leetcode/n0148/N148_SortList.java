@@ -5,7 +5,7 @@ import java.util.Collections;
 
 /**
  * [148. Sort List](https://leetcode.com/problems/sort-list/)
- * [148. 排序链表](https://leetcode-cn.com/problems/sort-list/)
+ * [148. 排序链表](https://leetcode.cn.com/problems/sort-list/)
  *
  * @author yihonglei
  */

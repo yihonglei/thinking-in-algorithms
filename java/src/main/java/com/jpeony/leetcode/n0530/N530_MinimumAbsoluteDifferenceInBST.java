@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0530;
 
 /**
  * [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
- * [530. 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)
+ * [530. 二叉搜索树的最小绝对差](https://leetcode.cn.com/problems/minimum-absolute-difference-in-bst/)
  *
  * @author yihonglei
  */

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
- * [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors/)
+ * [75. 颜色分类](https://leetcode.cn.com/problems/sort-colors/)
  *
  * @author yihonglei
  */

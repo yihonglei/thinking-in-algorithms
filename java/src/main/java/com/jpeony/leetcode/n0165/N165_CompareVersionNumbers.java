@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0165;
 
 /**
  * [165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)
- * [165. 比较版本号](https://leetcode-cn.com/problems/compare-version-numbers/)
+ * [165. 比较版本号](https://leetcode.cn.com/problems/compare-version-numbers/)
  *
  * @author yihonglei
  */

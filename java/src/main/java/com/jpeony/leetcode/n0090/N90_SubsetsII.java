@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * [90. Subsets II](https://leetcode.com/problems/subsets-ii/)
- * [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/)
+ * [90. 子集 II](https://leetcode.cn.com/problems/subsets-ii/)
  *
  * @author yihonglei
  */

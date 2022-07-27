@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0707;
 
 /**
  * [707. Design Linked List](https://leetcode.com/problems/design-linked-list/)
- * [707. 设计链表](https://leetcode-cn.com/problems/design-linked-list/)
+ * [707. 设计链表](https://leetcode.cn.com/problems/design-linked-list/)
  *
  * @author yihonglei
  */

@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
- * [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+ * [142. 环形链表 II](https://leetcode.cn.com/problems/linked-list-cycle-ii/)
  *
  * @author yihonglei
  */

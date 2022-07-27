@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0069;
 
 /**
  * [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
- * [69. x 的平方根 ](https://leetcode-cn.com/problems/sqrtx/)
+ * [69. x 的平方根 ](https://leetcode.cn.com/problems/sqrtx/)
  *
  * @author yihonglei
  */

@@ -5,7 +5,7 @@ import java.util.Deque;
 
 /**
  * [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
- * [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+ * [20. 有效的括号](https://leetcode.cn.com/problems/valid-parentheses/)
  *
  * @author yihonglei
  */

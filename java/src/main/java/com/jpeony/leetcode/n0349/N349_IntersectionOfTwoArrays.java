@@ -6,7 +6,7 @@ import java.util.HashSet;
 
 /**
  * [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
- * [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+ * [349. 两个数组的交集](https://leetcode.cn.com/problems/intersection-of-two-arrays/)
  *
  * @author yihonglei
  */

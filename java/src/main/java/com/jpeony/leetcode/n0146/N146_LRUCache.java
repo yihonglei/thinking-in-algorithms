@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
- * [146. LRU 缓存](https://leetcode-cn.com/problems/lru-cache/)
+ * [146. LRU 缓存](https://leetcode.cn.com/problems/lru-cache/)
  *
  * @author yihonglei
  */

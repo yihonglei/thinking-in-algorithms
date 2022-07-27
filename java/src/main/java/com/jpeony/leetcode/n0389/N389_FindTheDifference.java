@@ -1,12 +1,12 @@
-package com.jpeony.leetcode.n0079;
+package com.jpeony.leetcode.n0389;
 
 /**
- * [79. Word Search](https://leetcode.com/problems/word-search/)
- * [79. 单词搜索](https://leetcode.cn.com/problems/word-search/)
+ * [389. Find the Difference](https://leetcode.com/problems/find-the-difference/)
+ * [389. 找不同](https://leetcode.cn/problems/find-the-difference/)
  *
  * @author yihonglei
  */
-public class N79_WordSearch {
+public class N389_FindTheDifference {
     /* 方向数组 */
     private static final int[][] DIRECTIONS = {{-1, 0}, {0, -1}, {0, 1}, {1, 0}};
     /* 网格宽 */
@@ -85,7 +85,7 @@ public class N79_WordSearch {
         char[][] board = {{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}};
         String word = "ABCCED";
 
-        N79_WordSearch ws = new N79_WordSearch();
+        N389_FindTheDifference ws = new N389_FindTheDifference();
         boolean exist = ws.exist(board, word);
         System.out.println("exist = " + exist);
     }

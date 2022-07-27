@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
- * [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+ * [144. 二叉树的前序遍历](https://leetcode.cn.com/problems/binary-tree-preorder-traversal/)
  *
  * @author yihonglei
  */

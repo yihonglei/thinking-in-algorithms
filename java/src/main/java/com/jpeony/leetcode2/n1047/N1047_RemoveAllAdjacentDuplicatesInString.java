@@ -5,7 +5,7 @@ import java.util.Deque;
 
 /**
  * [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
- * [1047. 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
+ * [1047. 删除字符串中的所有相邻重复项](https://leetcode.cn.com/problems/remove-all-adjacent-duplicates-in-string/)
  *
  * @author yihonglei
  */

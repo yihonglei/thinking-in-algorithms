@@ -5,7 +5,7 @@ import java.util.Queue;
 
 /**
  * [404. Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)
- * [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)
+ * [404. 左叶子之和](https://leetcode.cn.com/problems/sum-of-left-leaves/)
  *
  * @author yihonglei
  */

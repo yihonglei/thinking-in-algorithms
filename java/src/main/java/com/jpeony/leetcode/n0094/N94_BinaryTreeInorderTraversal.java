@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
- * [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+ * [94. 二叉树的中序遍历](https://leetcode.cn.com/problems/binary-tree-inorder-traversal/)
  *
  * @author yihonglei
  */

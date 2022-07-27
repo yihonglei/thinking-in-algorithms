@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0042;
 
 /**
  * [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
- * [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
+ * [42. 接雨水](https://leetcode.cn.com/problems/trapping-rain-water/)
  *
  * @author yihonglei
  */

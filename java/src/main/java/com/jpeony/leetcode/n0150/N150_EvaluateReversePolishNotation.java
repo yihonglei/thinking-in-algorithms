@@ -5,7 +5,7 @@ import java.util.Deque;
 
 /**
  * [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
- * [150. 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
+ * [150. 逆波兰表达式求值](https://leetcode.cn.com/problems/evaluate-reverse-polish-notation/)
  *
  * @author yihonglei
  */

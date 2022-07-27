@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0014;
 
 /**
  * [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
- * [14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+ * [14. 最长公共前缀](https://leetcode.cn.com/problems/longest-common-prefix/)
  *
  * @author yihonglei
  */

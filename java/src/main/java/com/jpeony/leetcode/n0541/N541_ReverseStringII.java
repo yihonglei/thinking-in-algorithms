@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0541;
 
 /**
  * [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/)
- * [541. 反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)
+ * [541. 反转字符串 II](https://leetcode.cn.com/problems/reverse-string-ii/)
  *
  * @author yihonglei
  */

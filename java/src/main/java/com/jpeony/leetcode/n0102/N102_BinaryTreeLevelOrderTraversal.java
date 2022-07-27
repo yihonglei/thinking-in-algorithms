@@ -7,7 +7,7 @@ import java.util.Queue;
 
 /**
  * [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
- * [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+ * [102. 二叉树的层序遍历](https://leetcode.cn.com/problems/binary-tree-level-order-traversal/)
  *
  * @author yihonglei
  */

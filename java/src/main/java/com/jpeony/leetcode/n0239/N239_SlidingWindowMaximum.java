@@ -7,7 +7,7 @@ import java.util.LinkedList;
 
 /**
  * [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
- * [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+ * [239. 滑动窗口最大值](https://leetcode.cn.com/problems/sliding-window-maximum/)
  *
  * @author yihonglei
  */

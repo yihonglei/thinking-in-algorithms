@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0617;
 
 /**
  * [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
- * [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)
+ * [617. 合并二叉树](https://leetcode.cn.com/problems/merge-two-binary-trees/)
  *
  * @author yihonglei
  */

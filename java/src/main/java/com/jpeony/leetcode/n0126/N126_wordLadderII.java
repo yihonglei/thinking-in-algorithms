@@ -13,7 +13,7 @@ import java.util.Set;
 
 /**
  * [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)
- * [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
+ * [126. 单词接龙 II](https://leetcode.cn.com/problems/word-ladder-ii/)
  *
  * @author yihonglei
  */
