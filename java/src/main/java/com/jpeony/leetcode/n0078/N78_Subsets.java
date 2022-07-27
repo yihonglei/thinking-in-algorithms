@@ -18,12 +18,12 @@ public class N78_Subsets {
      */
     private static List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
-        backtracking(0, nums, ans, new ArrayList<>());
+        backTracking(0, nums, ans, new ArrayList<>());
         // 返回结果
         return ans;
     }
 
-    private static void backtracking(int i, int[] nums, List<List<Integer>> ans, ArrayList<Integer> temp) {
+    private static void backTracking(int i, int[] nums, List<List<Integer>> ans, ArrayList<Integer> temp) {
         // 每个子集放入返回结果
         ans.add(new ArrayList<>(temp));
         System.out.println("i = " + i + ", ans = " + ans + ", cur = " + temp);
@@ -31,7 +31,7 @@ public class N78_Subsets {
         for (int j = i; j < nums.length; j++) {
             temp.add(nums[j]);
             // 递归
-            backtracking(j + 1, nums, ans, temp);
+            backTracking(j + 1, nums, ans, temp);
             System.out.println("backtrack-before = " + ans);
             // 撤销处理节点，回溯过程
             temp.remove(temp.size() - 1);
