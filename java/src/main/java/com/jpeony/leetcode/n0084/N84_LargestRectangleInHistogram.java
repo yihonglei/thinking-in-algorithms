@@ -38,8 +38,6 @@ public class N84_LargestRectangleInHistogram {
         // 先放入哨兵，在循环里面不需要判断栈是否为空，简化代码逻辑
         stack.addLast(0);
         for (int i = 1; i < n; i++) {
-            // stack.peekLast() 获取栈顶元素
-            // stack.pollLast() 获取栈顶元素并出栈
             while (heights[i] < heights[stack.peekLast()]) {
                 int high = heights[stack.pollLast()];
                 int width = i - stack.peekLast() - 1;
