@@ -3,7 +3,7 @@ package com.jpeony.interview;
 import java.util.Arrays;
 
 /**
- * 【合并排序的数组】https://leetcode.cn.com/problems/sorted-merge-lcci/
+ * 【合并排序的数组】https://leetcode.cn/problems/sorted-merge-lcci/
  *
  * @author yihonglei
  */

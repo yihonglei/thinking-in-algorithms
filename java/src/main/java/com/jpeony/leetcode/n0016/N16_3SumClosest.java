@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
- * [16. 最接近的三数之和](https://leetcode.cn.com/problems/3sum-closest/)
+ * [16. 最接近的三数之和](https://leetcode.cn/problems/3sum-closest/)
  *
  * @author yihonglei
  */

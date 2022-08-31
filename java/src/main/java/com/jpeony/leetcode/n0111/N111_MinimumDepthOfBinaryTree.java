@@ -5,7 +5,7 @@ import java.util.Queue;
 
 /**
  * [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
- * [111. 二叉树的最小深度](https://leetcode.cn.com/problems/minimum-depth-of-binary-tree/)
+ * [111. 二叉树的最小深度](https://leetcode.cn/problems/minimum-depth-of-binary-tree/)
  *
  * @author yihonglei
  */

@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0079;
 
 /**
  * [79. Word Search](https://leetcode.com/problems/word-search/)
- * [79. 单词搜索](https://leetcode.cn.com/problems/word-search/)
+ * [79. 单词搜索](https://leetcode.cn/problems/word-search/)
  *
  * @author yihonglei
  */

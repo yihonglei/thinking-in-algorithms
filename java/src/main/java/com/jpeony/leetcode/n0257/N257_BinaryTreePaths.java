@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
- * [257. 二叉树的所有路径](https://leetcode.cn.com/problems/binary-tree-paths/)
+ * [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/)
  *
  * @author yihonglei
  */

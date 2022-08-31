@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * [18. 4Sum](https://leetcode.com/problems/4sum/)
- * [18. 四数之和](https://leetcode.cn.com/problems/4sum/)
+ * [18. 四数之和](https://leetcode.cn/problems/4sum/)
  *
  * @author yihonglei
  */

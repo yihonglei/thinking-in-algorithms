@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
- * [234. 回文链表](https://leetcode.cn.com/problems/palindrome-linked-list/)
+ * [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)
  *
  * @author yihonglei
  */

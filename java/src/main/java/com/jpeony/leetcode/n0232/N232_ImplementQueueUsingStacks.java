@@ -5,7 +5,7 @@ import java.util.Deque;
 
 /**
  * [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
- * [232. 用栈实现队列](https://leetcode.cn.com/problems/implement-queue-using-stacks/)
+ * [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
  *
  * @author yihonglei
  */

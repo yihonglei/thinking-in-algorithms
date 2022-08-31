@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0704;
 
 /**
  * [704. Binary Search](https://leetcode.com/problems/binary-search/)
- * [704. 二分查找](https://leetcode.cn.com/problems/binary-search/)
+ * [704. 二分查找](https://leetcode.cn/problems/binary-search/)
  *
  * @author yihonglei
  */

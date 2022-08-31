@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
- * [30. 串联所有单词的子串](https://leetcode.cn.com/problems/substring-with-concatenation-of-all-words/)
+ * [30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/)
  *
  * @author yihonglei
  */

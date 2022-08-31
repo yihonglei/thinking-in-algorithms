@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * [460. LFU Cache](https://leetcode.com/problems/lfu-cache/)
- * [460. LFU 缓存](https://leetcode.cn.com/problems/lfu-cache/)
+ * [460. LFU 缓存](https://leetcode.cn/problems/lfu-cache/)
  *
  * @author yihonglei
  */

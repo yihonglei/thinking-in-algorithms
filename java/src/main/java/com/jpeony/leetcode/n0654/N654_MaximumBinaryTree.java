@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0654;
 
 /**
  * [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
- * [654. 最大二叉树](https://leetcode.cn.com/problems/maximum-binary-tree/)
+ * [654. 最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/)
  *
  * @author yihonglei
  */

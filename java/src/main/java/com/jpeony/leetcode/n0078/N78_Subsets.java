@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * [78. Subsets](https://leetcode.com/problems/subsets/)
- * [78. 子集](https://leetcode.cn.com/problems/subsets/)
+ * [78. 子集](https://leetcode.cn/problems/subsets/)
  *
  * @author yihonglei
  */

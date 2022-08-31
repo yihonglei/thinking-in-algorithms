@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
- * [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+ * [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)
  *
  * @author yihonglei
  */

@@ -3,7 +3,7 @@ package com.jpeony.leetcode.n0202;
 import java.util.HashSet;
 
 /**
- * [202. 快乐数](https://leetcode.cn.com/problems/happy-number/)
+ * [202. 快乐数](https://leetcode.cn/problems/happy-number/)
  * [202. Happy Number](https://leetcode.com/problems/happy-number/)
  *
  * @author yihonglei

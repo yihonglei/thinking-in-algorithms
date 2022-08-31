@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
- * [76. 最小覆盖子串](https://leetcode.cn.com/problems/minimum-window-substring/)
+ * [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/)
  *
  * @author yihonglei
  */

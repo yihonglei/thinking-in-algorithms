@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
- * [151. 翻转字符串里的单词](https://leetcode.cn.com/problems/reverse-words-in-a-string/)
+ * [151. 翻转字符串里的单词](https://leetcode.cn/problems/reverse-words-in-a-string/)
  *
  * @author yihonglei
  */

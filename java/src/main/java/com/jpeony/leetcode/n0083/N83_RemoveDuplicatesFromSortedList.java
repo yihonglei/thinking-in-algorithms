@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0083;
 
 /**
  * [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
- * [83. 删除排序链表中的重复元素](https://leetcode.cn.com/problems/remove-duplicates-from-sorted-list/)
+ * [83. 删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/)
  *
  * @author yihonglei
  */

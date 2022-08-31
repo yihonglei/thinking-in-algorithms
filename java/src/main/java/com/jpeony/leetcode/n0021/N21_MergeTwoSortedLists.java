@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0021;
 
 /**
  * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
- * [21. 合并两个有序链表](https://leetcode.cn.com/problems/merge-two-sorted-lists/)
+ * [21. 合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)
  *
  * @author yihonglei
  */

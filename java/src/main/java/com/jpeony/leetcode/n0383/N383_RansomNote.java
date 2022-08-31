@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
- * [383. 赎金信](https://leetcode.cn.com/problems/ransom-note/)
+ * [383. 赎金信](https://leetcode.cn/problems/ransom-note/)
  *
  * @author yihonglei
  */

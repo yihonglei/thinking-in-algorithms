@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0876;
 
 /**
  * [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
- * [876. 链表的中间结点](https://leetcode.cn.com/problems/middle-of-the-linked-list/)
+ * [876. 链表的中间结点](https://leetcode.cn/problems/middle-of-the-linked-list/)
  *
  * @author yihonglei
  */

@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
- * [287. 寻找重复数](https://leetcode.cn.com/problems/find-the-duplicate-number/)
+ * [287. 寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/)
  *
  * @author yihonglei
  */

@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0459;
 
 /**
  * [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
- * [459. 重复的子字符串](https://leetcode.cn.com/problems/repeated-substring-pattern/)
+ * [459. 重复的子字符串](https://leetcode.cn/problems/repeated-substring-pattern/)
  *
  * @author yihonglei
  */
