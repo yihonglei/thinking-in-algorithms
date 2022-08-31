@@ -22,21 +22,21 @@ public class N209_MinimumSizeSubarraySum {
         // 返回结果变量声明
         int ans = Integer.MAX_VALUE;
         // 左右指针声明，分别指向数组开始位置
-        int leftPoint = 0, rightPoint = 0;
+        int left = 0, right = 0;
         // 子数组之和
         int sum = 0;
-        while (rightPoint < n) {
+        while (right < n) {
             // 默认想象数组第一个元素为第一个子数组，之后依次求子数组
-            sum += nums[rightPoint];
+            sum += nums[right];
             // 如果子数组的和大于等于 target，则求最小子数组
             while (sum >= target) {
                 // rightPoint - leftPoint + 1 为子数组的长度
-                ans = Math.min(ans, rightPoint - leftPoint + 1);
+                ans = Math.min(ans, right - left + 1);
                 // 移动左指针，是进行最小子数组的逼近
-                sum -= nums[leftPoint++];
+                sum -= nums[left++];
             }
             // 如果 sum < target，则需要继续往后移动，拉一位进来参与子数组之和运算
-            rightPoint++;
+            right++;
         }
 
         return ans == Integer.MAX_VALUE ? 0 : ans;
