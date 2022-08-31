@@ -32,18 +32,18 @@ public class N977_SquaresOfASortedArray {
      * 空间复杂度：O(1)。除了存储数组的空间，额外的只有临时变量空间，所以渐进空间复杂度为 O(1)。
      */
     private static int[] sortedSquaresTwo(int[] nums) {
-        int leftPoint = 0, rightPoint = nums.length - 1;
+        int left = 0, right = nums.length - 1;
         int[] ans = new int[nums.length];
         int index = nums.length - 1;
-        while (leftPoint <= rightPoint) {
-            int leftSq = nums[leftPoint] * nums[leftPoint];
-            int rightSq = nums[rightPoint] * nums[rightPoint];
+        while (left <= right) {
+            int leftSq = nums[left] * nums[left];
+            int rightSq = nums[right] * nums[right];
             if (leftSq < rightSq) {
                 ans[index--] = rightSq;
-                rightPoint--;
+                right--;
             } else {
                 ans[index--] = leftSq;
-                leftPoint++;
+                left++;
             }
         }
 
