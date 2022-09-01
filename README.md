@@ -129,6 +129,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0020|Valid Parentheses(有效的括号)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0020)|Easy|
+|0035|Search Insert Position（搜索插入位置）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0035)|Easy|
 |0150|Evaluate Reverse Polish Notation(逆波兰表达式求值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0150)|Medium|
 |0225|Implement Stack using Queues(用队列实现栈)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0225)|Easy|
 |0232|Implement Queue using Stacks(用栈实现队列)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0232)|Easy|
@@ -614,6 +615,7 @@
 |0028|Implement strStr()【实现 strStr()】|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0028)|Easy|
 |0030|Substring with Concatenation of All Words（串联所有单词的子串）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0030)|Hard|
 |0034|Find First and Last Position of Element in Sorted Array（在排序数组中查找元素的第一个和最后一个位置）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0034)|Medium|
+|0035|Search Insert Position（搜索插入位置）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0035)|Easy|
 |0042|Trapping Rain Water(接雨水)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0042)|Hard|
 |0069|Sqrt(x)(x 的平方根)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0069)|Easy|
 |0075|Sort Colors(颜色分类)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0075)|Medium|
