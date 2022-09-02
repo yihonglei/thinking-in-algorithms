@@ -326,7 +326,6 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0034|Find First and Last Position of Element in Sorted Array（在排序数组中查找元素的第一个和最后一个位置）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0034)|Medium|
-|0035|Search Insert Position（搜索插入位置）|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0035)|Easy|
 |0069|Sqrt(x)(x 的平方根)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0069)|Easy|
 |0162|Find Peak Element(寻找峰值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0162)|Medium|
 |0165|Compare Version Numbers(比较版本号)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0165)|Medium|
@@ -334,7 +333,6 @@
 |0287|Find the Duplicate Number(寻找重复数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0287)|Medium|
 |0349|Intersection of Two Arrays(两个数组的交集)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0349)|Easy|
 |0704|Binary Search(二分查找)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|
-|0744|Find Smallest Letter Greater Than Target(寻找比目标字母大的最小字母)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0744)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 哈希算法
