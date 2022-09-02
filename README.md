@@ -675,4 +675,4 @@
 |0876|Middle of the Linked List(链表的中间结点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0876)|Easy|
 |0977|Squares of a Sorted Array(有序数组的平方)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|
 |1047|Remove All Adjacent Duplicates In String(删除字符串中的所有相邻重复项)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1047)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|-----|----------------------------------------------------------|---------|--------|-------|
