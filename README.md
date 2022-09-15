@@ -333,6 +333,7 @@
 |0287|Find the Duplicate Number(寻找重复数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0287)|Medium|
 |0349|Intersection of Two Arrays(两个数组的交集)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0349)|Easy|
 |0704|Binary Search(二分查找)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|
+|0852|Peak Index in a Mountain Array(山脉数组的峰顶索引)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n852)|Medium|
 |1351|Count Negative Numbers in a Sorted Matrix(统计有序矩阵中的负数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1351)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
@@ -674,6 +675,7 @@
 |0704|Binary Search(二分查找)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|
 |0707|Design Linked List(设计链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0707)|Medium|
 |0744|Find Smallest Letter Greater Than Target(寻找比目标字母大的最小字母)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0744)|Easy|
+|0852|Peak Index in a Mountain Array(山脉数组的峰顶索引)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n852)|Medium|
 |0876|Middle of the Linked List(链表的中间结点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0876)|Easy|
 |0977|Squares of a Sorted Array(有序数组的平方)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|
 |1047|Remove All Adjacent Duplicates In String(删除字符串中的所有相邻重复项)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1047)|Easy|
