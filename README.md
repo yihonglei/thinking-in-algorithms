@@ -25,44 +25,48 @@
 - [队列](https://github.com/yihonglei/thinking-in-algorithms#%E9%98%9F%E5%88%97)
 - [字符串](https://github.com/yihonglei/thinking-in-algorithms#%E5%AD%97%E7%AC%A6%E4%B8%B2)
 - [哈希表](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%88%E5%B8%8C%E8%A1%A8)
+- [图](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%BE)
 - [树](https://github.com/yihonglei/thinking-in-algorithms#%E6%A0%91)
 - [堆](https://github.com/yihonglei/thinking-in-algorithms#%E5%A0%86)
 - [跳表](https://github.com/yihonglei/thinking-in-algorithms#%E8%B7%B3%E8%A1%A8)
 - [并查集](https://github.com/yihonglei/thinking-in-algorithms#%E5%B9%B6%E6%9F%A5%E9%9B%86)
 - [线段树](https://github.com/yihonglei/thinking-in-algorithms#%E7%BA%BF%E6%AE%B5%E6%A0%91)
 - [树状数组](https://github.com/yihonglei/thinking-in-algorithms#%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84)
-- [图](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%BE)
+- [字典树]()
 
 [二、算法](https://github.com/yihonglei/thinking-in-algorithms#%E4%BA%8C%E7%AE%97%E6%B3%95)
 
+- [排序](https://github.com/yihonglei/thinking-in-algorithms#%E6%8E%92%E5%BA%8F)
 - [递归](https://github.com/yihonglei/thinking-in-algorithms#%E9%80%92%E5%BD%92)
 - [尾递归](https://github.com/yihonglei/thinking-in-algorithms#%E5%B0%BE%E9%80%92%E5%BD%92)
-- [排序](https://github.com/yihonglei/thinking-in-algorithms#%E6%8E%92%E5%BA%8F)
 - [二分查找](https://github.com/yihonglei/thinking-in-algorithms#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
 - [哈希算法](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95)
 - [字符串匹配](https://github.com/yihonglei/thinking-in-algorithms#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D)
-- [搜索](https://github.com/yihonglei/thinking-in-algorithms#%E6%90%9C%E7%B4%A2)
-- [随机化](https://github.com/yihonglei/thinking-in-algorithms#%E9%9A%8F%E6%9C%BA%E5%8C%96)
-- [图论](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%BE%E8%AE%BA)
-- [贪心](https://github.com/yihonglei/thinking-in-algorithms#%E8%B4%AA%E5%BF%83)
-- [几何](https://github.com/yihonglei/thinking-in-algorithms#%E5%87%A0%E4%BD%95)
-- [数论](https://github.com/yihonglei/thinking-in-algorithms#%E6%95%B0%E8%AE%BA)
-- [矩阵](https://github.com/yihonglei/thinking-in-algorithms#%E7%9F%A9%E9%98%B5)
-- [枚举](https://github.com/yihonglei/thinking-in-algorithms#%E6%9E%9A%E4%B8%BE)
+- [深度优先搜索](https://github.com/yihonglei/thinking-in-algorithms#%E6%90%9C%E7%B4%A2)
+- [广度优先搜索](https://github.com/yihonglei/thinking-in-algorithms#%E6%90%9C%E7%B4%A2)
+- [贪心算法](https://github.com/yihonglei/thinking-in-algorithms#%E8%B4%AA%E5%BF%83)
+- [分治算法](https://github.com/yihonglei/thinking-in-algorithms#%E8%B4%AA%E5%BF%83)
 - [回溯算法](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95)
 - [动态规划](https://github.com/yihonglei/thinking-in-algorithms#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92)
+- [设计]()
+- [数论](https://github.com/yihonglei/thinking-in-algorithms#%E6%95%B0%E8%AE%BA)
+- [数学](https://github.com/yihonglei/thinking-in-algorithms#%E7%9F%A9%E9%98%B5)
+- [概率与统计](https://github.com/yihonglei/thinking-in-algorithms#%E6%9E%9A%E4%B8%BE)
 
 [三、算法技巧](https://github.com/yihonglei/thinking-in-algorithms#%E4%B8%89%E7%AE%97%E6%B3%95%E6%8A%80%E5%B7%A7)
 
 - [双指针](https://github.com/yihonglei/thinking-in-algorithms#%E5%8F%8C%E6%8C%87%E9%92%88)
+- [模拟](https://github.com/yihonglei/thinking-in-algorithms#%E5%8F%8C%E6%8C%87%E9%92%88)
+- [滑动窗口](https://github.com/yihonglei/thinking-in-algorithms#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3)
 - [位运算](https://github.com/yihonglei/thinking-in-algorithms#%E4%BD%8D%E8%BF%90%E7%AE%97)
 - [前缀和](https://github.com/yihonglei/thinking-in-algorithms#%E5%89%8D%E7%BC%80%E5%92%8C)
-- [滑动窗口](https://github.com/yihonglei/thinking-in-algorithms#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3)
 - [计数](https://github.com/yihonglei/thinking-in-algorithms#%E8%AE%A1%E6%95%B0)
 - [状态压缩](https://github.com/yihonglei/thinking-in-algorithms#%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9)
 - [哈希函数](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%88%E5%B8%8C%E5%87%BD%E6%95%B0)
 - [滚动哈希](https://github.com/yihonglei/thinking-in-algorithms#%E6%BB%9A%E5%8A%A8%E5%93%88%E5%B8%8C)
 - [扫描线](https://github.com/yihonglei/thinking-in-algorithms#%E6%89%AB%E6%8F%8F%E7%BA%BF)
+- [单调栈](https://github.com/yihonglei/thinking-in-algorithms#%E6%89%AB%E6%8F%8F%E7%BA%BF)
+- [哨兵节点](https://github.com/yihonglei/thinking-in-algorithms#%E6%89%AB%E6%8F%8F%E7%BA%BF)
 
 [四、算法模板](https://github.com/yihonglei/thinking-in-algorithms#%E4%B8%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
 
@@ -94,7 +98,7 @@
 |0079|Word Search(单词搜索)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0079)|Medium|
 |0209|Minimum Size Subarray Sum(长度最小的子数组)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0209)|Medium|
 |0977|Squares of a Sorted Array(有序数组的平方)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 链表
 
@@ -118,7 +122,7 @@
 |0234|Palindrome Linked List(回文链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0234)|Easy|
 |0707|Design Linked List(设计链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0707)|Medium|
 |0876|Middle of the Linked List(链表的中间结点)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0876)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 栈
 
@@ -133,7 +137,7 @@
 |0225|Implement Stack using Queues(用队列实现栈)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0225)|Easy|
 |0232|Implement Queue using Stacks(用栈实现队列)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0232)|Easy|
 |1047|Remove All Adjacent Duplicates In String(删除字符串中的所有相邻重复项)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1047)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 队列
 
@@ -147,7 +151,7 @@
 |0232|Implement Queue using Stacks(用栈实现队列)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0232)|Easy|
 |0239|Sliding Window Maximum(滑动窗口最大值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0239)|Hard|
 |0347|Top K Frequent Elements( 前 K 个高频元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0347)|Medium|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 字符串
 
@@ -169,7 +173,7 @@
 |0459|Repeated Substring Pattern(重复的子字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0459)|Easy
 |0468|Validate IP Address(验证IP地址)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0468)|Medium
 |0541|Reverse String II(反转字符串 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0541)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 哈希表
 
@@ -187,7 +191,29 @@
 |0242|Valid Anagram(有效的字母异位词)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0242)|Easy|
 |0349|Intersection of Two Arrays(两个数组的交集)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0349)|Easy|
 |0383|Ransom Note(赎金信)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0383)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
+## 图
+
+1、图理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
+
+## 跳表
+
+1、跳表理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
+
 
 ## 树
 
@@ -213,7 +239,7 @@
 |0530|Minimum Absolute Difference in BST(二叉搜索树的最小绝对差)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0530)|Easy
 |0617|Merge Two Binary Trees(合并二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0617)|Easy|
 |0654|Maximum Binary Tree(最大二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0654)|Medium|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 堆
 
@@ -224,18 +250,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
-
-## 跳表
-
-1、跳表理论
-
-2、经典题目(leetcode)
-
-| No | Title | Solution | Difficulty |
-|:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 并查集
 
@@ -246,7 +261,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 线段树
 
@@ -257,7 +272,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 树状数组
 
@@ -268,20 +283,32 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
-## 图
+## 字典树
 
-1、图理论
+1、字典树理论
 
 2、经典题目(leetcode)
 
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 # 二、算法
+
+## 排序
+
+1、排序理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
+
 
 ## 递归
 
@@ -293,7 +320,7 @@
 |:------:|:------|:------:|:------:|
 |0007|Reverse Integer(整数反转)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0007)|Medium|
 |0009|Palindrome Number(回文数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0009)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 尾递归
 
@@ -304,18 +331,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
-
-## 排序
-
-1、排序理论
-
-2、经典题目(leetcode)
-
-| No | Title | Solution | Difficulty |
-|:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 二分查找
 
@@ -335,7 +351,7 @@
 |0704|Binary Search(二分查找)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0704)|Easy|
 |0852|Peak Index in a Mountain Array(山脉数组的峰顶索引)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n852)|Medium|
 |1351|Count Negative Numbers in a Sorted Matrix(统计有序矩阵中的负数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1351)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 哈希算法
 
@@ -346,7 +362,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 字符串匹配
 
@@ -357,11 +373,11 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0028|Implement strStr()【实现 strStr()】|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0028)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 深度优先搜索
 
-1、搜索理论
+1、深度优先搜索理论
 
 2、经典题目(leetcode)
 
@@ -377,42 +393,20 @@
 |0144|Binary Tree Preorder Traversal(二叉树的前序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0144)|Easy|
 |0145|Binary Tree Postorder Traversal(二叉树的后序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0145)|Easy|
 |0257|Binary Tree Paths(二叉树的所有路径)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0257)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 广度优先搜索
 
-1、搜索理论
+1、广度优先搜索理论
 
 2、经典题目(leetcode)
 
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
-## 随机化
-
-1、随机化理论
-
-2、经典题目(leetcode)
-
-| No | Title | Solution | Difficulty |
-|:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
-
-## 图论
-
-1、图论理论
-
-2、经典题目(leetcode)
-
-| No | Title | Solution | Difficulty |
-|:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
-
-## 贪心
+## 贪心算法
 
 1、贪心理论
 
@@ -421,51 +415,19 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
-## 几何
+## 分治算法
 
-1、几何理论
-
-2、经典题目(leetcode)
-
-| No | Title | Solution | Difficulty |
-|:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
-
-## 数论
-
-1、数论理论
+1、分治算法理论
 
 2、经典题目(leetcode)
 
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
-## 矩阵
-
-1、矩阵理论
-
-2、经典题目(leetcode)
-
-| No | Title | Solution | Difficulty |
-|:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
-
-## 枚举
-
-1、枚举理论
-
-2、经典题目(leetcode)
-
-| No | Title | Solution | Difficulty |
-|:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
 
 ## 回溯算法
 
@@ -476,7 +438,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 动态规划
 
@@ -487,7 +449,51 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
+
+## 设计
+
+1、设计理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
+
+## 数论
+
+1、数论理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
+
+## 数学
+
+1、数学理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
+
+## 概率与统计
+
+1、概率与统计理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
 
 # 三、算法技巧
 
@@ -512,29 +518,17 @@
 |0206|Reverse Linked List(反转链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0206)|Easy|
 |0209|Minimum Size Subarray Sum(长度最小的子数组)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0209)|Medium|
 |0344|Reverse String(反转字符串)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0344)|Easy|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
-## 位运算
+## 模拟
 
-1、位运算理论
-
-2、经典题目(leetcode)
-
-| No | Title | Solution | Difficulty |
-|:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
-
-## 前缀和
-
-1、前缀和理论
+1、模拟理论
 
 2、经典题目(leetcode)
 
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
 
 ## 滑动窗口
 
@@ -545,7 +539,29 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
+
+## 位运算
+
+1、位运算理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
+
+## 前缀和
+
+1、前缀和理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 计数
 
@@ -556,7 +572,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 状态压缩
 
@@ -567,7 +583,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 哈希函数
 
@@ -578,7 +594,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 滚动哈希
 
@@ -589,7 +605,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 ## 扫描线
 
@@ -600,7 +616,29 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|TODO|TODO|TODO|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
+
+## 单调栈
+
+1、单调栈理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
+
+## 哨兵节点
+
+1、单调栈理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+|0000|TODO|TODO|TODO|
+|------|----------------------------------------------------------|---------|---------|
 
 # 四、算法模板
 
@@ -609,7 +647,7 @@
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
 |0000|回溯算法模板|[Java](https://github.com/yihonglei/thinking-in-algorithms/blob/master/java/src/main/java/com/jpeony/leetcodecn/ReplaceSpace.java)|Level|
-|------|----------------------------------------------------------|---------|---------|--------|
+|------|----------------------------------------------------------|---------|---------|
 
 # 五、Leetcode 题目大全
 
@@ -702,4 +740,4 @@
 |0977|Squares of a Sorted Array(有序数组的平方)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0977)|Easy|
 |1047|Remove All Adjacent Duplicates In String(删除字符串中的所有相邻重复项)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1047)|Easy|
 |1351|Count Negative Numbers in a Sorted Matrix(统计有序矩阵中的负数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1351)|Easy|
-|-----|----------------------------------------------------------|---------|--------|-------|
+|-----|----------------------------------------------------------|---------|--------|
