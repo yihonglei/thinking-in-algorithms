@@ -359,7 +359,7 @@
 |0028|Implement strStr()【实现 strStr()】|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0028)|Easy|
 |------|----------------------------------------------------------|---------|---------|--------|
 
-## 搜索
+## 深度优先搜索
 
 1、搜索理论
 
@@ -367,7 +367,27 @@
 
 | No | Title | Solution | Difficulty |
 |:------:|:------|:------:|:------:|
-|0000|TODO|TODO|TODO|
+|0094|Binary Tree Inorder Traversal(二叉树的中序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0094)|Easy|
+|0101|Symmetric Tree(对称二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0101)|Easy|
+|0102|Binary Tree Level Order Traversal(二叉树的层序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0102)|Medium|
+|0104|Maximum Depth of Binary Tree(二叉树的最大深度)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0104)|Easy|
+|0106|Construct Binary Tree from Inorder and Postorder Traversal(从中序与后序遍历序列构造二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0106)|Medium|
+|0111|Minimum Depth of Binary Tree(二叉树的最小深度)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0111)|Easy|
+|0112|Path Sum(路径总和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0112)|Easy|
+|0144|Binary Tree Preorder Traversal(二叉树的前序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0144)|Easy|
+|0145|Binary Tree Postorder Traversal(二叉树的后序遍历)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0145)|Easy|
+|0257|Binary Tree Paths(二叉树的所有路径)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0257)|Easy|
+|------|----------------------------------------------------------|---------|---------|--------|
+
+## 广度优先搜索
+
+1、搜索理论
+
+2、经典题目(leetcode)
+
+| No | Title | Solution | Difficulty |
+|:------:|:------|:------:|:------:|
+
 |------|----------------------------------------------------------|---------|---------|--------|
 
 ## 随机化
@@ -634,6 +654,7 @@
 |0106|Construct Binary Tree from Inorder and Postorder Traversal(从中序与后序遍历序列构造二叉树)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0106)|Medium|
 |0111|Minimum Depth of Binary Tree(二叉树的最小深度)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0111)|Easy|
 |0112|Path Sum(路径总和)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0112)|Easy|
+|0114|Flatten Binary Tree to Linked List(二叉树展开为链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0114)|Medium|
 |0126|Word Ladder II(单词接龙 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0126)|Hard|
 |0141|Linked List Cycle(环形链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0141)|Easy|
 |0142|Linked List Cycle II(环形链表 II)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0142)|Medium|
