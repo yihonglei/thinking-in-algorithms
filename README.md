@@ -710,6 +710,7 @@
 |0209|Minimum Size Subarray Sum(长度最小的子数组)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0209)|Medium|
 |0222|Count Complete Tree Nodes(完全二叉树的节点个数)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0222)|Medium|
 |0225|Implement Stack using Queues(用队列实现栈)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0225)|Easy|
+|0230|Kth Smallest Element In A Bst(二叉搜索树中第K小的元素)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0230)|Medium|
 |0232|Implement Queue using Stacks(用栈实现队列)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0232)|Easy|
 |0234|Palindrome Linked List(回文链表)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0234)|Easy|
 |0239|Sliding Window Maximum(滑动窗口最大值)|[Java](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0239)|Hard|
