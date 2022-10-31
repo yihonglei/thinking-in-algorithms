@@ -36,7 +36,7 @@ Constraints:
 
 【迭代】
 
-![Leetcode-7-ReverseInteger](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/java/Leetcode-7-ReverseInteger.png)
+![Leetcode-7-ReverseInteger](https://github.com/yihonglei/thinking-in-algorithms/blob/master/docs/images/java/Leetcode-7-ReverseInteger.png)
 
 1、例如 12345 的反转如上图，每次整数的求余等于反转整数的尾数；
 

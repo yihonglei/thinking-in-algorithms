@@ -4,7 +4,7 @@
 
 2、重点数据结构与算法
 
-![数据结构](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/base/structure.png) ![算法](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/base/algorithms.png)
+![数据结构](https://github.com/yihonglei/thinking-in-algorithms/blob/master/docs/images/base/structure.png) ![算法](https://github.com/yihonglei/thinking-in-algorithms/blob/master/docs/images/base/algorithms.png)
 
 3、算法书籍推荐
 - 入门系列：《算法图解》、《大话数据结构》、《编程之美》

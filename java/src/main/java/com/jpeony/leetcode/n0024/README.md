@@ -35,7 +35,7 @@ Constraints:
 
 【迭代】
 
-![Leetcode-24-SwapNodesInPairs](https://github.com/yihonglei/thinking-in-algorithms/blob/master/images/java/Leetcode-24-SwapNodesInPairs.png)
+![Leetcode-24-SwapNodesInPairs](https://github.com/yihonglei/thinking-in-algorithms/blob/master/docs/images/java/Leetcode-24-SwapNodesInPairs.png)
 
 1、将原链表变为哨兵节点链表；
 
