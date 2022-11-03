@@ -20,14 +20,12 @@ public class N704_BinarySearch {
         int high = nums.length - 1;
         // 注意，这里是 low <= high，不是 low < high
         while (low <= high) {
-            // 中间值
-            int mid = low + (high - low) / 2;
-            // 中间值等于目标值
-            if (nums[mid] == target) {
+            int mid = low + ((high - low) / 2); // 中间值计算，防止溢出，等同于 (low + high) / 2
+            if (nums[mid] == target) { // 中间值等于目标值，返回下标地址
                 return mid;
-            } else if (nums[mid] > target) {// 中间值大于目标值，左侧查找
+            } else if (nums[mid] > target) { // 中间值大于目标值，target 在左区间，所以 [left, middle - 1]，左侧查找
                 high = mid - 1;
-            } else {// 中间值小于目标值，右侧查找
+            } else { // 中间值小于目标值，target 在右区间，所以 [middle + 1, right]，右侧查找
                 low = mid + 1;
             }
         }
