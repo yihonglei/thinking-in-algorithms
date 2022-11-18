@@ -26,11 +26,11 @@ public class N209_MinimumSizeSubarraySum {
         // 子数组之和
         int sum = 0;
         while (right < n) {
-            // 默认想象数组第一个元素为第一个子数组，之后依次求子数组
+            // 默认数组第一个元素为第一个子数组，之后依次求子数组
             sum += nums[right];
             // 如果子数组的和大于等于 target，则求最小子数组
             while (sum >= target) {
-                // rightPoint - leftPoint + 1 为子数组的长度
+                // right - left + 1 为子数组的长度
                 ans = Math.min(ans, right - left + 1);
                 // 移动左指针，是进行最小子数组的逼近
                 sum -= nums[left++];
