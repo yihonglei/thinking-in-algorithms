@@ -2,18 +2,62 @@
 
 1、[数据结构与算法理论和 leetcode 题目分类思维导图；](https://github.com/yihonglei/thinking-in-algorithms/tree/master/xmind)
 
-2、重点数据结构与算法
+2、Java 代码基于 JDK8 实现；
 
-![数据结构](https://github.com/yihonglei/thinking-in-algorithms/blob/master/docs/images/base/structure.png) ![算法](https://github.com/yihonglei/thinking-in-algorithms/blob/master/docs/images/base/algorithms.png)
+### 数据结构目录
 
-3、算法书籍推荐
-- 入门系列：《算法图解》、《大话数据结构》、《编程之美》
-- 课本系列：《数据结构与算法分析 : Java 语言描述》、《数据结构与算法分析 : C 语言描述》
-- 进阶系列：《算法导论》
-- 扩展系列：《算法之美》、《算法帝国》
-- 殿堂系列：《计算机程序设计艺术》
+- [数组](https://github.com/yihonglei/thinking-in-algorithms#%E6%95%B0%E7%BB%84)
+- [链表](https://github.com/yihonglei/thinking-in-algorithms#%E9%93%BE%E8%A1%A8)
+- [栈](https://github.com/yihonglei/thinking-in-algorithms#%E6%A0%88)
+- [队列](https://github.com/yihonglei/thinking-in-algorithms#%E9%98%9F%E5%88%97)
+- [字符串](https://github.com/yihonglei/thinking-in-algorithms#%E5%AD%97%E7%AC%A6%E4%B8%B2)
+- [哈希表](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%88%E5%B8%8C%E8%A1%A8)
+- [图](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%BE)
+- [跳表](https://github.com/yihonglei/thinking-in-algorithms#%E8%B7%B3%E8%A1%A8)
+- [树](https://github.com/yihonglei/thinking-in-algorithms#%E6%A0%91)
+- [堆](https://github.com/yihonglei/thinking-in-algorithms#%E5%A0%86)
+- [并查集](https://github.com/yihonglei/thinking-in-algorithms#%E5%B9%B6%E6%9F%A5%E9%9B%86)
+- [线段树](https://github.com/yihonglei/thinking-in-algorithms#%E7%BA%BF%E6%AE%B5%E6%A0%91)
+- [树状数组](https://github.com/yihonglei/thinking-in-algorithms#%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84)
+- [字典树](https://github.com/yihonglei/thinking-in-algorithms#%E5%AD%97%E5%85%B8%E6%A0%91)
 
-4、Java 代码基于 JDK8 实现；
+### 算法目录
+
+- [排序](https://github.com/yihonglei/thinking-in-algorithms#%E6%8E%92%E5%BA%8F)
+- [递归](https://github.com/yihonglei/thinking-in-algorithms#%E9%80%92%E5%BD%92)
+- [尾递归](https://github.com/yihonglei/thinking-in-algorithms#%E5%B0%BE%E9%80%92%E5%BD%92)
+- [二分查找](https://github.com/yihonglei/thinking-in-algorithms#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
+- [哈希算法](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95)
+- [字符串匹配](https://github.com/yihonglei/thinking-in-algorithms#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D)
+- [深度优先搜索](https://github.com/yihonglei/thinking-in-algorithms#%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)
+- [广度优先搜索](https://github.com/yihonglei/thinking-in-algorithms#%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)
+- [贪心算法](https://github.com/yihonglei/thinking-in-algorithms#%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
+- [分治算法](https://github.com/yihonglei/thinking-in-algorithms#%E5%88%86%E6%B2%BB%E7%AE%97%E6%B3%95)
+- [回溯算法](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95)
+- [动态规划](https://github.com/yihonglei/thinking-in-algorithms#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92)
+- [设计](https://github.com/yihonglei/thinking-in-algorithms#%E8%AE%BE%E8%AE%A1)
+- [数论](https://github.com/yihonglei/thinking-in-algorithms#%E6%95%B0%E8%AE%BA)
+- [数学](https://github.com/yihonglei/thinking-in-algorithms#%E6%95%B0%E5%AD%A6)
+- [概率与统计](https://github.com/yihonglei/thinking-in-algorithms#%E6%A6%82%E7%8E%87%E4%B8%8E%E7%BB%9F%E8%AE%A1)
+
+### 算法技巧目录
+
+- [双指针](https://github.com/yihonglei/thinking-in-algorithms#%E5%8F%8C%E6%8C%87%E9%92%88)
+- [模拟](https://github.com/yihonglei/thinking-in-algorithms#%E6%A8%A1%E6%8B%9F)
+- [滑动窗口](https://github.com/yihonglei/thinking-in-algorithms#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3)
+- [位运算](https://github.com/yihonglei/thinking-in-algorithms#%E4%BD%8D%E8%BF%90%E7%AE%97)
+- [前缀和](https://github.com/yihonglei/thinking-in-algorithms#%E5%89%8D%E7%BC%80%E5%92%8C)
+- [计数](https://github.com/yihonglei/thinking-in-algorithms#%E8%AE%A1%E6%95%B0)
+- [状态压缩](https://github.com/yihonglei/thinking-in-algorithms#%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9)
+- [哈希函数](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%88%E5%B8%8C%E5%87%BD%E6%95%B0)
+- [滚动哈希](https://github.com/yihonglei/thinking-in-algorithms#%E6%BB%9A%E5%8A%A8%E5%93%88%E5%B8%8C)
+- [扫描线](https://github.com/yihonglei/thinking-in-algorithms#%E6%89%AB%E6%8F%8F%E7%BA%BF)
+- [单调栈](https://github.com/yihonglei/thinking-in-algorithms#%E5%8D%95%E8%B0%83%E6%A0%88)
+- [哨兵节点](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%A8%E5%85%B5%E8%8A%82%E7%82%B9)
+
+### 算法模板目录
+
+- [算法模板](https://github.com/yihonglei/thinking-in-algorithms#%E5%9B%9B%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF)
 
 # 一、数据结构
 
@@ -71,7 +115,6 @@
 - [232.Implement Queue using Stacks(用栈实现队列)](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0232)
 - [1047.Remove All Adjacent Duplicates In String(删除字符串中的所有相邻重复项)](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode2/n1047)
 
-
 ## 队列
 
 1、队列理论
@@ -123,13 +166,11 @@
 
 2、经典题目(leetcode)
 
-
 ## 跳表
 
 1、跳表理论
 
 2、经典题目(leetcode)
-
 
 ## 树
 
@@ -160,13 +201,11 @@
 
 2、经典题目(leetcode)
 
-
 ## 并查集
 
 1、并查集理论
 
 2、经典题目(leetcode)
-
 
 ## 线段树
 
@@ -174,20 +213,17 @@
 
 2、经典题目(leetcode)
 
-
 ## 树状数组
 
 1、树状数组理论
 
 2、经典题目(leetcode)
 
-
 ## 字典树
 
 1、字典树理论
 
 2、经典题目(leetcode)
-
 
 # 二、算法
 
@@ -206,13 +242,11 @@
 - [7.Reverse Integer(整数反转)](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0007)
 - [9.Palindrome Number(回文数)](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0009)
 
-
 ## 尾递归
 
 1、尾递归理论
 
 2、经典题目(leetcode)
-
 
 ## 二分查找
 
@@ -236,7 +270,6 @@
 1、哈希算法理论
 
 2、经典题目(leetcode)
-
 
 ## 字符串匹配
 
@@ -275,20 +308,17 @@
 
 2、经典题目(leetcode)
 
-
 ## 分治算法
 
 1、分治算法理论
 
 2、经典题目(leetcode)
 
-
 ## 回溯算法
 
 1、回溯算法理论
 
 2、经典题目(leetcode)
-
 
 ## 动态规划
 
@@ -308,13 +338,11 @@
 
 2、经典题目(leetcode)
 
-
 ## 数学
 
 1、数学理论
 
 2、经典题目(leetcode)
-
 
 ## 概率与统计
 
@@ -350,7 +378,6 @@
 
 2、经典题目(leetcode)
 
-
 ## 滑动窗口
 
 1、滑动窗口理论
@@ -363,13 +390,11 @@
 
 2、经典题目(leetcode)
 
-
 ## 前缀和
 
 1、前缀和理论
 
 2、经典题目(leetcode)
-
 
 ## 计数
 
@@ -377,13 +402,11 @@
 
 2、经典题目(leetcode)
 
-
 ## 状态压缩
 
 1、状态压缩理论
 
 2、经典题目(leetcode)
-
 
 ## 哈希函数
 
@@ -391,20 +414,17 @@
 
 2、经典题目(leetcode)
 
-
 ## 滚动哈希
 
 1、滚动哈希理论
 
 2、经典题目(leetcode)
 
-
 ## 扫描线
 
 1、扫描线理论
 
 2、经典题目(leetcode)
-
 
 ## 单调栈
 
