@@ -50,7 +50,7 @@ public class N707_DesignLinkedList {
 
         ListNode pre = head;
         // 寻找插入位置的上一个节点，index 不需要加 1
-        for (int i = 0; i < index; ++i) {
+        for (int i = 0; i < index; i++) {
             pre = pre.next;
         }
         // 构建新节点，插入指定位置，链表衔接操作
