@@ -12,7 +12,7 @@ public class N94_BinaryTreeInorderTraversal {
 
     /**
      * 【递归】
-     * 时间复杂度：O(n)。n 为二叉树节点个数。
+     * 时间复杂度：O(n)。n 为二叉树结点个数。
      * 空间复杂度：O(n)。n 为栈深度。
      */
     public static List<Integer> inorderTraversal(TreeNode root) {

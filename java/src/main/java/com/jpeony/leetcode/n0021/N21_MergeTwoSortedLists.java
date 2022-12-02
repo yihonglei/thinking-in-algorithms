@@ -34,7 +34,7 @@ public class N21_MergeTwoSortedLists {
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;

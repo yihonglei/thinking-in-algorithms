@@ -11,16 +11,16 @@ public class DoubleLinkedList {
      */
     private int size = 0;
     /**
-     * 头节点
+     * 头结点
      */
     private Node first;
     /**
-     * 尾节点
+     * 尾结点
      */
     private Node last;
 
     /**
-     * 尾部 添加节点
+     * 尾部 添加结点
      */
     public boolean addLast(int value) {
         final Node l = last;
@@ -36,7 +36,7 @@ public class DoubleLinkedList {
     }
 
     /**
-     * 首部 添加节点
+     * 首部 添加结点
      */
     public boolean addFirst(int value) {
         final Node f = first;
@@ -52,7 +52,7 @@ public class DoubleLinkedList {
     }
 
     /**
-     * 查找节点
+     * 查找结点
      */
     public int getByIndex(int index) {
         if (index < 0 || index > size) {
@@ -78,7 +78,7 @@ public class DoubleLinkedList {
     }
 
     /**
-     * 删除节点
+     * 删除结点
      */
     public boolean remove(int value) {
         if (first == null) {
@@ -86,7 +86,7 @@ public class DoubleLinkedList {
         }
 
         Node p = first;
-        // 要删除节点的上一个节点
+        // 要删除结点的上一个结点
         Node q = null;
         while (p != null && p.item != value) {
             q = p;

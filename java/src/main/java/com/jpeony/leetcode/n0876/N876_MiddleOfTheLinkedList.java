@@ -23,7 +23,7 @@ public class N876_MiddleOfTheLinkedList {
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;

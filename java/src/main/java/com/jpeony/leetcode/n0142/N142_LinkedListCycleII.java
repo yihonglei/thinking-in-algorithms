@@ -14,7 +14,7 @@ public class N142_LinkedListCycleII {
     /**
      * 【哈希表】
      * 时间复杂度：O(n)。n 为链表长度，迭代 n 次，所以时间复杂度为 O(n)。
-     * 空间复杂度：O(n)。n 为链表长度，哈希表需要额外存储 n 个节点空间，所以渐进增长空间复杂度为 O(n)。
+     * 空间复杂度：O(n)。n 为链表长度，哈希表需要额外存储 n 个结点空间，所以渐进增长空间复杂度为 O(n)。
      */
     private static ListNode detectCycleHash(ListNode head) {
         ListNode pos = head;
@@ -48,11 +48,11 @@ public class N142_LinkedListCycleII {
             fast = fast.next.next;
             // 当快慢指针相遇时，必然是环形链表
             if (slow == fast) {
-                // 指向 fast 节点指针，相遇点
+                // 指向 fast 结点指针，相遇点
                 ListNode one = fast;
-                // 指向 head 节点指针
+                // 指向 head 结点指针
                 ListNode two = head;
-                // 两个指针，从头结点和相遇结点，各走一步，直到相遇，即为环形节点入口
+                // 两个指针，从头结点和相遇结点，各走一步，直到相遇，即为环形结点入口
                 while (one != two) {
                     one = one.next;
                     two = two.next;
@@ -64,7 +64,7 @@ public class N142_LinkedListCycleII {
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;

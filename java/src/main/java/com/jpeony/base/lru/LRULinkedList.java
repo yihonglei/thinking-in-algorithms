@@ -71,7 +71,7 @@ public class LRULinkedList<T> {
             Node newNode = new Node(data);
             head = newNode;
         } else {
-            // 新节点的next结点为头结点，头结点换为新结点
+            // 新结点的next结点为头结点，头结点换为新结点
             Node newNode = new Node(data, head);
             head = newNode;
         }
@@ -100,7 +100,7 @@ public class LRULinkedList<T> {
         // gc help
         Node tmp = node.getNext();
         tmp = null;
-        // 删除尾结点，即倒数第二个节点的尾节点的下一个结点置为空
+        // 删除尾结点，即倒数第二个结点的尾结点的下一个结点置为空
         node.setNext(null);
         // 缓存个数减1
         size--;
@@ -123,7 +123,7 @@ public class LRULinkedList<T> {
     }
 
     /**
-     * 查找缓存所在结点的前驱结点，并返回缓存数据所在节点的前驱节点，为删除缓存使用，链表的删除要找到前驱或后继节点
+     * 查找缓存所在结点的前驱结点，并返回缓存数据所在结点的前驱结点，为删除缓存使用，链表的删除要找到前驱或后继结点
      */
     public Node findPreNode(T data) {
         Node node = head;
@@ -136,7 +136,7 @@ public class LRULinkedList<T> {
             if (data.equals(node.getNext().getElement())) {
                 return node;
             }
-            // 如果没找到缓存所在节点，继续往下找
+            // 如果没找到缓存所在结点，继续往下找
             node = node.getNext();
         }
 

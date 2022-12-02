@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0450;
 
 /**
  * [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
- * [450. 删除二叉搜索树中的节点](https://leetcode.cn/problems/delete-node-in-a-bst/)
+ * [450. 删除二叉搜索树中的结点](https://leetcode.cn/problems/delete-node-in-a-bst/)
  *
  * @author yihonglei
  */
@@ -17,27 +17,27 @@ public class N450_DeleteNodeInABST {
             root.left = deleteNode(root.left, key);
         } else if (key > root.val) {// 继续往右边找等值
             root.right = deleteNode(root.right, key);
-        } else {// 删除当前等值节点
-            // 如果左节点为空，直接用右节点替换当前节点
+        } else {// 删除当前等值结点
+            // 如果左结点为空，直接用右结点替换当前结点
             if (root.left == null) {
                 return root.right;
-            } else if (root.right == null) {// 如果右几点为空，直接用左节点替换当前节点
+            } else if (root.right == null) {// 如果右几点为空，直接用左结点替换当前结点
                 return root.left;
             } else {
-                // 寻找当前节点的中序后继节点，即右子树中最左子节点
+                // 寻找当前结点的中序后继结点，即右子树中最左子结点
                 TreeNode prev = root;
                 TreeNode next = root.right;
                 while (next.left != null) {
                     prev = next;
                     next = next.left;
                 }
-                // 先删除最左子节点
+                // 先删除最左子结点
                 if (prev == root) {
                     prev.right = next.right;
                 } else {
                     prev.left = next.right;
                 }
-                // 再删除当前节点
+                // 再删除当前结点
                 root.val = next.val;
             }
         }

@@ -27,7 +27,7 @@ public class N707_DesignLinkedList {
         }
 
         ListNode cur = head;
-        // cur = cur.next 操作是跳过哨兵节点，真正操作链表元素
+        // cur = cur.next 操作是跳过哨兵结点，真正操作链表元素
         for (int i = 0; i < index + 1; i++) {
             cur = cur.next;
         }
@@ -49,11 +49,11 @@ public class N707_DesignLinkedList {
         }
 
         ListNode pre = head;
-        // 寻找插入位置的上一个节点，index 不需要加 1
+        // 寻找插入位置的上一个结点，index 不需要加 1
         for (int i = 0; i < index; i++) {
             pre = pre.next;
         }
-        // 构建新节点，插入指定位置，链表衔接操作
+        // 构建新结点，插入指定位置，链表衔接操作
         ListNode newNode = new ListNode(val);
         newNode.next = pre.next;
         pre.next = newNode;
@@ -67,12 +67,12 @@ public class N707_DesignLinkedList {
             return;
         }
 
-        // 寻找删除位置的上一个节点位置
+        // 寻找删除位置的上一个结点位置
         ListNode pre = head;
         for (int i = 0; i < index; i++) {
             pre = pre.next;
         }
-        // 删除当前节点
+        // 删除当前结点
         pre.next = pre.next.next;
         // 链表元素计数减 1
         size--;

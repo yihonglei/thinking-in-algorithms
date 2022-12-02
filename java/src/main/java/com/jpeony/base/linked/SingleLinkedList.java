@@ -7,22 +7,22 @@ package com.jpeony.base.linked;
  */
 public class SingleLinkedList {
     /**
-     * 定义头节点
+     * 定义头结点
      */
     private Node head = null;
 
     /**
-     * 从尾部添加节点
+     * 从尾部添加结点
      */
     public void addLast(int value) {
-        // 构建新节点
+        // 构建新结点
         Node newNode = new Node(value, null);
 
-        // 如果头节点为空，新节点作为头节点
+        // 如果头结点为空，新结点作为头结点
         if (head == null) {
             head = newNode;
         } else {
-            // 查找链表最后一个节点，即节点的next引用为null的节点
+            // 查找链表最后一个结点，即结点的next引用为null的结点
             Node q = head;
             while (q.next != null) {
                 q = q.next;
@@ -33,7 +33,7 @@ public class SingleLinkedList {
     }
 
     /**
-     * 从头部添加节点
+     * 从头部添加结点
      */
     public void addFirst(int value) {
         Node newNode = new Node(value, null);
@@ -41,15 +41,15 @@ public class SingleLinkedList {
         if (head == null) {
             head = newNode;
         } else {
-            // 新节点添加到头部
+            // 新结点添加到头部
             newNode.next = head;
-            // 重置头节点为新节点
+            // 重置头结点为新结点
             head = newNode;
         }
     }
 
     /**
-     * 根据value 获取节点
+     * 根据value 获取结点
      */
     public Node getByValue(int value) {
         Node p = head;
@@ -61,7 +61,7 @@ public class SingleLinkedList {
     }
 
     /**
-     * 根据下标 获取节点
+     * 根据下标 获取结点
      */
     public Node getByIndex(int index) {
         Node p = head;
@@ -74,7 +74,7 @@ public class SingleLinkedList {
     }
 
     /**
-     * 根据value 删除节点
+     * 根据value 删除结点
      */
     public boolean remove(int value) {
         if (head == null) {
@@ -82,7 +82,7 @@ public class SingleLinkedList {
         }
 
         Node p = head;
-        // 要删除节点的上一个节点
+        // 要删除结点的上一个结点
         Node q = null;
         while (p != null && p.data != value) {
             q = p;
@@ -102,7 +102,7 @@ public class SingleLinkedList {
     }
 
     /**
-     * 单链表节点
+     * 单链表结点
      */
     private static class Node {
         /**
@@ -110,7 +110,7 @@ public class SingleLinkedList {
          */
         private int data;
         /**
-         * 下一个节点引用
+         * 下一个结点引用
          */
         private Node next;
 

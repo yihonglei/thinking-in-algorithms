@@ -2,7 +2,7 @@ package com.jpeony.leetcode.n0024;
 
 /**
  * [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
- * [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/)
+ * [24. 两两交换链表中的结点](https://leetcode.cn/problems/swap-nodes-in-pairs/)
  *
  * @author yihonglei
  */
@@ -10,45 +10,37 @@ public class N24_SwapNodesInPairs {
 
     /**
      * 【迭代】
-     * 时间复杂度：O(n)。n 为链表节点个数，对每个节点都需要迭代操作。
-     * 空间复杂度：O(1)。哨兵节点链表定义之后固定，在算法执行过程中不需要额外渐进增长空间。
+     * 时间复杂度：O(n)。n 为链表结点个数，对每个结点都需要迭代操作。
+     * 空间复杂度：O(1)。哨兵结点链表定义之后固定，在算法执行过程中不需要额外渐进增长空间。
      */
     private static ListNode swapPairs(ListNode head) {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
-        ListNode temp = dummy;
-        while (temp.next != null && temp.next.next != null) {
-            ListNode one = temp.next;
-            ListNode two = temp.next.next;
+        ListNode prev = dummy;
+        while (prev.next != null && prev.next.next != null) {
+            ListNode one = prev.next;
+            ListNode two = prev.next.next;
 
-            temp.next = two;
+            // 结点交换
+            prev.next = two;
             one.next = two.next;
             two.next = one;
 
-            temp = one;
+            prev = one; // 往前移动一步
         }
 
         return dummy.next;
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;
         ListNode next;
 
-        public ListNode() {
-
-        }
-
         public ListNode(int val) {
             this.val = val;
-        }
-
-        public ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
         }
     }
 

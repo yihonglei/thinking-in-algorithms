@@ -36,7 +36,7 @@ public class N513_FindBottomLeftTreeValue {
             int levelCurrentSize = queue.size();
             for (int i = 1; i <= levelCurrentSize; i++) {
                 TreeNode node = queue.poll();
-                // 每一层的第一个值更新，最后一定是最底层 最左节点的值
+                // 每一层的第一个值更新，最后一定是最底层 最左结点的值
                 if (i == 1) {
                     ans = node.val;
                 }

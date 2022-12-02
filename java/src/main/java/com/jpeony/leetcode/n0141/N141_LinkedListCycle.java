@@ -14,7 +14,7 @@ public class N141_LinkedListCycle {
     /**
      * 【哈希表】
      * 时间复杂度：O(n)。n 为链表长度，迭代 n 次，所以时间复杂度为 O(n)。
-     * 空间复杂度：O(n)。n 为链表长度，哈希表需要额外存储 n 个节点空间，所以渐进增长空间复杂度为 O(n)。
+     * 空间复杂度：O(n)。n 为链表长度，哈希表需要额外存储 n 个结点空间，所以渐进增长空间复杂度为 O(n)。
      */
     private static boolean hasCycleHash(ListNode head) {
         ListNode pos = head;
@@ -56,7 +56,7 @@ public class N141_LinkedListCycle {
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;

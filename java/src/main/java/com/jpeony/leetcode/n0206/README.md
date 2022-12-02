@@ -34,13 +34,13 @@ Follow up: A linked list can be reversed either iteratively or recursively. Coul
 
 ![Leetcode-206-ReverseLinkedList](https://github.com/yihonglei/thinking-in-algorithms/blob/master/docs/images/java/Leetcode-206-ReverseLinkedList.png)
 
-1、nextTmp 存储 cur.next 临时链表节点；
+1、nextTmp 存储 cur.next 临时链表结点；
 
-2、当前节点 cur 的下一个节点为 res，得到新的 cur 节点；
+2、当前结点 cur 的下一个结点为 res，得到新的 cur 结点；
 
-3、 res = cur，即为反转后的新节点；
+3、 res = cur，即为反转后的新结点；
 
-4、 cur = nextTmp 为链表反转一个节点后的新节点，继续循环迭代，直到链表反转完成；
+4、 cur = nextTmp 为链表反转一个结点后的新结点，继续循环迭代，直到链表反转完成；
 
 ## 算法思路
 

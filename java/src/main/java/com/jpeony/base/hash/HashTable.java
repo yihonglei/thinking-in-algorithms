@@ -61,13 +61,13 @@ public class HashTable<K, V> {
      */
     public void put(K key, V value) {
         int index = hash(key);
-        // 位置未被引用，创建哨兵节点
+        // 位置未被引用，创建哨兵结点
         if (table[index] == null) {
             table[index] = new Entry<>(null, null, null);
         }
 
         Entry<K, V> tmp = table[index];
-        // 新增节点
+        // 新增结点
         if (tmp.next == null) {
             tmp.next = new Entry<>(key, value, null);
             size++;
@@ -119,7 +119,7 @@ public class HashTable<K, V> {
                 int index = hash(e.key);
                 if (table[index] == null) {
                     use++;
-                    // 创建哨兵节点
+                    // 创建哨兵结点
                     table[index] = new Entry<>(null, null, null);
                 }
                 table[index].next = new Entry<>(e.key, e.value, table[index].next);

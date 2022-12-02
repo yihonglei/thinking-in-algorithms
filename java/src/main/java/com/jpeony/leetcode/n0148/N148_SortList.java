@@ -55,7 +55,7 @@ public class N148_SortList {
             return head;
         }
 
-        // 计算中间节点，用于子链表
+        // 计算中间结点，用于子链表
         ListNode slow = head, fast = head;
         while (fast != tail) {
             slow = slow.next;
@@ -89,7 +89,7 @@ public class N148_SortList {
             }
             temp = temp.next;
         }
-        // 剩余子链表合并，防止偶数链表长度不一致出现剩余比对节点
+        // 剩余子链表合并，防止偶数链表长度不一致出现剩余比对结点
         if (temp1 != null) {
             temp.next = temp1;
         } else if (temp2 != null) {
@@ -175,7 +175,7 @@ public class N148_SortList {
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;

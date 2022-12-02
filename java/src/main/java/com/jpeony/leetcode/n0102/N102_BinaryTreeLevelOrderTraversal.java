@@ -15,7 +15,7 @@ public class N102_BinaryTreeLevelOrderTraversal {
 
     /**
      * 【递归】
-     * 时间复杂度：O(n)。n 为二叉树节点个数。
+     * 时间复杂度：O(n)。n 为二叉树结点个数。
      * 空间复杂度：O(n)。n 为栈深度。
      */
     public static List<List<Integer>> levelOrder(TreeNode root) {
@@ -24,7 +24,7 @@ public class N102_BinaryTreeLevelOrderTraversal {
             return result;
         }
 
-        // queue 记录 k 层的节点
+        // queue 记录 k 层的结点
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.offer(root); // 默认订单为 k 层
         while (!queue.isEmpty()) {

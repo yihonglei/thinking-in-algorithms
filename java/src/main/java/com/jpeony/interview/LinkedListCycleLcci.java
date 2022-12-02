@@ -32,7 +32,7 @@ public class LinkedListCycleLcci {
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;

@@ -44,7 +44,7 @@ public class N234_PalindromeLinkedList {
         if (head == null) {
             return true;
         }
-        // 查找中间节点
+        // 查找中间结点
         ListNode midNode = middle(head);
         // 后半部分链表反转
         ListNode secondHead = reverse(midNode.next);
@@ -78,7 +78,7 @@ public class N234_PalindromeLinkedList {
     }
 
     /**
-     * 快慢指针查找链表中间节点
+     * 快慢指针查找链表中间结点
      */
     private static ListNode middle(ListNode head) {
         ListNode slow = head, fast = head;
@@ -92,7 +92,7 @@ public class N234_PalindromeLinkedList {
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;

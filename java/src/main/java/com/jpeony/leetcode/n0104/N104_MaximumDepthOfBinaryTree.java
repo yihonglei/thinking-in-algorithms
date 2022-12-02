@@ -33,7 +33,7 @@ public class N104_MaximumDepthOfBinaryTree {
         }
 
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        queue.offer(root); // k 层，默认是根节点第一层
+        queue.offer(root); // k 层，默认是根结点第一层
 
         int res = 0;
         while (!queue.isEmpty()) {

@@ -24,7 +24,7 @@ public class N84_LargestRectangleInHistogram {
         if (n == 1) {
             return heights[0];
         }
-        // 在原数组前后新增哨兵节点，保证栈里的值都能够出栈，计算柱型面积
+        // 在原数组前后新增哨兵结点，保证栈里的值都能够出栈，计算柱型面积
         int[] newHeights = new int[n + 2];
         newHeights[0] = 0;
         System.arraycopy(heights, 0, newHeights, 1, n);

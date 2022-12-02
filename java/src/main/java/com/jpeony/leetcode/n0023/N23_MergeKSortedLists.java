@@ -59,9 +59,9 @@ public class N23_MergeKSortedLists {
         // 优先队列（默认是小顶堆，最小值在顶部，每次出队都是最小值）
         PriorityQueue<ListNode> queue = new PriorityQueue<>((v1, v2) -> v1.val - v2.val);
 
-        // Lists 的所有元素节点放入优先队列
+        // Lists 的所有元素结点放入优先队列
         for (ListNode node : lists) {
-            // 注意节点元素为空过滤掉
+            // 注意结点元素为空过滤掉
             if (node != null) {
                 queue.add(node);
             }
@@ -83,7 +83,7 @@ public class N23_MergeKSortedLists {
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;

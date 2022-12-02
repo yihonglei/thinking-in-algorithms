@@ -27,7 +27,7 @@ public class LinkedQueue {
             head = newNode;
             tail = newNode;
         } else {
-            // 队尾添加结点，尾结点为当前节点
+            // 队尾添加结点，尾结点为当前结点
             tail.next = newNode;
             tail = newNode;
         }

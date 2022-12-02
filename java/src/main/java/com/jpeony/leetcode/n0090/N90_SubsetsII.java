@@ -38,7 +38,7 @@ public class N90_SubsetsII {
             temp.add(nums[j]);
             // 递归
             backtracking(j + 1, nums, ans, temp);
-            // 回溯，已处理节点撤销
+            // 回溯，已处理结点撤销
             temp.remove(temp.size() - 1);
         }
     }

@@ -14,7 +14,7 @@ public class N106_ConstructBinaryTreeFromInorderAndPostorderTraversal {
 
     public static TreeNode buildTree(int[] inorder, int[] postorder) {
         for (int i = 0; i < inorder.length; i++) {
-            inorderArrayMap.put(inorder[i], i); // 将节点和索引全部记录在哈希表中
+            inorderArrayMap.put(inorder[i], i); // 将结点和索引全部记录在哈希表中
         }
 
         post = postorder;
@@ -27,10 +27,10 @@ public class N106_ConstructBinaryTreeFromInorderAndPostorderTraversal {
             return null;
         }
 
-        int root = post[postorderEnd];// 根据后序遍历结果，取得根节点
+        int root = post[postorderEnd];// 根据后序遍历结果，取得根结点
         int rootIndexInInorderArray = inorderArrayMap.get(root);// 获取对应的索引
 
-        TreeNode node = new TreeNode(root); // 创建该节点
+        TreeNode node = new TreeNode(root); // 创建该结点
         node.left = buildTree(inorderStart, rootIndexInInorderArray - 1, postorderStart, postorderStart + rootIndexInInorderArray - inorderStart - 1);
         node.right = buildTree(rootIndexInInorderArray + 1, inorderEnd, postorderStart + rootIndexInInorderArray - inorderStart, postorderEnd - 1);
         return node;

@@ -22,21 +22,21 @@ public class N19_RemoveNthNodeFromEndOfList {
         }
         // 构建哨兵结点链表
         ListNode dummy = new ListNode(-1, head);
-        // 计算要删除节点的上一个节点所在位置
+        // 计算要删除结点的上一个结点所在位置
         int preN = len - n + 1;// 需要考虑哨兵结点
-        // 移出元素位置的上一个节点
+        // 移出元素位置的上一个结点
         ListNode pre = dummy;
         for (int i = 1; i < preN; i++) {
             pre = pre.next;
         }
-        // 移出元素位置的上一个节点的下一个节点，等于移出元素位置的上一个节点的下下一个节点，把移出元素位置节点删除
+        // 移出元素位置的上一个结点的下一个结点，等于移出元素位置的上一个结点的下下一个结点，把移出元素位置结点删除
         pre.next = pre.next.next;
 
         return dummy.next;
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;

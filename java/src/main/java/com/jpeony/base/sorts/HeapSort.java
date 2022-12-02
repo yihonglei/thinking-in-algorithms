@@ -37,8 +37,8 @@ public class HeapSort {
      * @param arr
      */
     private static void buildHeap(int[] arr) {
-        // (arr.length - 1) / 2 为最后一个叶子节点的父节点
-        // 也就是最后一个非叶子节点，依次堆化直到根节点
+        // (arr.length - 1) / 2 为最后一个叶子结点的父结点
+        // 也就是最后一个非叶子结点，依次堆化直到根结点
         for (int i = (arr.length - 1) / 2; i >= 0; i--) {
             heapify(arr, arr.length - 1, i);
         }
@@ -55,11 +55,11 @@ public class HeapSort {
         while (true) {
             // 最大值位置
             int maxPos = i;
-            // 与左子节点（i * 2 + 1）比较，获取最大值位置
+            // 与左子结点（i * 2 + 1）比较，获取最大值位置
             if (i * 2 + 1 <= n && arr[i] < arr[i * 2 + 1]) {
                 maxPos = i * 2 + 1;
             }
-            // 最大值与右子节点（i * 2 + 2）比较，获取最大值位置
+            // 最大值与右子结点（i * 2 + 2）比较，获取最大值位置
             if (i * 2 + 2 <= n && arr[maxPos] < arr[i * 2 + 2]) {
                 maxPos = i * 2 + 2;
             }
@@ -67,9 +67,9 @@ public class HeapSort {
             if (maxPos == i) {
                 break;
             }
-            // 与子节点交换位置
+            // 与子结点交换位置
             swap(arr, i, maxPos);
-            // 以交换后子节点位置接着往下查找
+            // 以交换后子结点位置接着往下查找
             i = maxPos;
         }
     }

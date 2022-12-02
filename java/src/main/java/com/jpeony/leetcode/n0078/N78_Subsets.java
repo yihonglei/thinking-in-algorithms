@@ -33,7 +33,7 @@ public class N78_Subsets {
             // 递归
             backTracking(j + 1, nums, ans, temp);
             System.out.println("backtrack-before = " + ans);
-            // 撤销处理节点，回溯过程
+            // 撤销处理结点，回溯过程
             temp.remove(temp.size() - 1);
         }
     }

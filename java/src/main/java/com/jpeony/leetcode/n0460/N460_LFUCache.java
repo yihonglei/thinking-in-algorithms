@@ -54,7 +54,7 @@ public class N460_LFUCache {
         if (!keyTable.containsKey(key)) {
             // 缓存已满，需要进行删除操作
             if (keyTable.size() == capacity) {
-                // 通过 minFreq 拿到 freqTable[minFreq] 链表的末尾节点
+                // 通过 minFreq 拿到 freqTable[minFreq] 链表的末尾结点
                 Node node = freqTable.get(minfreq).getTail();
                 keyTable.remove(node.key);
                 freqTable.get(minfreq).remove(node);

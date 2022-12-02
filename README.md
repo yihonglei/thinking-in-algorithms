@@ -53,7 +53,7 @@
 - [滚动哈希](https://github.com/yihonglei/thinking-in-algorithms#%E6%BB%9A%E5%8A%A8%E5%93%88%E5%B8%8C)
 - [扫描线](https://github.com/yihonglei/thinking-in-algorithms#%E6%89%AB%E6%8F%8F%E7%BA%BF)
 - [单调栈](https://github.com/yihonglei/thinking-in-algorithms#%E5%8D%95%E8%B0%83%E6%A0%88)
-- [哨兵节点](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%A8%E5%85%B5%E8%8A%82%E7%82%B9)
+- [哨兵结点](https://github.com/yihonglei/thinking-in-algorithms#%E5%93%A8%E5%85%B5%E8%8A%82%E7%82%B9)
 
 ### 算法模板目录
 
@@ -93,7 +93,7 @@
 - [19.删除链表的倒数第 N 个结点](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0019)
 - [21.合并两个有序链表](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0021)
 - [23.合并K个升序链表](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0023)
-- [24.两两交换链表中的节点](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0024)
+- [24.两两交换链表中的结点](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0024)
 - [83.删除排序链表中的重复元素](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0083)
 - [141.环形链表](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0141)
 - [142.环形链表 II](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0142)
@@ -190,7 +190,7 @@
 - [145.二叉树的后序遍历](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0145)
 - [257.二叉树的所有路径](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0257)
 - [404.左叶子之和](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0404)
-- [450.删除二叉搜索树中的节点](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0450)
+- [450.删除二叉搜索树中的结点](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0450)
 - [513.找树左下角的值](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0513)
 - [530.二叉搜索树的最小绝对差](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0530)
 - [617.合并二叉树](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/src/main/java/com/jpeony/leetcode/n0617)
@@ -433,7 +433,7 @@
 
 2、经典题目(leetcode)
 
-## 哨兵节点
+## 哨兵结点
 
 1、单调栈理论
 

@@ -9,7 +9,7 @@ package com.jpeony.leetcode.n0002;
 public class N2_AddTwoNumbers {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        // 创建新链表，用哨兵节点（哑节点）技巧
+        // 创建新链表，用哨兵结点（哑结点）技巧
         ListNode dummy = new ListNode(0);
         ListNode tail = dummy;
         // 进位数
@@ -18,7 +18,7 @@ public class N2_AddTwoNumbers {
             int n1 = l1 != null ? l1.val : 0;
             int n2 = l2 != null ? l2.val : 0;
             int sum = n1 + n2 + carry;
-            // 计算当前值，构建节点到链表末尾
+            // 计算当前值，构建结点到链表末尾
             int cur = sum % 10;
             tail.next = new ListNode(cur);
             tail = tail.next;
@@ -26,7 +26,7 @@ public class N2_AddTwoNumbers {
             // 计算进位
             carry = sum / 10;
 
-            // 下一个节点的循环
+            // 下一个结点的循环
             if (l1 != null) {
                 l1 = l1.next;
             }
@@ -43,7 +43,7 @@ public class N2_AddTwoNumbers {
     }
 
     /**
-     * 链表节点
+     * 链表结点
      */
     private static class ListNode {
         int val;
