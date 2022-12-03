@@ -9,6 +9,7 @@ package com.jpeony.leetcode.n0019;
 public class N19_RemoveNthNodeFromEndOfList {
 
     /**
+     * 【计算链表长度】
      * 时间复杂度：O(n)。n 为链表长度。
      * 空间复杂度：O(1)。不需要额外渐进增长空间。
      */
@@ -23,7 +24,7 @@ public class N19_RemoveNthNodeFromEndOfList {
         // 构建哨兵结点链表
         ListNode dummy = new ListNode(-1, head);
         // 计算要删除结点的上一个结点所在位置
-        int preN = len - n + 1;// 需要考虑哨兵结点
+        int preN = len - n + 1; // 需要考虑哨兵结点
         // 移出元素位置的上一个结点
         ListNode pre = dummy;
         for (int i = 1; i < preN; i++) {
