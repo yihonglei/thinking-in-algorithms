@@ -20,6 +20,7 @@ public class N142_LinkedListCycleII {
         ListNode pos = head;
         Set<ListNode> visited = new HashSet<>();
         while (pos != null) {
+            // 查找到重复结点，即是环形链表，并且该结点为环形链表入口结点
             if (visited.contains(pos)) {
                 return pos;
             }
@@ -35,24 +36,20 @@ public class N142_LinkedListCycleII {
      * 空间复杂度：O(1)。只有固定的临时指针变量，不会随着算法执行需要额外的渐进增长空间。
      */
     private static ListNode detectCyclePoint(ListNode head) {
-        // 链表为空，直接返回 null
         if (head == null) {
             return null;
         }
-        // 快慢指针声明，都指向链表头结点
         ListNode slow = head, fast = head;
         while (fast != null && fast.next != null) {
-            // 慢指针一次走 1 步
             slow = slow.next;
-            // 快指针一次走 2 步
             fast = fast.next.next;
-            // 当快慢指针相遇时，必然是环形链表
+            // 1、判断链表是否有环，slow == fast 即是环形链表
             if (slow == fast) {
                 // 指向 fast 结点指针，相遇点
                 ListNode one = fast;
                 // 指向 head 结点指针
                 ListNode two = head;
-                // 两个指针，从头结点和相遇结点，各走一步，直到相遇，即为环形结点入口
+                // 2、寻找环形链表入口结点，从头结点和相遇结点，即为环形结点入口
                 while (one != two) {
                     one = one.next;
                     two = two.next;
