@@ -46,27 +46,19 @@ public class N242_ValidAnagram {
             return false;
         }
 
-        char[] cArr = new char[]{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
-                'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
-                'u', 'v', 'w', 'x', 'y', 'z'};
-
-        HashMap<Character, Integer> sMap = new HashMap<>();
-        HashMap<Character, Integer> tMap = new HashMap<>();
-
-        char[] sArr = s.toCharArray();
-        char[] tArr = t.toCharArray();
-
-        // 分别统计字符串字符出现次数
-        for (int i = 0; i < sArr.length; i++) {
-            Character sc = sArr[i];
-            Character tc = tArr[i];
-            sMap.merge(sc, 1, Integer::sum);
-            tMap.merge(tc, 1, Integer::sum);
+        // 统计字符串 s 中字母出现次数
+        HashMap<Character, Integer> sMap = new HashMap<Character, Integer>();
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            sMap.put(ch, sMap.getOrDefault(ch, 0) + 1);
         }
-        // 每个字符出现次数比对
-        for (char c : cArr) {
-            // 某个字符在字符串出现次数不相等，说明不是字母异位词
-            if (!Objects.equals(sMap.get(c), tMap.get(c))) {
+
+        // 根据 t 中字符，计算是否都在 s 中
+        for (int i = 0; i < t.length(); i++) {
+            char ch = t.charAt(i);
+            // 对应字符次数减 1，如果 t 在 s 中不存在，则不是异位词
+            sMap.put(ch, sMap.getOrDefault(ch, 0) - 1);
+            if (sMap.get(ch) < 0) {
                 return false;
             }
         }
@@ -75,8 +67,8 @@ public class N242_ValidAnagram {
     }
 
     public static void main(String[] args) {
-        String s = "anagram";
-        String t = "nagaram";
+        String s = "aaa";
+        String t = "aab";
 
         boolean anagramSort = isAnagramSort(s, t);
         System.out.println("anagramSort = " + anagramSort);
