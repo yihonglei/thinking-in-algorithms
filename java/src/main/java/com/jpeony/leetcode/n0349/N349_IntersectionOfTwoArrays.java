@@ -11,38 +11,27 @@ import java.util.HashSet;
  * @author yihonglei
  */
 public class N349_IntersectionOfTwoArrays {
-
-    /**
-     * 【哈希表】
-     * 时间复杂度：O(m+n)。如果对 m 或者 n 是知道大小的，那么我们就可以根据加法法则确定时间复杂度为 O(m) 或者 O(n)，
-     * 但是 m 和 n 大小是无法确定的，任何一块都不能忽略，所以时间复杂度为 O(m+n)。
-     * 空间复杂度：O(m+n)。maps1 和 maps2 不能确定那个大小，同时间复杂度分析一样，任何一块都不能忽略，所以空间复杂度为 O(m+n)。
-     */
+    
     private static int[] intersection(int[] nums1, int[] nums2) {
-        // HashSet 底层基于 HashMap 实现 key 是存入元素，value 是 new Object()，所以天然支持去重
-        HashSet<Integer> maps1 = new HashSet<>();
-        HashSet<Integer> maps2 = new HashSet<>();
-        for (int i : nums1) {
-            maps1.add(i);
-        }
-        for (int j : nums2) {
-            maps2.add(j);
+        if (nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0) {
+            return new int[0];
         }
 
-        // 去重后取交集
-        ArrayList<Integer> list = new ArrayList<>();
-        for (Integer n : maps1) {
-            if (maps2.contains(n)) {
-                list.add(n);
+        HashSet<Integer> set1 = new HashSet<Integer>();
+        HashSet<Integer> resSet = new HashSet<Integer>();
+        // nums1 去掉重复元素
+        for (int i : nums1) {
+            set1.add(i);
+        }
+        // 遍历 nums2，判断元素是否在 nums1 中，通过 HashSet 特性去重
+        for (int i : nums2) {
+            if (set1.contains(i)) {
+                resSet.add(i);
             }
         }
-        // 转换为数组
-        int[] res = new int[list.size()];
-        for (int k = 0; k < list.size(); k++) {
-            res[k] = list.get(k);
-        }
 
-        return res;
+        // 将结果转换为数组
+        return resSet.stream().mapToInt(x -> x).toArray();
     }
 
     public static void main(String[] args) {
