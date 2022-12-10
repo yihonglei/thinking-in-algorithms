@@ -22,7 +22,7 @@ public class N202_HappyNumber {
 
         // 检测是否出现环形，如果出现环形，返回 false，否则一直找下去，直到找到平方和为 1 的数
         HashSet<Integer> records = new HashSet<>();
-        while (n != 0 && !records.contains(n)) {
+        while (n != 1 && !records.contains(n)) {
             records.add(n);
             n = getNextNumber(n);
         }
@@ -42,7 +42,6 @@ public class N202_HappyNumber {
 
     public static void main(String[] args) {
         int n = 19;
-
         boolean isHappy = isHappy(n);
         System.out.println("isHappy = " + isHappy);
     }
