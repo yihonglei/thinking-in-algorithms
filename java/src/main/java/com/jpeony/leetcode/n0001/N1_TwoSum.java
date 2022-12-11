@@ -18,11 +18,12 @@ public class N1_TwoSum {
     private static int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            int x = target - nums[i];
-            if (map.get(x) != null) {
-                return new int[]{map.get(x), i};
+            int other = target - nums[i];
+            if (map.get(other) != null) {
+                return new int[]{map.get(other), i};
             }
 
+            // k：数组元素值, v：元素对应下标
             map.put(nums[i], i);
         }
         return new int[0];
