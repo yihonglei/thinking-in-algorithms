@@ -51,26 +51,26 @@ public class N18_4Sum {
                 if ((long) nums[i] + nums[j] + nums[n - 2] + nums[n - 1] < target) {
                     continue;
                 }
-                int leftPoint = j + 1, rightPoint = n - 1;
+                int left = j + 1, right = n - 1;
                 // 第三层循环
-                while (leftPoint < rightPoint) {
-                    int sum = nums[i] + nums[j] + nums[leftPoint] + nums[rightPoint];
+                while (left < right) {
+                    int sum = nums[i] + nums[j] + nums[left] + nums[right];
                     if (sum == target) {
-                        ans.add(Arrays.asList(nums[i], nums[j], nums[leftPoint], nums[rightPoint]));
+                        ans.add(Arrays.asList(nums[i], nums[j], nums[left], nums[right]));
                         // 去重：同等条件的事情，在做一遍组合重复，浪费时间
-                        while (leftPoint < rightPoint && nums[leftPoint] == nums[leftPoint + 1]) {
-                            leftPoint++;
+                        while (left < right && nums[left] == nums[left + 1]) {
+                            left++;
                         }
-                        leftPoint++;
+                        left++;
                         // 去重：同等条件的事情，在做一遍组合重复，浪费时间
-                        while (leftPoint < rightPoint && nums[rightPoint] == nums[rightPoint - 1]) {
-                            rightPoint--;
+                        while (left < right && nums[right] == nums[right - 1]) {
+                            right--;
                         }
-                        rightPoint--;
+                        right--;
                     } else if (sum < target) {
-                        leftPoint++;
+                        left++;
                     } else {
-                        rightPoint--;
+                        right--;
                     }
                 }
             }
