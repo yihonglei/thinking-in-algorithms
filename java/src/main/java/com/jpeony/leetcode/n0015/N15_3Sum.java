@@ -23,12 +23,15 @@ public class N15_3Sum {
         if (nums == null || nums.length < 3) {
             return ans;
         }
-        // 找出 a + b + c = 0
-        // a = nums[i], b = nums[left], c = nums[right]
+        /*
+         * 阅读说明：
+         * 找出 a + b + c = 0
+         * a = nums[i], b = nums[left], c = nums[right]
+         */
         // 正序排序
         Arrays.sort(nums);
         int n = nums.length;
-        // 组合判断
+        // 循环确定 a
         for (int i = 0; i < n; i++) {
             /*
              * 优化：提前退出。数组排序后是升序，依赖的是负值和正值求和才可能出现三数之和为 0，如果 a 大于 0，
@@ -45,6 +48,7 @@ public class N15_3Sum {
             }
             int left = i + 1;
             int right = n - 1;
+            // 通过双指针找 b 和 c
             while (left < right) {
                 int sum = nums[i] + nums[left] + nums[right];
                 if (sum == 0) {
