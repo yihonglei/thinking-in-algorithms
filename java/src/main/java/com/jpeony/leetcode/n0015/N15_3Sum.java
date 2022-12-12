@@ -23,19 +23,22 @@ public class N15_3Sum {
         if (nums == null || nums.length < 3) {
             return ans;
         }
+        // 找出 a + b + c = 0
+        // a = nums[i], b = nums[left], c = nums[right]
         // 正序排序
         Arrays.sort(nums);
         int n = nums.length;
         // 组合判断
         for (int i = 0; i < n; i++) {
             /*
-             * 优化：提前退出。数组排序后，依赖的是负值和正值才可能求和为0
+             * 优化：提前退出。数组排序后是升序，依赖的是负值和正值求和才可能出现三数之和为 0，如果 a 大于 0，
+             * b 和 c 也大于 0，必然不会出现三数之和为 0 满足题意的情况
              */
             if (nums[i] > 0) {
                 break;
             }
             /*
-             * 去重：相同的元素不重复处理
+             * 对 a 去重：相同的元素不重复处理
              */
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
@@ -46,7 +49,7 @@ public class N15_3Sum {
                 int sum = nums[i] + nums[left] + nums[right];
                 if (sum == 0) {
                     ans.add(Arrays.asList(nums[i], nums[left], nums[right]));
-                    // 去重：相同的元素不重复处理
+                    // 对 b 和 c 去重：相同的元素不重复处理
                     while (left < right && nums[left] == nums[++left]) ; // 往后移
                     while (left < right && nums[right] == nums[--right]) ; // 往前移
                 } else if (sum > 0) {
