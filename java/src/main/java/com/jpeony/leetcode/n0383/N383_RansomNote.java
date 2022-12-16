@@ -38,7 +38,6 @@ public class N383_RansomNote {
             if (bMap.get(c) == null) {
                 return false;
             }
-            // magazine 出现次数不大于等于 ransomNote 中出现的次数，必然构不成 ransomNote 中的单词所需字符
             if (bMap.get(c) < aMap.get(c)) {
                 return false;
             }
