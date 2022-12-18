@@ -15,14 +15,14 @@ public class N344_ReverseString {
      * 空间复杂度：O(1)。左右指针临时变量，不需要额外渐进增长空间。
      */
     private static void reverseString(char[] s) {
-        int leftPoint = 0, rightPoint = s.length - 1;
-        while (leftPoint < rightPoint) {
-            char temp = s[leftPoint];
-            s[leftPoint] = s[rightPoint];
-            s[rightPoint] = temp;
+        int left = 0, right = s.length - 1;
+        while (left < right) {
+            char temp = s[left];
+            s[left] = s[right];
+            s[right] = temp;
 
-            leftPoint++;
-            rightPoint--;
+            left++;
+            right--;
         }
     }
 
