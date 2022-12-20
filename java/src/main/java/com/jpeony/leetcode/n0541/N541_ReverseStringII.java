@@ -22,14 +22,14 @@ public class N541_ReverseStringII {
         return new String(arr);
     }
 
-    private static void reverse(char[] arr, int leftPoint, int rightPoint) {
-        while (leftPoint < rightPoint) {
-            char temp = arr[leftPoint];
-            arr[leftPoint] = arr[rightPoint];
-            arr[rightPoint] = temp;
+    private static void reverse(char[] arr, int left, int right) {
+        while (left < right) {
+            char temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
 
-            leftPoint++;
-            rightPoint--;
+            left++;
+            right--;
         }
     }
 
