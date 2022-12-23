@@ -14,8 +14,7 @@ public class N459_RepeatedSubstringPattern {
 
     public static void main(String[] args) {
         String s = "ababab";
-
         boolean rsp = repeatedSubstringPattern(s);
-        System.out.println("repeatedSubstringPattern = " + rsp);
+        System.out.println("rsp = " + rsp);
     }
 }
