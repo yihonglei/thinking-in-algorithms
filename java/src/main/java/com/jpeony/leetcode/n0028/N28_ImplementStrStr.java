@@ -2,53 +2,30 @@ package com.jpeony.leetcode.n0028;
 
 /**
  * [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+ * [28. 找出字符串中第一个匹配项的下标](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
  *
  * @author yihonglei
  */
 public class N28_ImplementStrStr {
 
     /**
-     * 【滑动窗口】
+     * 【朴素匹配】
      * 时间复杂度：O(m*n)。m 为 haystack 字符长度，n 为 needle 字符长度；
      * 空间复杂度：O(1)。除了临时变量，不需要额外渐进增长空间；
      */
-    private static int strStr(String haystack, String needle) {
-        int m = needle.length();
+    private static int strStr(String s, String p) {
+        int n = s.length(), m = p.length();
 
-        if (m == 0) {
-            return 0;
-        }
-
-        int n = haystack.length();
-        if (n < m) {
-            return -1;
-        }
-
-        int i = 0;
-        int j = 0;
-
-        while (i < n - m + 1) {
-            while (i < n && haystack.charAt(i) != needle.charAt(j)) {
-                i++;
+        char[] sArr = s.toCharArray(), pArr = p.toCharArray();
+        for (int i = 0; i <= n - m; i++) {
+            int a = i, b = 0;
+            while (b < m && sArr[a] == pArr[b]) {
+                a++;
+                b++;
             }
 
-            // 没有找到首字母相等，不可能找到子串，直接按题意返回 -1
-            if (i == n) {
-                return -1;
-            }
-            // 遍历后续字符，判断是否相等
-            i++;
-            j++;
-            while (i < n && j < m && haystack.charAt(i) == needle.charAt(j)) {
-                i++;
-                j++;
-            }
-
-            if (j == m) {// 找到
-                return i - j;
-            } else {// 未找到，haystack 字符移动到下一个位置，接着找
-                i -= j - 1;
-                j = 0;
+            if (b == m) {
+                return i;
             }
         }
 
@@ -56,7 +33,7 @@ public class N28_ImplementStrStr {
     }
 
     public static void main(String[] args) {
-        String haystack = "hello";
+        String haystack = "llhello";
         String needle = "ll";
 
         int i = strStr(haystack, needle);
