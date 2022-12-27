@@ -17,6 +17,10 @@ public class N27_RemoveElement {
         if (nums == null || nums.length == 0) {
             return 0;
         }
+        /*
+         * 快指针：寻找新数组的元素，新数组就是不含有目标元素的数组；
+         * 慢指针：指向更新 新数组下标的位置；
+         */
         int slow = 0, fast = 0;
         while (fast < nums.length) {
             if (nums[fast] != val) {
