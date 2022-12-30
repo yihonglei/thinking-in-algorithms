@@ -17,10 +17,10 @@ public class N206_ReverseLinkedList {
         ListNode res = null;
         ListNode cur = head;
         while (cur != null) {
-            ListNode nextTmp = cur.next;
+            ListNode nextTemp = cur.next;
             cur.next = res;
             res = cur;
-            cur = nextTmp;
+            cur = nextTemp;
         }
         return res;
     }
