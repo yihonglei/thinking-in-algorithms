@@ -13,25 +13,51 @@ public class N19_RemoveNthNodeFromEndOfList {
      * 时间复杂度：O(n)。n 为链表长度。
      * 空间复杂度：O(1)。不需要额外渐进增长空间。
      */
+//    private static ListNode removeNthFromEnd(ListNode head, int n) {
+//        // 计算链表长度
+//        int len = 0;
+//        ListNode lenTemp = head;
+//        while (lenTemp != null) {
+//            len++;
+//            lenTemp = lenTemp.next;
+//        }
+//        // 构建哨兵结点链表
+//        ListNode dummy = new ListNode(-1, head);
+//        // 计算要删除结点的上一个结点所在位置
+//        int preN = len - n + 1; // 需要考虑哨兵结点
+//        // 移出元素位置的上一个结点
+//        ListNode pre = dummy;
+//        for (int i = 1; i < preN; i++) {
+//            pre = pre.next;
+//        }
+//        // 移出元素位置的上一个结点的下一个结点，等于移出元素位置的上一个结点的下下一个结点，把移出元素位置结点删除
+//        pre.next = pre.next.next;
+//
+//        return dummy.next;
+//    }
+
+    /**
+     * 【双指针】
+     */
     private static ListNode removeNthFromEnd(ListNode head, int n) {
-        // 计算链表长度
-        int len = 0;
-        ListNode lenTemp = head;
-        while (lenTemp != null) {
-            len++;
-            lenTemp = lenTemp.next;
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+
+        ListNode fast = dummy;
+        ListNode slow = dummy;
+
+        // 只要快慢指针相差 n 个结点即可
+        for (int i = 0; i < n; i++) {
+            fast = fast.next;
         }
-        // 构建哨兵结点链表
-        ListNode dummy = new ListNode(-1, head);
-        // 计算要删除结点的上一个结点所在位置
-        int preN = len - n + 1; // 需要考虑哨兵结点
-        // 移出元素位置的上一个结点
-        ListNode pre = dummy;
-        for (int i = 1; i < preN; i++) {
-            pre = pre.next;
+
+        while (fast.next != null) {
+            fast = fast.next;
+            slow = slow.next;
         }
-        // 移出元素位置的上一个结点的下一个结点，等于移出元素位置的上一个结点的下下一个结点，把移出元素位置结点删除
-        pre.next = pre.next.next;
+
+        // slow 为待删除结点的上一个结点
+        slow.next = slow.next.next;
 
         return dummy.next;
     }
