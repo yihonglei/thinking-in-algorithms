@@ -26,6 +26,7 @@ public class N232_ImplementQueueUsingStacks {
 
     public void push(int x) {
         in.push(x);
+        System.out.println("jj");
     }
 
     public int pop() {
@@ -57,6 +58,10 @@ public class N232_ImplementQueueUsingStacks {
         N232_ImplementQueueUsingStacks queue = new N232_ImplementQueueUsingStacks();
 
         queue.push(1);
+        queue.push(2);
+        queue.pop();
+        queue.push(3);
+        queue.push(4);
 
         int pop = queue.pop();
         System.out.println("pop = " + pop);
