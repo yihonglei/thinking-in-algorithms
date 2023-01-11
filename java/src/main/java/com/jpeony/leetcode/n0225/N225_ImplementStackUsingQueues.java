@@ -21,8 +21,11 @@ public class N225_ImplementStackUsingQueues {
     }
 
     public void push(int x) {
+        // 原队列长度
         int n = queue.size();
+        // 新入队元素
         queue.offer(x);
+        // 将原队列元素取出重新入队
         for (int i = 0; i < n; i++) {
             queue.offer(queue.poll());
         }
