@@ -20,23 +20,19 @@ public class N20_ValidParentheses {
         // 栈声明，不要用 Stack，它是 synchronized 同步的，每次操作影响性能。
         Deque<Character> stack = new ArrayDeque<Character>();
 
-        // 字符串转换为数组
         char[] cArr = s.toCharArray();
 
         for (char c : cArr) {
             // 栈顶元素出栈
             Character p = stack.peek();
-            // 第一次循环 p 是空的
             if (p != null) {
                 // 成对的出栈
                 if ((p == '(' && c == ')') || (p == '{' && c == '}') || (p == '[' && c == ']')) {
                     stack.pop();
                 } else {
-                    // 不符合条件的入栈
                     stack.push(c);
                 }
             } else {
-                // 第一个元素入栈
                 stack.push(c);
             }
         }
