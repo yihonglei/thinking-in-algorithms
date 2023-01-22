@@ -1,8 +1,5 @@
 package com.jpeony.leetcode2.n1047;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-
 /**
  * [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
  * [1047. 删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
@@ -17,34 +14,19 @@ public class N1047_RemoveAllAdjacentDuplicatesInString {
      * 空间复杂度：O(n)。n 为去重后字符串字符个数。
      */
     private static String removeDuplicates(String s) {
-        Deque<Character> stack = new ArrayDeque<Character>();
-
-        char[] arr = s.toCharArray();
-        for (char c : arr) {
-            Character temp = stack.peek();
-            if (temp != null) {
-                if (temp == c) {
-                    stack.pop();
-                } else {
-                    stack.push(c);
-                }
+        StringBuffer stack = new StringBuffer();
+        int top = -1;
+        for (int i = 0; i < s.length(); ++i) {
+            char ch = s.charAt(i);
+            if (top >= 0 && stack.charAt(top) == ch) {
+                stack.deleteCharAt(top);
+                --top;
             } else {
-                stack.push(c);
+                stack.append(ch);
+                ++top;
             }
         }
-
-        // 栈反转
-        Deque<Character> reverseStack = new ArrayDeque<Character>();
-        while (!stack.isEmpty()) {
-            reverseStack.push(stack.pop());
-        }
-        // 字符串拼接
-        StringBuilder sb = new StringBuilder();
-        while (!reverseStack.isEmpty()) {
-            sb.append(reverseStack.pop());
-        }
-
-        return sb.toString();
+        return stack.toString();
     }
 
     public static void main(String[] args) {
