@@ -34,13 +34,13 @@ public class N94_BinaryTreeInorderTraversal {
 
     public static List<Integer> inorderTraversalIterator(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();
-        Deque<TreeNode> stk = new LinkedList<TreeNode>();
-        while (root != null || !stk.isEmpty()) {
+        Deque<TreeNode> stack = new LinkedList<TreeNode>();
+        while (root != null || !stack.isEmpty()) {
             while (root != null) {
-                stk.push(root);
+                stack.push(root);
                 root = root.left;
             }
-            root = stk.pop();
+            root = stack.pop();
             res.add(root.val);
             root = root.right;
         }
