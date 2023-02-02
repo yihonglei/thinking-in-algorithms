@@ -33,6 +33,17 @@ public class N145_BinaryTreePostorderTraversal {
         result.add(root.val);
     }
 
+    /**
+     * 【迭代】
+     * 时间复杂度：O(n)。n 为二叉树结点个数。
+     * 空间复杂度：O(n)。n 为栈深度。
+     */
+    public static List<Integer> postorderTraversalIterator(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+
+        return result;
+    }
+
     private static class TreeNode {
         int val;
         TreeNode left;
