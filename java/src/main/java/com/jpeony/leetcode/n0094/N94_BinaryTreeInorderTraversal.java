@@ -15,7 +15,7 @@ public class N94_BinaryTreeInorderTraversal {
      * 时间复杂度：O(n)。n 为二叉树结点个数。
      * 空间复杂度：O(n)。n 为栈深度。
      */
-    public static List<Integer> inorderTraversal(TreeNode root) {
+    public static List<Integer> inorderTraversalRecursion(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         inorder(root, result);
         return result;
@@ -30,6 +30,21 @@ public class N94_BinaryTreeInorderTraversal {
         result.add(root.val);
         inorder(root.right, result);
         System.out.println("debug2 = " + root.val);
+    }
+
+    public static List<Integer> inorderTraversalIterator(TreeNode root) {
+        List<Integer> res = new ArrayList<Integer>();
+        Deque<TreeNode> stk = new LinkedList<TreeNode>();
+        while (root != null || !stk.isEmpty()) {
+            while (root != null) {
+                stk.push(root);
+                root = root.left;
+            }
+            root = stk.pop();
+            res.add(root.val);
+            root = root.right;
+        }
+        return res;
     }
 
     private static class TreeNode {
@@ -65,7 +80,10 @@ public class N94_BinaryTreeInorderTraversal {
         node1.left = node3;
         node1.right = node4;
 
-        List<Integer> list = inorderTraversal(root);
-        System.out.println("inorderTraversal = " + list.toString());
+//        List<Integer> list = inorderTraversalRecursion(root);
+//        System.out.println("inorderTraversal = " + list.toString());
+
+        List<Integer> list = inorderTraversalIterator(root);
+        System.out.println("inorderTraversalIterator = " + list.toString());
     }
 }
