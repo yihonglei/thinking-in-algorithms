@@ -1,6 +1,8 @@
 package com.jpeony.leetcode.n0145;
 
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -38,8 +40,24 @@ public class N145_BinaryTreePostorderTraversal {
      * 时间复杂度：O(n)。n 为二叉树结点个数。
      * 空间复杂度：O(n)。n 为栈深度。
      */
+    // 后序遍历顺序 左-右-中 入栈顺序：中-左-右 出栈顺序：中-右-左，最后翻转结果
     public static List<Integer> postorderTraversalIterator(TreeNode root) {
         List<Integer> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+        Deque<TreeNode> stack = new LinkedList<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            result.add(node.val);
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+        }
 
         return result;
     }

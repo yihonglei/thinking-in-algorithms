@@ -37,19 +37,26 @@ public class N94_BinaryTreeInorderTraversal {
      * 时间复杂度：O(n)。n 为二叉树结点个数。
      * 空间复杂度：O(n)。n 为栈深度。
      */
+    // 中序遍历顺序: 左-中-右 入栈顺序： 左-右
     public static List<Integer> inorderTraversalIterator(TreeNode root) {
-        List<Integer> res = new ArrayList<Integer>();
-        Deque<TreeNode> stack = new LinkedList<TreeNode>();
-        while (root != null || !stack.isEmpty()) {
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
-            }
-            root = stack.pop();
-            res.add(root.val);
-            root = root.right;
+        List<Integer> result = new ArrayList<>();
+        if (root == null) {
+            return result;
         }
-        return res;
+        Deque<TreeNode> stack = new LinkedList<>();
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            while (cur != null) {
+                stack.push(cur.left);
+                cur = cur.left;
+            }
+
+            cur = stack.pop();
+            result.add(cur.val);
+            cur = cur.right;
+        }
+
+        return result;
     }
 
     private static class TreeNode {
