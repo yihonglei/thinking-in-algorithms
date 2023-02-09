@@ -1,9 +1,6 @@
 package com.jpeony.leetcode.n0145;
 
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
@@ -58,7 +55,7 @@ public class N145_BinaryTreePostorderTraversal {
                 stack.push(node.right);
             }
         }
-
+        Collections.reverse(result);
         return result;
     }
 
