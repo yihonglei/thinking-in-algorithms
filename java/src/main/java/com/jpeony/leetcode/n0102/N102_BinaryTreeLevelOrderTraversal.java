@@ -30,8 +30,8 @@ public class N102_BinaryTreeLevelOrderTraversal {
         while (!queue.isEmpty()) {
             // k 层元素序列
             List<Integer> level = new ArrayList<Integer>();
-            int currentLevelSize = queue.size();
-            for (int i = 1; i <= currentLevelSize; ++i) {
+            int currentCount = queue.size();
+            for (int i = 1; i <= currentCount; ++i) {
                 // k 层
                 TreeNode node = queue.poll();
                 level.add(node.val);
