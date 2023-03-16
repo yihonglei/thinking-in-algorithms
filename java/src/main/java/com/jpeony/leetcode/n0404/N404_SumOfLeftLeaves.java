@@ -10,7 +10,6 @@ import java.util.Queue;
  * @author yihonglei
  */
 public class N404_SumOfLeftLeaves {
-    static int sum = 0;
 
     /**
      * 深度优先
@@ -20,12 +19,16 @@ public class N404_SumOfLeftLeaves {
             return 0;
         }
 
+        int leftValue = sumOfLeftLeavesDFS(root.left);
+
+        int rightValue = sumOfLeftLeavesDFS(root.right);
+
+        int middleValue = 0;
         if (root.left != null && root.left.left == null && root.left.right == null) {
-            sum += root.left.val;
+            middleValue += root.left.val;
         }
 
-        sumOfLeftLeavesDFS(root.left);
-        sumOfLeftLeavesDFS(root.right);
+        int sum = middleValue + leftValue + rightValue;
 
         return sum;
     }
@@ -81,12 +84,16 @@ public class N404_SumOfLeftLeaves {
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
-        TreeNode node1 = new TreeNode(2);
-        TreeNode node2 = new TreeNode(3);
+        TreeNode root = new TreeNode(3);
+        TreeNode node1 = new TreeNode(9);
+        TreeNode node2 = new TreeNode(20);
+        TreeNode node3 = new TreeNode(15);
+        TreeNode node4 = new TreeNode(7);
 
-        root.right = node1;
-        root.left = node2;
+        root.left = node1;
+        root.right = node2;
+        node2.left = node3;
+        node2.right = node4;
 
         int sum = sumOfLeftLeavesDFS(root);
         System.out.println("sumOfLeftLeaves = " + sum);
