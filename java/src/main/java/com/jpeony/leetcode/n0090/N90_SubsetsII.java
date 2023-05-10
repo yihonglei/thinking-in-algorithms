@@ -12,6 +12,9 @@ import java.util.List;
  */
 public class N90_SubsetsII {
 
+    static List<List<Integer>> result = new ArrayList<>();
+    static ArrayList<Integer> temp = new ArrayList<>();
+
     /**
      * 【回溯算法】
      * 时间复杂度：O(n×2^n)。一共 2^n 个状态，每种状态需要 O(n) 的时间来构造子集。
@@ -20,25 +23,23 @@ public class N90_SubsetsII {
     private static List<List<Integer>> subsetsWithDup(int[] nums) {
         // 排序，底层基于快排实现
         Arrays.sort(nums);
-        // 返回结果收集
-        List<List<Integer>> ans = new ArrayList<>();
-        backtracking(0, nums, ans, new ArrayList<>());
-        return ans;
+        backtracking(nums, 0);
+        return result;
     }
 
-    private static void backtracking(int i, int[] nums, List<List<Integer>> ans, ArrayList<Integer> temp) {
+    private static void backtracking(int[] nums, int startIndex) {
         // 结果收集
-        ans.add(new ArrayList<>(temp));
+        result.add(new ArrayList<>(temp));
         // for 循环，循环结束为递归退出的条件
-        for (int j = i; j < nums.length; j++) {
+        for (int i = startIndex; i < nums.length; i++) {
             // 剪枝：对于相同元素，组成的子集重复排除
-            if (j != i && nums[j] == nums[j - 1]) {
+            if (i != startIndex && nums[i] == nums[i - 1]) {
                 continue;
             }
-            temp.add(nums[j]);
+            temp.add(nums[i]);
             // 递归
-            backtracking(j + 1, nums, ans, temp);
-            // 回溯，已处理结点撤销
+            backtracking(nums, i + 1);
+            // 回溯，已处理节点撤销
             temp.remove(temp.size() - 1);
         }
     }
