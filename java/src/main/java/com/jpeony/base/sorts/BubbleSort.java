@@ -20,8 +20,10 @@ public class BubbleSort {
         if (n <= 1) {
             return;
         }
+        boolean flag; // 用于优化为顺序情况下实现时间复杂为 O(n)
         // 循环轮次
         for (int i = 0; i < n; i++) {
+            flag = false;
             // 每一轮比较出一个最大值固定，已经冒到上层的元素，无需再比较，优化比较性能
             for (int j = 0; j < n - 1 - i; j++) {
                 // 比较&交换
@@ -29,7 +31,11 @@ public class BubbleSort {
                     int tmp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = tmp;
+                    flag = true;
                 }
+            }
+            if (!flag) {
+                break;
             }
         }
     }
