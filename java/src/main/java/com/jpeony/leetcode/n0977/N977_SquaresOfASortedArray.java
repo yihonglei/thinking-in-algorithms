@@ -3,7 +3,6 @@ package com.jpeony.leetcode.n0977;
 import java.util.Arrays;
 
 /**
- * [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
  * [977. 有序数组的平方](https://leetcode.cn/problems/squares-of-a-sorted-array/)
  *
  * @author yihonglei
@@ -32,22 +31,28 @@ public class N977_SquaresOfASortedArray {
      * 空间复杂度：O(1)。除了存储数组的空间，额外的只有临时变量空间，所以渐进空间复杂度为 O(1)。
      */
     private static int[] sortedSquaresTwo(int[] nums) {
-        int left = 0, right = nums.length - 1;
-        int[] ans = new int[nums.length];
+        int left = 0; // 指向数组开始位置
+        int right = nums.length - 1; // 指向数组末尾位置
+
+        // 新数组，存储平方后的元素
+        int[] res = new int[nums.length];
+        // 新数组下标，初始指向数组末尾
         int index = nums.length - 1;
         while (left <= right) {
-            int leftSq = nums[left] * nums[left];
-            int rightSq = nums[right] * nums[right];
-            if (leftSq < rightSq) {
-                ans[index--] = rightSq;
+            // 求平方（求平方别用Math.pow(x,2)函数，卡）
+            int leftPow = nums[left] * nums[left];
+            int rightPow = nums[right] * nums[right];
+            if (rightPow >= leftPow) { // 右指针向左移动，去比较下一次平方的最大值
+                res[index] = rightPow;
                 right--;
-            } else {
-                ans[index--] = leftSq;
+            } else {// 左指针向右移动，去比较下一次平方的最大值
+                res[index] = leftPow;
                 left++;
             }
+            index--;
         }
 
-        return ans;
+        return res;
     }
 
     public static void main(String[] args) {
