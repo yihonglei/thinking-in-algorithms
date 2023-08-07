@@ -32,16 +32,15 @@ public class N203_RemoveLinkedListElements {
      * 空间复杂度：O(1)。固定链表上操作，不需要额外渐进增长空间。
      */
     private static ListNode removeElementsTwo(ListNode head, int val) {
-        ListNode dummy = new ListNode(0, head);
-        ListNode pre = dummy;
-        ListNode cur = head;
-        while (cur != null) {
-            if (cur.val == val) {
-                pre.next = cur.next;
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode prev = dummy;
+        while (prev.next != null) {
+            if (prev.next.val == val) {
+                prev.next = prev.next.next;
             } else {
-                pre = cur;
+                prev = prev.next;
             }
-            cur = cur.next;
         }
 
         return dummy.next;
