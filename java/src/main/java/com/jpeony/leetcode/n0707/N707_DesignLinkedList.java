@@ -28,7 +28,7 @@ public class N707_DesignLinkedList {
 
         ListNode cur = head;
         // cur = cur.next 操作是跳过哨兵结点，真正操作链表元素
-        for (int i = 0; i < index + 1; i++) {
+        for (int i = 0; i <= index; i++) {
             cur = cur.next;
         }
 
@@ -49,7 +49,7 @@ public class N707_DesignLinkedList {
         }
 
         ListNode pre = head;
-        // 寻找插入位置的上一个结点，index 不需要加 1
+        // 寻找要添加元素的上一个节点
         for (int i = 0; i < index; i++) {
             pre = pre.next;
         }
