@@ -17,9 +17,11 @@ public class N24_SwapNodesInPairs {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
         ListNode prev = dummy;
+        ListNode one;
+        ListNode two;
         while (prev.next != null && prev.next.next != null) {
-            ListNode one = prev.next;
-            ListNode two = prev.next.next;
+            one = prev.next;
+            two = prev.next.next;
 
             // 结点交换
             prev.next = two;
