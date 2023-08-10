@@ -13,33 +13,37 @@ public class N19_RemoveNthNodeFromEndOfList {
      * 时间复杂度：O(n)。n 为链表长度。
      * 空间复杂度：O(1)。不需要额外渐进增长空间。
      */
-//    private static ListNode removeNthFromEnd(ListNode head, int n) {
-//        // 计算链表长度
-//        int len = 0;
-//        ListNode lenTemp = head;
-//        while (lenTemp != null) {
-//            len++;
-//            lenTemp = lenTemp.next;
-//        }
-//        // 构建哨兵结点链表
-//        ListNode dummy = new ListNode(-1, head);
-//        // 计算要删除结点的上一个结点所在位置
-//        int preN = len - n + 1; // 需要考虑哨兵结点
-//        // 移出元素位置的上一个结点
-//        ListNode pre = dummy;
-//        for (int i = 1; i < preN; i++) {
-//            pre = pre.next;
-//        }
-//        // 移出元素位置的上一个结点的下一个结点，等于移出元素位置的上一个结点的下下一个结点，把移出元素位置结点删除
-//        pre.next = pre.next.next;
-//
-//        return dummy.next;
-//    }
+    private static ListNode removeNthFromEndCount(ListNode head, int n) {
+        // 计数
+        int count = 0;
+        ListNode cur = head;
+        while (cur != null) {
+            count++;
+            cur = cur.next;
+        }
+        // 计算要删除结点的上一个节点位置
+        int deleteBeforeIndex = count - n;
+
+        // 哨兵结点
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode prev = dummy;
+        for (int i = 0; 0 < count; i++) {
+            // 找到要删除结点的上一个位置并删除结点
+            if (i == deleteBeforeIndex) {
+                prev.next = prev.next.next;
+                return dummy.next;
+            }
+            prev = prev.next;
+        }
+
+        return null;
+    }
 
     /**
      * 【双指针】
      */
-    private static ListNode removeNthFromEnd(ListNode head, int n) {
+    private static ListNode removeNthFromEndPoint(ListNode head, int n) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
 
@@ -106,7 +110,7 @@ public class N19_RemoveNthNodeFromEndOfList {
 
         printAll(head);
 
-        ListNode afterHead = removeNthFromEnd(head, 2);
+        ListNode afterHead = removeNthFromEndCount(head, 2);
 
         printAll(afterHead);
     }
