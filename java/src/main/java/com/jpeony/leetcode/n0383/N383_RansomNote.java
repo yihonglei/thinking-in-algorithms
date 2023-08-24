@@ -1,9 +1,9 @@
 package com.jpeony.leetcode.n0383;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
- * [383. Ransom Note](https://leetcode.com/problems/ransom-note/)
  * [383. 赎金信](https://leetcode.cn/problems/ransom-note/)
  *
  * @author yihonglei
@@ -19,26 +19,24 @@ public class N383_RansomNote {
         if (ransomNote.length() > magazine.length()) {
             return false;
         }
+        // 统计每个字符串中每个字符出现的次数
+        Map<Character, Integer> rMap = new HashMap<Character, Integer>();
+        Map<Character, Integer> mMap = new HashMap<Character, Integer>();
 
-        HashMap<Character, Integer> aMap = new HashMap<>();
-        HashMap<Character, Integer> bMap = new HashMap<>();
+        char[] rArr = ransomNote.toCharArray();
+        char[] mArr = magazine.toCharArray();
 
-        char[] aArr = ransomNote.toCharArray();
-        char[] bArr = magazine.toCharArray();
-
-        // 分别统计字符串字符出现次数
-        for (Character ac : aArr) {
-            aMap.merge(ac, 1, Integer::sum);
+        for (Character rCh : rArr) {
+            rMap.put(rCh, rMap.getOrDefault(rCh, 0) + 1);
         }
-        for (Character bc : bArr) {
-            bMap.merge(bc, 1, Integer::sum);
+
+        for (Character mCh : mArr) {
+            mMap.put(mCh, mMap.getOrDefault(mCh, 0) + 1);
         }
-        // 每个字符出现次数比对
-        for (char c : aArr) {
-            if (bMap.get(c) == null) {
-                return false;
-            }
-            if (bMap.get(c) < aMap.get(c)) {
+
+        // 如果 ransomNote 中出现的字符次数大于  magazine 中出现字符次数，说明 magazine 中字符无法组成 ransomNote
+        for (Character temp : rMap.keySet()) {
+            if (rMap.get(temp) > mMap.getOrDefault(temp, 0)) {
                 return false;
             }
         }
