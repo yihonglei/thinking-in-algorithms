@@ -15,6 +15,8 @@ public class N239_SlidingWindowMaximum {
 
     /**
      * 暴力求解，Leetcode 上测试大数据量超时了！
+     *
+     * 时间复杂度：O(n*k)
      */
     public static int[] maxSlidingWindowForce(int[] nums, int k) {
         Deque<Integer> stack = new ArrayDeque<Integer>();
