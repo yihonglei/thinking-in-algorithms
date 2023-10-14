@@ -17,7 +17,7 @@ public class N347_TopKFrequentElements {
      */
     public static int[] topKFrequent(int[] nums, int k) {
         // 返回结果
-        int[] result = new int[k];
+        int[] res = new int[k];
 
         // 频次统计
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -44,10 +44,10 @@ public class N347_TopKFrequentElements {
 
         // 取出最小堆中的元素
         for (int i = 0; i < k; i++) {
-            result[i] = pq.remove();
+            res[i] = pq.remove();
         }
 
-        return result;
+        return res;
     }
 
     public static void main(String[] args) {
