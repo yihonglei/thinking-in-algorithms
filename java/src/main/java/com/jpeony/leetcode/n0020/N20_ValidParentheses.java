@@ -2,6 +2,7 @@ package com.jpeony.leetcode.n0020;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.LinkedList;
 
 /**
  * [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
@@ -41,10 +42,32 @@ public class N20_ValidParentheses {
         return stack.isEmpty();
     }
 
-    public static void main(String[] args) {
-        String s = "({[)";
+    public static boolean isValid2(String s) {
+        Deque<Character> deque = new LinkedList<>();
+        char ch;
+        for (int i = 0; i < s.length(); i++) {
+            ch = s.charAt(i);
+            //碰到左括号，就把相应的右括号入栈
+            if (ch == '(') {
+                deque.push(')');
+            }else if (ch == '{') {
+                deque.push('}');
+            }else if (ch == '[') {
+                deque.push(']');
+            } else if (deque.isEmpty() || deque.peek() != ch) {
+                return false;
+            }else {//如果是右括号判断是否和栈顶元素匹配
+                deque.pop();
+            }
+        }
+        //最后判断栈中元素是否匹配
+        return deque.isEmpty();
+    }
 
-        boolean valid = isValid(s);
+    public static void main(String[] args) {
+        String s = "{[]}";
+
+        boolean valid = isValid2(s);
 
         System.out.println("isValid = " + valid);
     }
