@@ -66,6 +66,7 @@ public class N111_MinimumDepthOfBinaryTree {
                 }
             }
 
+
             minDepth++;
         }
 
