@@ -26,23 +26,24 @@ public class N150_EvaluateReversePolishNotation {
                 int o2 = stack.pop();
                 switch (token) {
                     case "+":
-                        stack.push(o1 + o2);
+                        stack.push(o2 + o1);
                         break;
                     case "-":
                         stack.push(o2 - o1);
                         break;
                     case "*":
-                        stack.push(o1 * o2);
+                        stack.push(o2 * o1);
                         break;
                     case "/":
                         stack.push(o2 / o1);
                         break;
                     default:
+                        // ignore
                         break;
                 }
             }
         }
-        
+
         return stack.pop();
     }
 
