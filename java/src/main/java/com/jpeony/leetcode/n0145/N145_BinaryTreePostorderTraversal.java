@@ -21,15 +21,15 @@ public class N145_BinaryTreePostorderTraversal {
         return result;
     }
 
-    private static void postorder(TreeNode root, List<Integer> result) {
-        if (root == null) {
+    private static void postorder(TreeNode cur, List<Integer> result) {
+        if (cur == null) {
             return;
         }
-        postorder(root.left, result);
-        System.out.println("debug1 = " + root.val);
-        postorder(root.right, result);
-        System.out.println("debug2 = " + root.val);
-        result.add(root.val);
+        postorder(cur.left, result);
+        System.out.println("debug1 = " + cur.val);
+        postorder(cur.right, result);
+        System.out.println("debug2 = " + cur.val);
+        result.add(cur.val);
     }
 
     /**

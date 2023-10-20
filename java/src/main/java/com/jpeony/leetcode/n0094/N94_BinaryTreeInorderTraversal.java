@@ -21,15 +21,15 @@ public class N94_BinaryTreeInorderTraversal {
         return result;
     }
 
-    private static void inorder(TreeNode root, List<Integer> result) {
-        if (root == null) {
+    private static void inorder(TreeNode cur, List<Integer> result) {
+        if (cur == null) {
             return;
         }
-        inorder(root.left, result);
-        System.out.println("debug1 = " + root.val);
-        result.add(root.val);
-        inorder(root.right, result);
-        System.out.println("debug2 = " + root.val);
+        inorder(cur.left, result);
+        System.out.println("debug1 = " + cur.val);
+        result.add(cur.val);
+        inorder(cur.right, result);
+        System.out.println("debug2 = " + cur.val);
     }
 
     /**

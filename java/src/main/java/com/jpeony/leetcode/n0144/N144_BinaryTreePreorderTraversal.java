@@ -24,15 +24,15 @@ public class N144_BinaryTreePreorderTraversal {
         return result;
     }
 
-    private static void preorder(TreeNode root, List<Integer> result) {
-        if (root == null) {
+    private static void preorder(TreeNode cur, List<Integer> result) {
+        if (cur == null) {
             return;
         }
-        result.add(root.val);
-        preorder(root.left, result);
-        System.out.println("debug1 = " + root.val);
-        preorder(root.right, result);
-        System.out.println("debug2 = " + root.val);
+        result.add(cur.val);
+        preorder(cur.left, result);
+        System.out.println("debug1 = " + cur.val);
+        preorder(cur.right, result);
+        System.out.println("debug2 = " + cur.val);
     }
 
     /**
