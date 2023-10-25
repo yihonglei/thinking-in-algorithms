@@ -19,34 +19,34 @@ public class N102_BinaryTreeLevelOrderTraversal {
      * 空间复杂度：O(n)。n 为栈深度。
      */
     public static List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        List<List<Integer>> res = new ArrayList<>();
         if (root == null) {
-            return result;
+            return res;
         }
 
-        // queue 记录 k 层的结点
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        queue.offer(root); // 默认订单为 k 层
+        Queue<TreeNode> queue = new LinkedList<>(); // 记录 某层元素
+        queue.offer(root); // 第一层
         while (!queue.isEmpty()) {
-            // k 层元素序列
-            List<Integer> level = new ArrayList<Integer>();
-            int currentCount = queue.size();
-            for (int i = 1; i <= currentCount; ++i) {
-                // k 层
+            List<Integer> curLevelList = new ArrayList<>(); // 收集当前层结果
+            int curQueueSize = queue.size();
+            for (int i = 1; i <= curQueueSize; i++) {
+                // 循环当前层
                 TreeNode node = queue.poll();
-                level.add(node.val);
-                // 根据 k 层访问 k+1 层
+                curLevelList.add(node.val);
+                // 计算下一层
                 if (node.left != null) {
                     queue.offer(node.left);
                 }
+
                 if (node.right != null) {
                     queue.offer(node.right);
                 }
             }
-            result.add(level);
+
+            res.add(curLevelList);
         }
 
-        return result;
+        return res;
     }
 
     private static class TreeNode {
