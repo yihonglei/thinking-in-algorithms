@@ -24,14 +24,14 @@ public class N257_BinaryTreePaths {
             return;
         }
 
-        StringBuilder pathSB = new StringBuilder(path);
-        pathSB.append(root.val);
+        StringBuilder sb = new StringBuilder(path);
+        sb.append(root.val);
         if (root.left == null && root.right == null) {
-            paths.add(pathSB.toString());
+            paths.add(sb.toString());
         } else {
-            pathSB.append("->");
-            dfs(root.left, paths, pathSB.toString());
-            dfs(root.right, paths, pathSB.toString());
+            sb.append("->");
+            dfs(root.left, paths, sb.toString());
+            dfs(root.right, paths, sb.toString());
         }
     }
 
@@ -67,9 +67,12 @@ public class N257_BinaryTreePaths {
         TreeNode root = new TreeNode(1);
         TreeNode node1 = new TreeNode(2);
         TreeNode node2 = new TreeNode(3);
+        TreeNode node3 = new TreeNode(5);
 
-        root.right = node1;
-        root.left = node2;
+        root.left = node1;
+        root.right = node2;
+
+        node1.right = node3;
 
         List<String> paths = binaryTreePaths(root);
         System.out.println("paths = " + paths);
