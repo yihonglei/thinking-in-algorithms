@@ -19,19 +19,21 @@ public class N257_BinaryTreePaths {
         return paths;
     }
 
-    public static void dfs(TreeNode root, List<String> paths, String path) {
+    public static void dfs(TreeNode root, List<String> paths, String temp) {
         if (root == null) {
             return;
         }
 
-        StringBuilder sb = new StringBuilder(path);
-        sb.append(root.val);
+        StringBuilder path = new StringBuilder();
+        path.append(temp); // 旧
+        path.append(root.val); // 新
         if (root.left == null && root.right == null) {
-            paths.add(sb.toString());
+            paths.add(path.toString());
         } else {
-            sb.append("->");
-            dfs(root.left, paths, sb.toString());
-            dfs(root.right, paths, sb.toString());
+            path.append("->");
+            dfs(root.left, paths, path.toString());
+
+            dfs(root.right, paths, path.toString());
         }
     }
 
