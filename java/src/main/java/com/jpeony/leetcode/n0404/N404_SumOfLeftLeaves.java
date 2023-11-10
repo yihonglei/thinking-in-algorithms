@@ -19,12 +19,12 @@ public class N404_SumOfLeftLeaves {
             return 0;
         }
 
-        int leftValue = sumOfLeftLeavesDFS(root.left);
+        int leftValue = sumOfLeftLeavesDFS(root.left); // 左
 
-        int rightValue = sumOfLeftLeavesDFS(root.right);
+        int rightValue = sumOfLeftLeavesDFS(root.right); // 右
 
         int middleValue = 0;
-        if (root.left != null && root.left.left == null && root.left.right == null) {
+        if (root.left != null && root.left.left == null && root.left.right == null) { // 中
             middleValue += root.left.val;
         }
 
@@ -34,9 +34,41 @@ public class N404_SumOfLeftLeaves {
     }
 
     /**
-     * 广度优先
+     * 广度优先-纯迭代法
      */
-    public static int sumOfLeftLeavesBFS(TreeNode root) {
+    public static int sumOfLeftLeavesBFSIn(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int sum = 0;
+
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.offer(root);
+        // 纯的迭代法
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            if (node.left != null) {
+                if (node.left.left == null && node.left.right == null) { // 判断符合条件的左叶子节点，注意不是求所有左节点的和
+                    sum += node.left.val;
+                } else {
+                    queue.offer(node.left);
+                }
+            }
+
+            if (node.right != null) {
+                if (node.right.left != null || node.right.right != null) {
+                    queue.offer(node.right);
+                }
+            }
+        }
+
+        return sum;
+    }
+
+    /**
+     * 广度优先-层序遍历迭代法
+     */
+    public static int sumOfLeftLeavesBFSLevel(TreeNode root) {
         if (root == null) {
             return 0;
         }
