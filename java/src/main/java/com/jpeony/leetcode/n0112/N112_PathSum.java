@@ -8,6 +8,44 @@ package com.jpeony.leetcode.n0112;
  */
 public class N112_PathSum {
 
+    // 深度优先-一条路径一条路径的找
+//    public boolean hasPathSum(TreeNode root, int targetSum) {
+//        if (root == null) {
+//            return false;
+//        }
+//
+//        return dfs(root, 0, targetSum);
+//    }
+//
+//    public boolean dfs(TreeNode root, int sum, int targetSum) {
+//        if (root == null) {
+//            return false;
+//        }
+//
+//        sum += root.val;
+//        if (root.left == null && root.right == null) {
+//            if (sum == targetSum) {
+//                return true;
+//            }
+//        }
+//
+//        if (root.left != null) {
+//            boolean left = dfs(root.left, sum, targetSum);
+//            if (left) {// 找到了，返回
+//                return true;
+//            }
+//        }
+//
+//        if (root.right != null) {
+//            boolean right = dfs(root.right, sum, targetSum);
+//            if (right) {// 找到了，返回
+//                return true;
+//            }
+//        }
+//
+//        return false;
+//    }
+
 
     public static boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) {
