@@ -1,5 +1,8 @@
 package com.jpeony.leetcode.n0530;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * [530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
  * [530. 二叉搜索树的最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference-in-bst/)
@@ -29,6 +32,32 @@ public class N530_MinimumAbsoluteDifferenceInBST {
         }
         dfs(root.right);
     }
+      // 中序遍历
+//    public static int getMinimumDifference(TreeNode root) {
+//        if (root == null) {
+//            return 0;
+//        }
+//
+//        List<Integer> result = new ArrayList<>();
+//        dfs(root, result);
+//
+//        int minValue = Integer.MAX_VALUE;
+//        for (int i = 1; i < result.size(); i++) {
+//            int sub = result.get(i)  - result.get(i - 1);
+//            minValue = Math.min(minValue, sub);
+//        }
+//
+//        return minValue;
+//    }
+//
+//    public static void dfs(TreeNode cur, List result) {
+//        if (cur == null) {
+//            return;
+//        }
+//        dfs(cur.left, result);
+//        result.add(cur.val);
+//        dfs(cur.right, result);
+//    }
 
     private static class TreeNode {
         int val;
