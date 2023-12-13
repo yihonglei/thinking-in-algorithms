@@ -7,8 +7,6 @@ import java.util.Arrays;
  */
 public class Tmp {
     public static void main(String[] args) {
-        int[] arr = new int[]{5, 2, 4, 1, 3};
-        Arrays.sort(arr);
-        System.out.println("sort-arr=" + Arrays.toString(arr));
+        System.out.println(2 ^ 1);
     }
 }
