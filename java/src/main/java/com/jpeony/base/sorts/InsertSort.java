@@ -20,7 +20,7 @@ public class InsertSort {
         if (n <= 1) {
             return;
         }
-
+        // 默认数组的第一个元素，即下标为0的元素初始化为已排序区间
         for (int i = 1; i < n; i++) {
             // 未排序区间的第一个元素
             int value = arr[i];
