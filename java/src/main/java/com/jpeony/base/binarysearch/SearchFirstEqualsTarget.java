@@ -18,7 +18,7 @@ public class SearchFirstEqualsTarget {
             } else {
                 if (mid == 0 || arr[mid - 1] < value) {
                     return mid;
-                } else {
+                } else { // 逐步往左逼近第一个等于给定值的元素
                     high = mid - 1;
                 }
             }
