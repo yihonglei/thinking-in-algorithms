@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 public class BubbleSort {
     /**
-     * 时间复杂度：O(n^2)
+     * 时间复杂度：O(n^2)，最好情况时间复杂度为 O(n)
      * 空间复杂度：O(1)
      * 稳定性：稳定排序算法
      */
@@ -20,21 +20,19 @@ public class BubbleSort {
         if (n <= 1) {
             return;
         }
-        boolean flag; // 用于优化为顺序情况下实现时间复杂为 O(n)
-        // 循环轮次
         for (int i = 0; i < n; i++) {
-            flag = false;
-            // 每一轮比较出一个最大值固定，已经冒到上层的元素，无需再比较，优化比较性能
-            for (int j = 0; j < n - 1 - i; j++) {
+            boolean flag = false; // 提前退出冒泡循环的标志位
+            // 每一轮比较出一个最大值固定，已经冒到上层的元素，无需再继续比较，因为已经符合既定要求
+            for (int j = 0; j < n - i - 1; j++) {
                 // 比较&交换
-                if (arr[j] > arr[j + 1]) {
+                if (arr[j] > arr[j + 1]) { // 不符合大小关系要求，交换相邻的两个元素
                     int tmp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = tmp;
-                    flag = true;
+                    flag = true; // 表示有数据交换
                 }
             }
-            if (!flag) {
+            if (!flag) { // 没有数据交换，表明数据已经符合排序状态，无需继续排序，提前退出
                 break;
             }
         }
