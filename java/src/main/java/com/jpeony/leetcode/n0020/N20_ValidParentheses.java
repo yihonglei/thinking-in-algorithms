@@ -12,12 +12,39 @@ import java.util.LinkedList;
  */
 public class N20_ValidParentheses {
 
+    public static boolean isValid1(String s) {
+        Deque<Character> deque = new LinkedList<Character>();
+
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (deque.isEmpty()) {
+                if (ch == ')' || ch == ']' || ch == '}') {
+                    return false;
+                } else {
+                    deque.push(ch);
+                }
+            } else {
+                if (ch == '(' || ch == '[' || ch == '{') {
+                    deque.push(ch);
+                } else if ((ch == ')' && deque.peek() == '(')
+                        || (ch == ']' && deque.peek() == '[')
+                        || (ch == '}' && deque.peek() == '{')) {
+                    deque.pop();
+                } else {
+                    return false;
+                }
+            }
+        }
+
+        return deque.isEmpty();
+    }
+
     /**
      * 【栈】
      * 时间复杂度：O(n)。n 为字符串字符个数。
      * 空间复杂度：O(n)。n 为字符串字符个数。
      */
-    private static boolean isValid(String s) {
+    private static boolean isValid2(String s) {
         // 栈声明，不要用 Stack，它是 synchronized 同步的，每次操作影响性能。
         Deque<Character> stack = new ArrayDeque<Character>();
 
@@ -42,7 +69,7 @@ public class N20_ValidParentheses {
         return stack.isEmpty();
     }
 
-    public static boolean isValid2(String s) {
+    public static boolean isValid3(String s) {
         Deque<Character> deque = new LinkedList<>();
         char ch;
         for (int i = 0; i < s.length(); i++) {
@@ -50,14 +77,12 @@ public class N20_ValidParentheses {
             //碰到左括号，就把相应的右括号入栈
             if (ch == '(') {
                 deque.push(')');
-            }else if (ch == '{') {
+            } else if (ch == '{') {
                 deque.push('}');
-            }else if (ch == '[') {
+            } else if (ch == '[') {
                 deque.push(']');
-            } else if (deque.isEmpty() || deque.peek() != ch) {
+            } else if (deque.isEmpty() || deque.pop() != ch) {
                 return false;
-            }else {//如果是右括号判断是否和栈顶元素匹配
-                deque.pop();
             }
         }
         //最后判断栈中元素是否匹配
@@ -67,7 +92,7 @@ public class N20_ValidParentheses {
     public static void main(String[] args) {
         String s = "{[]}";
 
-        boolean valid = isValid2(s);
+        boolean valid = isValid3(s);
 
         System.out.println("isValid = " + valid);
     }
