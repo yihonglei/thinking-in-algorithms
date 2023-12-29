@@ -26,17 +26,16 @@ public class InsertSort {
             int value = arr[i];
             // j 为已排序区间最后一个元素的下标值
             int j = i - 1;
-            // 将未排序区间的第一个元素在已排序区间找到合适的位置插入
+            // 查找插入的位置
             for (; j >= 0; --j) {
-                // 比较和移动
-                if (arr[j] > value) {
-                    arr[j + 1] = arr[j];
+                if (arr[j] > value) {// 比较
+                    arr[j + 1] = arr[j];// 数据移动
                 } else {
                     break;
                 }
             }
             // 插入（加1，弥补 --j 减掉的 1，还原元素的真实位置）
-            arr[j + 1] = value;
+            arr[j + 1] = value;// 插入数据
         }
     }
 
