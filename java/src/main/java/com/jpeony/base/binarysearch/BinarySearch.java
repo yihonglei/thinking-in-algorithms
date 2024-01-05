@@ -20,10 +20,13 @@ package com.jpeony.base.binarysearch;
  * @author yihonglei
  */
 public class BinarySearch {
+    /**
+     * 迭代
+     */
     private static int search(int[] arr, int n, int target) {
         int low = 0, high = n - 1;
         while (low <= high) {
-            int mid = low + (high - low) / 2;
+            int mid = low + ((high - low) / 2);
             if (target == arr[mid]) {// 查找到目标值
                 return mid;
             } else if (target < arr[mid]) {// 目标值小于中间值，目标值在左区间
@@ -35,6 +38,26 @@ public class BinarySearch {
 
         return -1;
     }
+
+    /**
+     * 递归
+     */
+    private static int searchRe(int[] arr, int n, int target) {
+        return bsearchInternally(arr, 0, n - 1, target);
+    }
+
+    private static int bsearchInternally(int[] a, int low, int high, int value) {
+        if (low > high) return -1;
+        int mid = low + ((high - low) >> 1);
+        if (a[mid] == value) {
+            return mid;
+        } else if (a[mid] < value) {
+            return bsearchInternally(a, mid + 1, high, value);
+        } else {
+            return bsearchInternally(a, low, mid - 1, value);
+        }
+    }
+
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
