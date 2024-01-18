@@ -31,25 +31,23 @@ public class N977_SquaresOfASortedArray {
      * 空间复杂度：O(1)。除了存储数组的空间，额外的只有临时变量空间，所以渐进空间复杂度为 O(1)。
      */
     private static int[] sortedSquaresTwo(int[] nums) {
-        int left = 0; // 指向数组开始位置
-        int right = nums.length - 1; // 指向数组末尾位置
+        int left = 0; // 指向数组的头部
+        int right = nums.length - 1; // 指向数组的尾部
 
-        // 新数组，存储平方后的元素
+        // 返回值
         int[] res = new int[nums.length];
-        // 新数组下标，初始指向数组末尾
-        int index = nums.length - 1;
+        int index = res.length - 1; // 指向返回数组的尾部
+        // 算平方根，并排序【平方根最大值出现在数组的两端】
         while (left <= right) {
-            // 求平方（求平方别用Math.pow(x,2)函数，卡）
-            int leftPow = nums[left] * nums[left];
-            int rightPow = nums[right] * nums[right];
-            if (rightPow >= leftPow) { // 右指针向左移动，去比较下一次平方的最大值
-                res[index] = rightPow;
+            int leftSqr = nums[left] * nums[left];
+            int rightSqr = nums[right] * nums[right];
+            if (rightSqr >= leftSqr) {
+                res[index--] = rightSqr;
                 right--;
-            } else {// 左指针向右移动，去比较下一次平方的最大值
-                res[index] = leftPow;
+            } else {
+                res[index--] = leftSqr;
                 left++;
             }
-            index--;
         }
 
         return res;
