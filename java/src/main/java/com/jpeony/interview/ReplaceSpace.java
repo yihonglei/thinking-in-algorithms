@@ -1,4 +1,4 @@
-package com.jpeony.leetcodecn;
+package com.jpeony.interview;
 
 /**
  * @author yihonglei
