@@ -1,7 +1,7 @@
 package com.jpeony.base.recursion;
 
 /**
- * 递归输出 1~100
+ * 递归输出 1~10
  *
  * @author yihonglei
  */
@@ -10,9 +10,11 @@ public class RecursionSequence {
 
     private static void testRecursion01() {
         i++;
-        if (i <= 100) {
+        int j = i;
+        if (i <= 10) {
             System.out.println(i);
             testRecursion01();
+            System.out.println("aaaaaaaaaa" + j);
         } else {
             System.out.println("Game Over!");
         }
