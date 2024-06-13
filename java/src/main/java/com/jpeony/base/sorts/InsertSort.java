@@ -15,6 +15,7 @@ public class InsertSort {
     /**
      * 时间复杂度：O(n^2)
      * 空间复杂度：O(1)
+     * 稳定性：稳定
      */
     private static void insertSort(int[] arr, int n) {
         if (n <= 1) {
