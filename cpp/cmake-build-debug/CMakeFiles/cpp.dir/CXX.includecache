@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0027/N27_RemoveElement.cpp
+vector
+-
+N27_RemoveElement.hpp
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0027/N27_RemoveElement.hpp
+
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0027/N27_RemoveElement.hpp
+vector
+-
+

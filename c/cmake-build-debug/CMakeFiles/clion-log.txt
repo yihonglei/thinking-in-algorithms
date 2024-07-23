@@ -1,1 +1,4 @@
-CMakeLists.txt not found in /Users/hongqi/Documents/jpeony/thinking-in-algorithms/c Select CMakeLists.txt file...
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/hongqi/Documents/jpeony/thinking-in-algorithms/c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/hongqi/Documents/jpeony/thinking-in-algorithms/c/cmake-build-debug

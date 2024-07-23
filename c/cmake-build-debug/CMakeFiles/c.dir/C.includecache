@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/c/src/leetcode1/n0027/N27_RemoveElement.h
+
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/c/src/main.c
+stdio.h
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/c/src/stdio.h
+leetcode1/n0027/N27_RemoveElement.h
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/c/src/leetcode1/n0027/N27_RemoveElement.h
+
