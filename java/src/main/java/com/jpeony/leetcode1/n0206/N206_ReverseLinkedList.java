@@ -14,15 +14,16 @@ public class N206_ReverseLinkedList {
      * 空间复杂度：O(1)。链表原地操作，只需要一个临时变量空间，所以空间复杂度为 O(1)。
      */
     private static ListNode reverseList(ListNode head) {
-        ListNode prev = null;
         ListNode cur = head;
+        ListNode res = null;
         while (cur != null) {
-            ListNode nextTemp = cur.next;
-            cur.next = prev;
-            prev = cur;
-            cur = nextTemp;
+            ListNode temp = cur.next;
+            cur.next = res;
+            res = cur;
+            cur = temp;
         }
-        return prev;
+
+        return res;
     }
 
     /**
