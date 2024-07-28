@@ -22,7 +22,6 @@ public class N206_ReverseLinkedList {
             res = cur;
             cur = temp;
         }
-
         return res;
     }
 
