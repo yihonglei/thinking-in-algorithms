@@ -14,30 +14,24 @@ public class N19_RemoveNthNodeFromEndOfList {
      * 空间复杂度：O(1)。不需要额外渐进增长空间。
      */
     private static ListNode removeNthFromEndCount(ListNode head, int n) {
-        // 计数
-        int count = 0;
-        ListNode cur = head;
-        while (cur != null) {
-            count++;
-            cur = cur.next;
-        }
-        // 计算要删除结点的上一个节点位置
-        int deleteBeforeIndex = count - n;
-
-        // 哨兵结点
-        ListNode dummy = new ListNode(0);
+        ListNode dummy = new ListNode(-1);
         dummy.next = head;
         ListNode prev = dummy;
-        for (int i = 0; 0 < count; i++) {
-            // 找到要删除结点的上一个位置并删除结点
-            if (i == deleteBeforeIndex) {
-                prev.next = prev.next.next;
-                return dummy.next;
-            }
+        // 计算链表长度
+        int len = 0;
+        ListNode cur = head;
+        while (cur != null) {
+            len++;
+            cur = cur.next;
+        }
+        // 要删除倒数第n个节点，查找倒数第n-1个节点，即要删除节点的上一个节点
+        int index = len - n - 1;
+        for (int i = 0; i <= index; i++) {
             prev = prev.next;
         }
+        prev.next = prev.next.next;
 
-        return null;
+        return dummy.next;
     }
 
     /**
