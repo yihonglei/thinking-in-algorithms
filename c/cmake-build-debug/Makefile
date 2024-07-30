@@ -150,6 +150,33 @@ src/leetcode1/n0027/N27_RemoveElement.c.s:
 	$(MAKE) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/src/leetcode1/n0027/N27_RemoveElement.c.s
 .PHONY : src/leetcode1/n0027/N27_RemoveElement.c.s
 
+src/leetcode1/n0067/N67_AddBinary.o: src/leetcode1/n0067/N67_AddBinary.c.o
+
+.PHONY : src/leetcode1/n0067/N67_AddBinary.o
+
+# target to build an object file
+src/leetcode1/n0067/N67_AddBinary.c.o:
+	$(MAKE) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/src/leetcode1/n0067/N67_AddBinary.c.o
+.PHONY : src/leetcode1/n0067/N67_AddBinary.c.o
+
+src/leetcode1/n0067/N67_AddBinary.i: src/leetcode1/n0067/N67_AddBinary.c.i
+
+.PHONY : src/leetcode1/n0067/N67_AddBinary.i
+
+# target to preprocess a source file
+src/leetcode1/n0067/N67_AddBinary.c.i:
+	$(MAKE) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/src/leetcode1/n0067/N67_AddBinary.c.i
+.PHONY : src/leetcode1/n0067/N67_AddBinary.c.i
+
+src/leetcode1/n0067/N67_AddBinary.s: src/leetcode1/n0067/N67_AddBinary.c.s
+
+.PHONY : src/leetcode1/n0067/N67_AddBinary.s
+
+# target to generate assembly for a file
+src/leetcode1/n0067/N67_AddBinary.c.s:
+	$(MAKE) -f CMakeFiles/c.dir/build.make CMakeFiles/c.dir/src/leetcode1/n0067/N67_AddBinary.c.s
+.PHONY : src/leetcode1/n0067/N67_AddBinary.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... src/leetcode1/n0027/N27_RemoveElement.o"
 	@echo "... src/leetcode1/n0027/N27_RemoveElement.i"
 	@echo "... src/leetcode1/n0027/N27_RemoveElement.s"
+	@echo "... src/leetcode1/n0067/N67_AddBinary.o"
+	@echo "... src/leetcode1/n0067/N67_AddBinary.i"
+	@echo "... src/leetcode1/n0067/N67_AddBinary.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

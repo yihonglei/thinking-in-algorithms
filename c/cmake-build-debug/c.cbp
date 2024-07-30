@@ -88,6 +88,12 @@
 		<Unit filename="/Users/hongqi/Documents/jpeony/thinking-in-algorithms/c/src/leetcode1/n0027/N27_RemoveElement.h">
 			<Option target="c"/>
 		</Unit>
+		<Unit filename="/Users/hongqi/Documents/jpeony/thinking-in-algorithms/c/src/leetcode1/n0067/N67_AddBinary.c">
+			<Option target="c"/>
+		</Unit>
+		<Unit filename="/Users/hongqi/Documents/jpeony/thinking-in-algorithms/c/src/leetcode1/n0067/N67_AddBinary.h">
+			<Option target="c"/>
+		</Unit>
 		<Unit filename="/Users/hongqi/Documents/jpeony/thinking-in-algorithms/c/src/main.c">
 			<Option target="c"/>
 		</Unit>

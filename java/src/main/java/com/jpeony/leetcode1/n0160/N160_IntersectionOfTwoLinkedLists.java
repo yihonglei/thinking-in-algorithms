@@ -2,6 +2,8 @@ package com.jpeony.leetcode1.n0160;
 
 import com.jpeony.common.ListNode;
 
+import java.util.ArrayList;
+
 /**
  * [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists)
  */
@@ -46,7 +48,6 @@ public class N160_IntersectionOfTwoLinkedLists {
     }
 
     public static void main(String[] args) {
-
 
     }
 }

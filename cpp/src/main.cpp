@@ -1,16 +1,14 @@
-#include "stdio.h"
-#include <vector>
+#include <iostream>
+#include <string>
+using namespace std;
 
-#include "leetcode1/n0027/N27_RemoveElement.hpp"
+#include "leetcode1/n0067/N67_AddBinary.hpp"
 
 int main() {
-    std::vector<int> nums = {3, 2, 2, 3};
-    int val = 3;
+    N67_ADDBINARY re;
 
-    N27_RemoveElement re;
-
-    int res = re.removeElement(nums, val);
-    printf("算法结果: %d\n", res);
+    string res = re.addBinary("1010", "1011");
+    std::cout << res << std::endl;
     return 0;
 }
 

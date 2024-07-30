@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0027/N27_RemoveElement.cpp
-vector
--
-N27_RemoveElement.hpp
-/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0027/N27_RemoveElement.hpp
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0067/N67_AddBinary.cpp
+N67_AddBinary.hpp
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0067/N67_AddBinary.hpp
 
-/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0027/N27_RemoveElement.hpp
-vector
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0067/N67_AddBinary.hpp
+string
 -
+
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/main.cpp
+iostream
+-
+string
+-
+leetcode1/n0067/N67_AddBinary.hpp
+/Users/hongqi/Documents/jpeony/thinking-in-algorithms/cpp/src/leetcode1/n0067/N67_AddBinary.hpp
 
