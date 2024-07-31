@@ -48,6 +48,7 @@ public class N160_IntersectionOfTwoLinkedLists {
     }
 
     public static void main(String[] args) {
-
+        String binary = Integer.toBinaryString(42);
+        System.out.println(binary);
     }
 }
