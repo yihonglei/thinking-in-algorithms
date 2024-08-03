@@ -13,4 +13,8 @@ public class BackTrackingTemplate {
     // 结果收集
     // 处理结点撤销
     // 返回结果
+    public static void main(String[] args) {
+        String s = "111";
+        s.length();
+    }
 }
