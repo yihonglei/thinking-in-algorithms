@@ -1,5 +1,8 @@
 package com.jpeony.template;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 /**
  * 【回溯算法模板】
  *
@@ -14,5 +17,8 @@ public class BackTrackingTemplate {
     // 处理结点撤销
     // 返回结果
     public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        list.stream().mapToInt(Integer::intValue).toArray();
     }
 }
