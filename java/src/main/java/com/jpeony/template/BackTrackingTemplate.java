@@ -17,8 +17,9 @@ public class BackTrackingTemplate {
     // 处理结点撤销
     // 返回结果
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
-        HashMap<Integer, Integer> map = new HashMap<>();
-        list.stream().mapToInt(Integer::intValue).toArray();
+        char one = 'a';
+        char two = 'b';
+        char min = (char)Math.max(one, two);
+        System.out.println(min);
     }
 }
