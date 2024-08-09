@@ -4,6 +4,10 @@ package com.jpeony.leetcode4;
  * [找出与数组相加的整数 I](https://leetcode.cn/problems/find-the-integer-added-to-array-i)
  */
 public class N3131_FindTheIntegerAddedToArray1 {
+    /**
+     * 时间复杂度：O(n)。
+     * 空间复杂度：O(1)。
+     */
     public static int addedInteger(int[] nums1, int[] nums2) {
         int n = nums1.length;
         if (n == 0) {
