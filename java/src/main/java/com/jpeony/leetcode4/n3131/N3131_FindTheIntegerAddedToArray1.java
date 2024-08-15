@@ -1,4 +1,4 @@
-package com.jpeony.leetcode4;
+package com.jpeony.leetcode4.n3131;
 
 /**
  * [找出与数组相加的整数 I](https://leetcode.cn/problems/find-the-integer-added-to-array-i)
