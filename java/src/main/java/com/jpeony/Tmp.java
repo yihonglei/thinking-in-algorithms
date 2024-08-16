@@ -1,17 +1,15 @@
 package com.jpeony;
 
-import java.util.ArrayDeque;
-
 public class Tmp {
     public static void main(String[] args) {
-        ArrayDeque<Integer> deque = new ArrayDeque<>();
-        System.out.println(deque.size());
-        deque.add(1);
-        deque.add(2);
-        deque.add(3);
-        System.out.println(deque.size());
-        deque.removeFirst();
-        deque.add(4);
-        System.out.println(deque.size());
+        int num = 1775;
+        StringBuilder sb = new StringBuilder();
+        while (num > 0) {
+            int b = num % 2;
+            sb.append(b);
+            num = num / 2;
+        }
+
+        System.out.println(sb.reverse().toString());
     }
 }
