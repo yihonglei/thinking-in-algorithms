@@ -19,10 +19,10 @@ public class N77_Combinations {
             ans.add(new ArrayList<>(path));
             return;
         }
-        for (int i = startIndex; i <= n; i++) {
-            path.add(i);
-            backtracking(i + 1, n, k, path, ans);
-            path.removeLast();
+        for (int i = startIndex; i <= n; i++) { // 控制树的横向遍历
+            path.add(i); // 处理节点
+            backtracking(i + 1, n, k, path, ans); // 递归：控制树的纵向遍历，注意下一层搜索要从i+1开始
+            path.removeLast(); // 回溯，撤销处理的节点
         }
     }
 
