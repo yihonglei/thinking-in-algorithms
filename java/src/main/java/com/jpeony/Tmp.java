@@ -1,15 +1,14 @@
 package com.jpeony;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class Tmp {
     public static void main(String[] args) {
-        int num = 1775;
-        StringBuilder sb = new StringBuilder();
-        while (num > 0) {
-            int b = num % 2;
-            sb.append(b);
-            num = num / 2;
-        }
+        LinkedList<Integer> ans = new LinkedList<>();
+        for (int i : ans) {
 
-        System.out.println(sb.reverse().toString());
+        }
     }
 }
