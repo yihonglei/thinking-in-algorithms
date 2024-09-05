@@ -1,14 +1,25 @@
 package com.jpeony;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-
 public class Tmp {
     public static void main(String[] args) {
-        LinkedList<Integer> ans = new LinkedList<>();
-        for (int i : ans) {
+        a();
+    }
 
+    private static void a() {
+        for (int i = 0; i < 3; i++) {
+            b();
+            System.out.println("a");
         }
+    }
+
+    private static void b() {
+        for (int i = 0; i < 3; i++) {
+            c();
+            System.out.println("b");
+        }
+    }
+
+    private static void c() {
+        System.out.println("c");
     }
 }
