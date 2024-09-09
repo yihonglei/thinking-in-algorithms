@@ -8,14 +8,14 @@ import com.jpeony.common.ListNode;
 public class N2181_MergeNodesInBetweenZeros {
     public static ListNode mergeNodes(ListNode head) {
         ListNode dummy = new ListNode(-1);
-        ListNode last = dummy;
-        ListNode cur = head;
+        ListNode tail = dummy;
+        ListNode cur = head.next;
         int sum = 0;
         while (cur != null) {
             sum += cur.val;
-            if (cur.val == 0 && sum > 0) {
-                last.next = new ListNode(sum);
-                last = last.next;
+            if (cur.val == 0) {
+                tail.next = new ListNode(sum);
+                tail = tail.next;
                 sum = 0;
             }
             cur = cur.next;
