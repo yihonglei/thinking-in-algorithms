@@ -1,10 +1,11 @@
 package com.jpeony;
 
+import java.util.HashMap;
+
 public class Tmp {
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("a");
-        sb.append("b");
-        System.out.println(sb.toString());
+        HashMap<Character, Integer> map = new HashMap<>();
+        char key = 'k';
+        map.put(key, map.getOrDefault(key, 0) + 1);
     }
 }
