@@ -8,15 +8,19 @@ package com.jpeony.leetcode1.n0055;
 public class N55_JumpGame {
 
     public static boolean canJump(int[] nums) {
-        int k = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (i > k) {
-                return false;
-            }
-            k = Math.max(k, i + nums[i]);
+        if (nums.length == 1) {
+            return true;
         }
 
-        return true;
+        int coverRange = 0;
+        for (int i = 0; i <= coverRange; i++) {
+            coverRange = Math.max(coverRange, i + nums[i]);
+            if (coverRange >= nums.length - 1) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public static void main(String[] args) {
