@@ -18,7 +18,6 @@ public class N1049_LastStoneWeight {
         for (int i = 0; i < stones.length; i++) {
             for (int j = target; j >= stones[i]; j--) {
                 dp[j] = Math.max(dp[j], dp[j - stones[i]] + stones[i]);
-
                 System.out.println("i=" + i + ", j=" + j + ", dp=" + Arrays.toString(dp));
             }
         }
@@ -27,7 +26,7 @@ public class N1049_LastStoneWeight {
     }
 
     public static void main(String[] args) {
-        int[] stones = new int[]{2, 7, 4, 1, 8, 1};
+        int[] stones = new int[]{2, 4, 1, 1};
         int res = lastStoneWeightII(stones);
         System.out.println("res = " + res);
     }
