@@ -4,6 +4,7 @@ package com.jpeony.leetcode1.n0343;
  * [343. 整数拆分](https://leetcode.cn/problems/integer-break)
  */
 public class N343_IntegerBreak {
+    // 拆成 m 个近似相同的数
     public static int integerBreak(int n) {
         // dp[i] 分拆数字i，可以得到的最大乘积为dp[i]
         int[] dp = new int[n + 1];
