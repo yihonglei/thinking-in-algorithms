@@ -26,7 +26,7 @@ public class N1049_LastStoneWeight {
     }
 
     public static void main(String[] args) {
-        int[] stones = new int[]{2, 4, 1, 1};
+        int[] stones = new int[]{2, 4, 1, 1, 3};
         int res = lastStoneWeightII(stones);
         System.out.println("res = " + res);
     }
