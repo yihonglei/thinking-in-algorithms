@@ -23,7 +23,7 @@ public class N416_PartitionEqualSubsetSum {
         int[] dp = new int[target + 1]; // 定义dp数组，以及下标的含义
         for (int i = 0; i < nums.length; i++) { // 确定遍历顺序，外层遍历物品
             System.out.println("物品=" + nums[i]);
-            for (int j = target; j >= nums[i]; j--) { // 内层遍历容量
+            for (int j = target; j >= nums[i]; j--) { // 内层遍历背包
                 // 物品 i 的重量是 nums[i]，其价值也是 nums[i]
                 dp[j] = Math.max(dp[j], dp[j - nums[i]] + nums[i]); // 确定递推公式，计算最大价值
                 System.out.println("j = " + j + ", dp=" + Arrays.toString(dp));
