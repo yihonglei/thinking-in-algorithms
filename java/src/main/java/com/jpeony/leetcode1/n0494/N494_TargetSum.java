@@ -4,6 +4,7 @@ package com.jpeony.leetcode1.n0494;
  * [494.目标和](https://leetcode.cn/problems/target-sum)
  */
 public class N494_TargetSum {
+    // 动态规划
     public static int findTargetSumWays(int[] nums, int target) {
         int sum = 0;
         for (int n : nums) {
