@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class N509_FibonacciNumber {
     /**
      * 动态规划：
-     * 时间复杂度：O(n)，n 为 数字大小；
+     * 时间复杂度：O(n)，n 为数字大小；
      * 空间复杂度：O(1)，固定空间；
      */
     public static int fib(int n) {
