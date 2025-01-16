@@ -11,20 +11,20 @@ public class IntersectionOfTwoLinkedListsLcci {
         ListNode curA = headA;
         ListNode curB = headB;
         // 计算链表长度
-        int lenA = 0, lenB = 0;
+        int lenA = 0;
         while (curA != null) {
             lenA++;
             curA = curA.next;
         }
+        int lenB = 0;
         while (curB != null) {
             lenB++;
             curB = curB.next;
         }
-        // 重置指针
+        // 计算差值
+        int gap = Math.abs(lenA - lenB);
         curA = headA;
         curB = headB;
-        // 求差
-        int gap = Math.abs(lenA - lenB);
         if (lenA > lenB) {
             for (int i = 1; i <= gap; i++) {
                 curA = curA.next;
@@ -34,8 +34,8 @@ public class IntersectionOfTwoLinkedListsLcci {
                 curB = curB.next;
             }
         }
-
-        while (curA != null || curB != null) {
+        // 计算交点
+        while (curA != null && curB != null) {
             if (curA == curB) {
                 return curA;
             }
@@ -57,7 +57,7 @@ public class IntersectionOfTwoLinkedListsLcci {
     }
 
     public static void main(String[] args) {
-        
+
     }
 
 }
