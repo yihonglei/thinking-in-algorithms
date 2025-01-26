@@ -54,7 +54,7 @@ public class N242_ValidAnagram {
         // 根据 t 中字符，计算是否都在 s 中
         for (int i = 0; i < t.length(); i++) {
             char ch = t.charAt(i);
-            // 对应字符次数减 1，如果某个字符在 s 中和 t 中出现的总次数不一样，则不是异位词
+            // 对应字符次数减 1，如果某个字符在 s 中和 t 中出现的总次数不一样，则不是异位词，或者t中无s的字符也小于0
             sMap.put(ch, sMap.getOrDefault(ch, 0) - 1);
             if (sMap.get(ch) < 0) {
                 return false;
