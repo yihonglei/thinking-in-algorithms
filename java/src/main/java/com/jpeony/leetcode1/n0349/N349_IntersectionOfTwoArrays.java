@@ -4,20 +4,19 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 /**
- * [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
  * [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays/)
  *
  * @author yihonglei
  */
 public class N349_IntersectionOfTwoArrays {
-    
+
     private static int[] intersection(int[] nums1, int[] nums2) {
         if (nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0) {
             return new int[0];
         }
 
-        HashSet<Integer> set1 = new HashSet<Integer>();
-        HashSet<Integer> resSet = new HashSet<Integer>();
+        HashSet<Integer> set1 = new HashSet<>();
+        HashSet<Integer> resSet = new HashSet<>();
         // nums1 去掉重复元素
         for (int i : nums1) {
             set1.add(i);
@@ -30,7 +29,13 @@ public class N349_IntersectionOfTwoArrays {
         }
 
         // 将结果转换为数组
-        return resSet.stream().mapToInt(x -> x).toArray();
+        int[] resArr = new int[resSet.size()];
+        int index = 0;
+        //将结果几何转为数组
+        for (int i : resSet) {
+            resArr[index++] = i;
+        }
+        return resArr;
     }
 
     public static void main(String[] args) {
