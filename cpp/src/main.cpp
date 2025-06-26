@@ -1,13 +1,14 @@
 #include <iostream>
-#include <string>
-using namespace std;
 
-#include "leetcode1/n0067/N67_AddBinary.hpp"
+#include "leetcode1/n0704/N704_BinarySearch.hpp"
 
 int main() {
-    N67_ADDBINARY re;
+    N704_BinarySearch re;
 
-    string res = re.addBinary("1010", "1011");
+    std::vector<int> nums = {-1, 0, 3, 5, 9, 12};
+    int target = 9;
+
+    int res = re.search(nums, target);
     std::cout << res << std::endl;
     return 0;
 }

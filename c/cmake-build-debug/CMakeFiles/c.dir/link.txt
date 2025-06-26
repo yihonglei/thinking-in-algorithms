@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/c.dir/src/main.c.o CMakeFiles/c.dir/src/leetcode1/n0027/N27_RemoveElement.c.o CMakeFiles/c.dir/src/leetcode1/n0067/N67_AddBinary.c.o  -o c 
+/Library/Developer/CommandLineTools/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/c.dir/src/leetcode1/n0027/N27_RemoveElement.c.o CMakeFiles/c.dir/src/leetcode1/n0067/N67_AddBinary.c.o CMakeFiles/c.dir/src/leetcode1/n0704/N704_BinarySearch.c.o CMakeFiles/c.dir/src/main.c.o -o c

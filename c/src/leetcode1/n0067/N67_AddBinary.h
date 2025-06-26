@@ -1,4 +1,3 @@
-
 #ifndef C_N67_ADDBINARY_H
 #define C_N67_ADDBINARY_H
 

@@ -1,7 +1,3 @@
-/**
- * [27. 移除元素](https://leetcode.cn/problems/remove-element/)
- */
- 
 #include "N27_RemoveElement.h"
 
 int removeElement(int *nums, int numsSize, int val) {

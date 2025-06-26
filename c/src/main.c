@@ -1,12 +1,13 @@
 #include "stdio.h"
 
 
-#include "leetcode1/n0067/N67_AddBinary.h"
+#include "leetcode1/n0704/N704_BinarySearch.h"
 
 int main() {
-    char a[] = "1010";
-    char b[] = "1011";
-    char* res = addBinary(a, b);
-    printf("%s\n", res);
+    int nums[] = {-1, 0, 3, 5, 9, 12};
+    int numsSize = 6;
+    int target = 9;
+    int res = search(nums, numsSize, target);
+    printf("%d", res);
     return 0;
 }
