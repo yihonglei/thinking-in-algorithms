@@ -1,13 +1,13 @@
 #include "stdio.h"
 
 
-#include "leetcode1/n0027/N27_RemoveElement.h"
+#include "leetcode1/n0704//N704_BinarySearch.h"
 
 int main() {
-    int nums[] = {3, 2, 2, 3};
-    int numsSize = 4;
-    int val = 3;
-    int res = removeElement((int *) &nums, numsSize, val);
-    printf("%d", res);
+    int nums[] = {-1, 0, 3, 5, 9, 12};
+    int numsSize = 6;
+    int target = 9;
+    int result = search((int *) &nums, numsSize, target);
+    printf("%d", result);
     return 0;
 }
