@@ -1,5 +1,7 @@
 #include "N67_AddBinary.hpp"
-
+/**
+ * [67. 移除元素](https://leetcode.cn/problems/remove-element/)
+ */
 string N67_ADDBINARY::addBinary(string a, string b) {
     string ans;
     reverse(a.begin(), a.end());
