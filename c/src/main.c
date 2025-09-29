@@ -1,13 +1,13 @@
 #include "stdio.h"
 
 
-#include "leetcode1/n0704//N704_BinarySearch.h"
+#include "leetcode1/n0209/N209_MinimumSizeSubarraySum.h"
 
 int main() {
-    int nums[] = {-1, 0, 3, 5, 9, 12};
+    int nums[] = {2, 3, 1, 2, 4, 3};
     int numsSize = 6;
-    int target = 9;
-    int result = search((int *) &nums, numsSize, target);
+    int target = 7;
+    int result = minSubArrayLen(target, (int *) &nums, numsSize);
     printf("%d", result);
     return 0;
 }
