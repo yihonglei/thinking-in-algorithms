@@ -1,5 +1,8 @@
 #include "N704_BinarySearch.hpp"
 
+/**
+ * [704. 二分查找](https://leetcode.cn/problems/binary-search/)
+ */
 int N704_BinarySearch::search(std::vector<int> &nums, int target) {
     int left = 0;
     int right = nums.size() - 1;
