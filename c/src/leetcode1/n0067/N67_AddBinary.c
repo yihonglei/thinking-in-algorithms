@@ -4,6 +4,9 @@
 
 #include "N67_AddBinary.h"
 
+/**
+ * [67. 移除元素](https://leetcode.cn/problems/remove-element/)
+ */
 void reserve(char *s) {
     int len = strlen(s);
     for (int i = 0; i < len / 2; i++) {

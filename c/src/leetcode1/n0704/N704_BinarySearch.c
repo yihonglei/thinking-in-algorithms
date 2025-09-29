@@ -1,8 +1,8 @@
-//
-// Created by yihonglei on 2025/6/26.
-//
 #include "N704_BinarySearch.h"
 
+/**
+ * [704. 二分查找](https://leetcode.cn/problems/binary-search/)
+ */
 int search(int *nums, int numsSize, int target) {
     int left = 0;
     int right = numsSize - 1;
