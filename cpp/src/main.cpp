@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
 
-#include "leetcode1/n0209/N0209_MinimumSizeSubarraySum.hpp"
+#include "leetcode1/n0209/N209_MinimumSizeSubarraySum.hpp"
 
 int main() {
-    N0209_MinimumSizeSubarraySum c;
+    N209_MinimumSizeSubarraySum c;
     std::vector<int> arr = {2, 3, 1, 2, 4, 3};
     int target = 7;
     int result = c.minSubArrayLen(target, arr);

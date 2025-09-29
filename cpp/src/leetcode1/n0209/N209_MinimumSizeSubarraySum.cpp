@@ -1,10 +1,10 @@
 #include "vector"
-#include "N0209_MinimumSizeSubarraySum.hpp"
+#include "N209_MinimumSizeSubarraySum.hpp"
 
 /**
  * [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum)
  */
-int N0209_MinimumSizeSubarraySum::minSubArrayLen(int target, std::vector<int> &nums) {
+int N209_MinimumSizeSubarraySum::minSubArrayLen(int target, std::vector<int> &nums) {
     int result = INT32_MAX;
     int sum = 0;
     int left = 0;
