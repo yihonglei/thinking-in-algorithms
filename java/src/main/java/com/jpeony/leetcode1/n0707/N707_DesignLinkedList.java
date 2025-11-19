@@ -10,7 +10,7 @@ public class N707_DesignLinkedList {
     /**
      * 哨兵结点
      */
-    private ListNode head;
+    private Node head;
     /**
      * 链表元素个数
      */
@@ -18,7 +18,7 @@ public class N707_DesignLinkedList {
 
     public N707_DesignLinkedList() {
         this.size = 0;
-        this.head = new ListNode(0);
+        this.head = new Node(0);
     }
 
     public int get(int index) {
@@ -26,7 +26,7 @@ public class N707_DesignLinkedList {
             return -1;
         }
 
-        ListNode cur = head;
+        Node cur = head;
         // cur = cur.next 操作是跳过哨兵结点，真正操作链表元素
         for (int i = 0; i <= index; i++) {
             cur = cur.next;
@@ -48,13 +48,13 @@ public class N707_DesignLinkedList {
             return;
         }
 
-        ListNode pre = head;
+        Node pre = head;
         // 寻找要添加元素的上一个节点
         for (int i = 0; i < index; i++) {
             pre = pre.next;
         }
         // 构建新结点，插入指定位置，链表衔接操作
-        ListNode newNode = new ListNode(val);
+        Node newNode = new Node(val);
         newNode.next = pre.next;
         pre.next = newNode;
 
@@ -68,7 +68,7 @@ public class N707_DesignLinkedList {
         }
 
         // 寻找删除位置的上一个结点位置
-        ListNode pre = head;
+        Node pre = head;
         for (int i = 0; i < index; i++) {
             pre = pre.next;
         }
@@ -81,17 +81,17 @@ public class N707_DesignLinkedList {
     /**
      * Definition for singly-linked list.
      */
-    private static class ListNode {
+    private static class Node {
         int val;
-        ListNode next;
+        Node next;
 
-        ListNode(int val) {
+        Node(int val) {
             this.val = val;
         }
     }
 
-    private static void printAll(ListNode head) {
-        ListNode p = head;
+    private static void printAll(Node head) {
+        Node p = head;
         while (p != null) {
             System.out.print(p.val + " ");
             p = p.next;
