@@ -48,15 +48,15 @@ public class N707_DesignLinkedList {
             return;
         }
 
-        Node pre = head;
+        Node cur = head;
         // 寻找要添加元素的上一个节点
         for (int i = 0; i < index; i++) {
-            pre = pre.next;
+            cur = cur.next;
         }
         // 构建新结点，插入指定位置，链表衔接操作
         Node newNode = new Node(val);
-        newNode.next = pre.next;
-        pre.next = newNode;
+        newNode.next = cur.next;
+        cur.next = newNode;
 
         // 链表元素计数加 1
         size++;
@@ -68,12 +68,12 @@ public class N707_DesignLinkedList {
         }
 
         // 寻找删除位置的上一个结点位置
-        Node pre = head;
+        Node cur = head;
         for (int i = 0; i < index; i++) {
-            pre = pre.next;
+            cur = cur.next;
         }
         // 删除当前结点
-        pre.next = pre.next.next;
+        cur.next = cur.next.next;
         // 链表元素计数减 1
         size--;
     }
