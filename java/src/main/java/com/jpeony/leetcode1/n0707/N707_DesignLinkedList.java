@@ -10,7 +10,7 @@ public class N707_DesignLinkedList {
     /**
      * 哨兵结点
      */
-    private Node head;
+    private Node dummyHead;
     /**
      * 链表元素个数
      */
@@ -18,7 +18,7 @@ public class N707_DesignLinkedList {
 
     public N707_DesignLinkedList() {
         this.size = 0;
-        this.head = new Node(0);
+        this.dummyHead = new Node(0);
     }
 
     public int get(int index) {
@@ -26,7 +26,7 @@ public class N707_DesignLinkedList {
             return -1;
         }
 
-        Node cur = head;
+        Node cur = dummyHead;
         // cur = cur.next 操作是跳过哨兵结点，真正操作链表元素
         for (int i = 0; i <= index; i++) {
             cur = cur.next;
@@ -36,11 +36,20 @@ public class N707_DesignLinkedList {
     }
 
     public void addAtHead(int val) {
-        addAtIndex(0, val);
+        Node newNode = new Node(val);
+        newNode.next = dummyHead.next;
+        dummyHead.next = newNode;
+        size++;
     }
 
     public void addAtTail(int val) {
-        addAtIndex(size, val);
+        Node newNode = new Node(val);
+        Node cur = dummyHead;
+        while (cur.next != null) {
+            cur = cur.next;
+        }
+        cur.next = newNode;
+        size++;
     }
 
     public void addAtIndex(int index, int val) {
@@ -48,7 +57,7 @@ public class N707_DesignLinkedList {
             return;
         }
 
-        Node cur = head;
+        Node cur = dummyHead;
         // 寻找要添加元素的上一个节点
         for (int i = 0; i < index; i++) {
             cur = cur.next;
@@ -68,7 +77,7 @@ public class N707_DesignLinkedList {
         }
 
         // 寻找删除位置的上一个结点位置
-        Node cur = head;
+        Node cur = dummyHead;
         for (int i = 0; i < index; i++) {
             cur = cur.next;
         }
@@ -102,20 +111,20 @@ public class N707_DesignLinkedList {
     public static void main(String[] args) {
         N707_DesignLinkedList obj = new N707_DesignLinkedList();
 
-        printAll(obj.head);
+        printAll(obj.dummyHead);
         obj.addAtHead(1);
 
-        printAll(obj.head);
+        printAll(obj.dummyHead);
         obj.addAtTail(2);
 
-        printAll(obj.head);
+        printAll(obj.dummyHead);
         obj.addAtIndex(2, 3);
 
-        printAll(obj.head);
+        printAll(obj.dummyHead);
         int i = obj.get(0);
         System.out.println("i = " + i);
 
-        printAll(obj.head);
+        printAll(obj.dummyHead);
         obj.deleteAtIndex(1);
     }
 }
