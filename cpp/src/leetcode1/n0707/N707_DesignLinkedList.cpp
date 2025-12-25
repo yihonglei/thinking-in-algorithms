@@ -4,7 +4,7 @@
 /**
  * [707. 设计链表](https://leetcode.cn/problems/design-linked-list/)
  */
-class MyLinkedList {
+class N707_DesignLinkedList {
 public:
     // 定义链表节点的结构体
     struct LinkedNode {
@@ -13,7 +13,7 @@ public:
         LinkedNode(int val):val(val),next(nullptr) {}
     };
     // 初始化链表
-    MyLinkedList() {
+    N707_DesignLinkedList() {
         // 定义头节点是一个虚拟节点，链表的哑节点写法
         _dummyHead = new LinkedNode(0);
         _size = 0;
