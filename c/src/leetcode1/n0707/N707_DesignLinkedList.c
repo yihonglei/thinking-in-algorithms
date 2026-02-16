@@ -1,13 +1,19 @@
 //
 // Created by yihonglei on 2025/12/13.
 //
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * [707. 设计链表](https://leetcode.cn/problems/design-linked-list/)
  */
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 
-typedef struct {
+typedef struct ListNode {
+    int val;
+    struct ListNode *next;
+} ListNode;
+
+typedef struct MyLinkedList {
     struct ListNode *head;
     int size;
 } MyLinkedList;
@@ -18,6 +24,7 @@ struct ListNode *ListNodeCreate(int val) {
     node->next = NULL;
     return node;
 }
+
 
 MyLinkedList *myLinkedListCreate() {
     MyLinkedList *obj = (MyLinkedList *) malloc(sizeof(MyLinkedList));

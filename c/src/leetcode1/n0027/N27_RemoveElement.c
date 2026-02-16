@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "N27_RemoveElement.h"
 
 /**

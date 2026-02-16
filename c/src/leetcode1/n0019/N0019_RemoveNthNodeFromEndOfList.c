@@ -2,10 +2,13 @@
 // Created by yihonglei on 2026/1/6.
 //
 
+#include <stdlib.h>
+#include <stdio.h>
+
 typedef struct ListNode {
     int val;
     struct ListNode *next;
-};
+} ListNode;
 
 // 计算长度
 struct ListNode *removeNthFromEnd(struct ListNode *head, int n) {

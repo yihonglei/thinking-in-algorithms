@@ -1,7 +1,5 @@
-#include <string.h>
 #include <stdlib.h>
-#include <math.h>
-
+#include <stdio.h>
 #include "N67_AddBinary.h"
 
 /**

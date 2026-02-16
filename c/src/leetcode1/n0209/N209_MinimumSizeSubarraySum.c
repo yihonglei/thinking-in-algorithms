@@ -2,6 +2,7 @@
 // Created by yihonglei on 2025/9/29.
 //
 #include <inttypes.h>
+#include "stdio.h"
 #include "N209_MinimumSizeSubarraySum.h"
 
 
