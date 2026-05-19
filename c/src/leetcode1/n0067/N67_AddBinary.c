@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "N67_AddBinary.h"
+#include <string.h>  // 解决 strlen 报错
+#include <math.h>    // 解决 fmax 报错
 
 /**
  * [67. 移除元素](https://leetcode.cn/problems/remove-element/)
