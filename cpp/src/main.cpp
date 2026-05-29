@@ -10,5 +10,6 @@ int main() {
     int result = c.minSubArrayLen(target, arr);
     std::cout << result << " ";
     return 0;
+
 }
 

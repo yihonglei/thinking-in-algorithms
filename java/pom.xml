@@ -17,6 +17,7 @@
         <bcprov.version>1.45</bcprov.version>
     </properties>
 
+
     <dependencyManagement>
         <dependencies>
             <!-- lombok -->
