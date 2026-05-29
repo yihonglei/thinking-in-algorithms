@@ -1,0 +1,8 @@
+//
+// Created by yihonglei on 2026/4/12.
+//
+
+#ifndef C_N142_LINKEDLISTCYCLELL_H
+#define C_N142_LINKEDLISTCYCLELL_H
+
+#endif //C_N142_LINKEDLISTCYCLELL_H
