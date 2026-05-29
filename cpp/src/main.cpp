@@ -1,15 +1,14 @@
 #include <iostream>
 #include <vector>
 
-#include "leetcode1/n0209/N209_MinimumSizeSubarraySum.hpp"
+#include "leetcode1/n0704/N704_BinarySearch.hpp"
 
 int main() {
-    N209_MinimumSizeSubarraySum c;
-    std::vector<int> arr = {2, 3, 1, 2, 4, 3};
+    N704_BinarySearch c;
+    std::vector<int> arr = {-1, 0, 3, 5, 9, 12};
     int target = 7;
-    int result = c.minSubArrayLen(target, arr);
+    int result = c.search(arr, target);
     std::cout << result << " ";
     return 0;
-
 }
 
