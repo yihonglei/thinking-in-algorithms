@@ -11,4 +11,3 @@ int main() {
     std::cout << result << " ";
     return 0;
 }
-

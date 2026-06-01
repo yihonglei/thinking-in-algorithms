@@ -1,6 +1,4 @@
-
 #include "stdio.h"
-
 
 #include "leetcode1/n0704/N704_BinarySearch.h"
 
